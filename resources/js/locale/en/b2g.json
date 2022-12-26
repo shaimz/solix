@@ -1,0 +1,294 @@
+{
+    "header": {
+        "title": "Complex solutions for government agencies",
+        "text": "We design and build „turnkey facilities” of any capacity, both for the network and for autonomous generation, taking into account all customer needs.",
+        "button": "Order call"
+    },
+    "features": {
+        "title": "Benefits of using",
+        "text": "Solix offers a turnkey installation of solar power plants for businesses for their own consumption. Business owners are faced with the problem of constant growth of tariffs for legal entities. A solar power panel means energy independence for business entities and the formation of a positive image of an innovative, socially responsible company in the eyes of society and potential customers. Installing your own solar power plant, you can quickly and easily increase the supplied power at the facility or create a reliable backup of important nodes, the failure of which is unacceptable.",
+        "button": "Request a call",
+        "cards": [
+            {
+                "img": "/assets/icons/features/ecology-1.png",
+                "title": "Cost-efficiency",
+                "text": "Reduce or even eliminate electricity bills. With a solar panel system, you will generate electricity free of charge for the entire 25-year life cycle of your system."
+            },
+            {
+                "img": "/assets/icons/features/plant-1.png",
+                "title": "Predictable costs",
+                "text": "By investing in a solar energy system now, you can lock in your electricity tariff and protect yourself from unpredictable increases in costs. Switching to solar energy will also help you better predict and manage your costs."
+            },
+            {
+                "img": "/assets/icons/features/light-bulb-1.png",
+                "title": "Competitiveness",
+                "text": "Companies are quickly realizing the economic benefits of using solar energy. Since early adopters are already outstripping the competition, we suggest looking at solar energy as a way to stay competitive."
+            },
+            {
+                "img": "/assets/icons/features/diploma-1.png",
+                "title": "Free of charge",
+                "text": "Solar energy is a free source of energy, as no one can monopolize sunlight. Your solar energy panel will start saving money from the moment you turn it on."
+            },
+            {
+                "img": "/assets/icons/features/green-energy-1.png",
+                "title": "Autonomy and independence",
+                "text": "Your own solar panel is a guarantee of your peace of mind, independence, and energy security for business and home. You will never again be worried about wind, rain, snow, or broken power lines."
+            }
+        ]
+    },
+    "partners": {
+        "title": "What's included",
+        "cards": [
+            {"title": "Module solare", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Scut electric", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "MC4 Connectors", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Baterie", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Solar cable", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Invertor", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Structuri de suporte", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Structuri de suporte", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"}
+        ]
+    },
+    "variants": {
+        "title": "Accommodation options",
+        "list": [
+            {
+                "listItem": "On the roof",
+                "text": "This option is best for objects located on a small plot of land. Hevel solar modules can be mounted on both flat and sloping roof types, which are most in demand today in the construction of private homes." ,
+                "card": [
+                    {
+                        "name": "Warranty years",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Thousands of MDL for 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "On Earth",
+                "text": "This option is best for objects located on a small plot of land. Hevel solar modules can be mounted on both flat and sloping roof types, which are most in demand today in the construction of private homes." ,
+                "card": [
+                    {
+                        "name": "Warranty years",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Thousands of MDL for 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "On the water",
+                "text": "This option is best for objects located on a small plot of land. Hevel solar modules can be mounted on both flat and sloping roof types, which are most in demand today in the construction of private homes." ,
+                "card": [
+                    {
+                        "name": "Warranty years",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Thousands of MDL for 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "On the facade",
+                "text": "This option is best for objects located on a small plot of land. Hevel solar modules can be mounted on both flat and sloping roof types, which are most in demand today in the construction of private homes." ,
+                "card": [
+                    {
+                        "name": "Warranty years",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Thousands of MDL for 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "Mobile placement",
+                "text": "This option is best for objects located on a small plot of land. Hevel solar modules can be mounted on both flat and sloping roof types, which are most in demand today in the construction of private homes." ,
+                "card": [
+                    {
+                        "name": "Warranty years",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Thousands of MDL for 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            }
+        ]
+    },
+    "connections": {
+        "title": "Connection types",
+        "tabs": [
+            {
+                "title": "Network",
+                "text": "A stand-alone solar power plant is designed for the autonomous supply of houses and various objects located at a distance from the central network or, if necessary, for a reliable backup of the existing connection",
+                "button": "Request a call",
+                "cards": [
+                    {
+                        "title": "Return on investment",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Saving fuel",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Maintenance of the operator's required gross income",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Transfer of ASUE to operator ownership",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Maintenance of the operator's required gross income",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Reduction of the economically justified tariff",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    }
+                ]
+            }
+        ]
+    },
+    "modules": {
+        "title": "Module types",
+        "tabs": [
+            {
+                "title": "Heterostructural",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text ",
+                "features": [
+                    {
+                        "value": "380",
+                        "name": "Power in watts"
+                    },
+                    {
+                        "value": "25",
+                        "name": "Years of warranty"
+                    }
+                ]
+            },
+            {
+                "title": "Thin film",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text ",
+                "features": [
+                    {
+                        "value": "380",
+                        "name": "Power in watts"
+                    },
+                    {
+                        "value": "25",
+                        "name": "Years of warranty"
+                    }
+                ]
+            }
+        ]
+    },
+    "rights": {
+        "title": "Organizational and legal basis",
+        "text": "The solution is provided by the current legislative and regulatory framework",
+        "button": "Familiarize"
+    },
+    "steps": {
+        "title": "Financial solutions",
+        "tabs": [
+            {
+                "title": "Energy supply agreement",
+                "text": "Long-term contract for the supply of electricity to industrial enterprises. No investment by the customer during the construction phase of solar energy production",
+                "list": [
+                    {
+                        "title": "Contract signing",
+                        "text": "The Supplier and the Customer sign long-term contracts for power supply at fixed price"
+                    },
+                    {
+                        "title": "SPP construction",
+                        "text": "The Suppler construct solar power station and synchronizes work with diesel power plant"
+                    },
+                    {
+                        "title": "Start-up and maintenance",
+                        "text": "The Supplier provides stable operation and maintenance of SPP"
+                    },
+                    {
+                        "title": "Payment for power",
+                        "text": "Pays monthly for the amount of electric power produced on solar power plant"
+                    }
+                ]
+            },
+            {
+                "title": "The key",
+                "text": "Long-term contract for the supply of electricity to industrial enterprises. No investment by the customer during the construction phase of solar energy production",
+                "list": [
+                    {
+                        "title": "Contract signing",
+                        "text": "The Supplier and the Customer sign long-term contracts for power supply at fixed price"
+                    },
+                    {
+                        "title": "SPP construction",
+                        "text": "The Suppler construct solar power station and synchronizes work with diesel power plant"
+                    },
+                    {
+                        "title": "Commissioning",
+                        "text": "Supplier enters into operation the SPP"
+                    },
+                    {
+                        "title": "Maintenance",
+                        "text": "The Supplier provides stable operation and maintenance of SPP"
+                    }
+                ]
+            }
+        ],
+        "scheme": {
+            "animation": "/assets/animation/json/EN.json",
+            "title": "Project implementation scheme",
+            "upperText": "Power supply <br> at a fixed rate",
+            "lowerText": "Payment for electricity <br> generated from SES",
+            "customer": {
+                "title": "Client",
+                "text": "exploits an object remotely"
+            },
+            "supplier": {
+                "title": "Supplier",
+                "text": "provides electricity"
+            }
+        }
+    },
+    "economy": {
+        "title": "Economic effect from implementation",
+        "text": "Installing photovoltaic (PV) panels is an initially expensive investment, but in the medium term, the energy savings achieved are already very high. Your electricity bill will be cheaper and, in addition, with bidirectional meters, you will be able to make a profit from the energy you do not use and \"resell\" it. This is an option for anyone who wants to save on energy consumption.",
+        "data": [
+            {"value": "50%", "name": "Fuel Economy"},
+            {"value": "50%", "name": "Reduced Costs"},
+            {"value": "45%", "name": "Fuel Economy"},
+            {"value": "35%", "name": "Reduced costs"}
+        ]
+    },
+    "energy": {
+        "title": "Commercial renewable energy",
+        "items": [
+            {
+                "title": "Fixed tariffs",
+                "text": "This support scheme is aimed at manufacturers who have a power plant with a cumulative power exceeding 10 kW. This scheme is aimed at small producers, who intend to invest in generating capacity with a limit between 10 kW and 4 MW for wind installations, 1 MW for other types of generation units, such as photovoltaic, hydroelectric, and cogeneration plants on biomass and biogas.",
+                "src": "/assets/icons/diploma.png"
+            },
+            {
+                "title": "Fixed price",
+                "text": "This support scheme targets producers who want to invest in plants with a capacity of more than 4 MW for wind installations and 1 MW for photovoltaic and biogas cogeneration installations. Producer status is offered through auctions organized by the Government.",
+                "src": "/assets/icons/ecology_1.png"
+            },
+            {
+                "title": "Direct benefits",
+                "text": "Renewable energy producers who will use the schemes - Fixed Rate or Fixed Price - will benefit from the purchase of the entire volume of renewable energy produced for 15 years at set rates or at negotiated prices through auctions. The rates are reviewed every one year.",
+                "src": "/assets/icons/sun.png"
+            }
+        ]
+    }
+}

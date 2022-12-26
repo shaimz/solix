@@ -1,0 +1,28 @@
+{
+    "title": "Contact",
+    "text": "Dacă aveți întrebări, lăsați o aplicație sau nu ezitați să ne contactați direct",
+    "list": [
+        {
+            "icon": "/assets/icons/phone.svg",
+            "title": "Numărul de telefon",
+            "id": "phone",
+            "value": "+373 78 972 603"
+        },
+        {
+            "icon": "/assets/icons/mailbox.png",
+            "title": "Email",
+            "id": "email",
+            "value": "info@solix.md",
+            "valueHR": "hr@solix.md"
+        },
+        {
+            "icon": "/assets/icons/location.png",
+            "title": "Locația",
+            "id": "location",
+            "value": "Moldova, Chișinău"
+        }
+    ],
+    "card": {
+        "title": "Pune o întrebare"
+    }
+}

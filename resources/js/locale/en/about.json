@@ -1,0 +1,47 @@
+{
+    "title": "About Us",
+    "text": "In 2012, we founded“Vivercon”, the company that was mainly engaged in construction and electrical work. Since 2019, we have started to deal with renewable energy sources - this is how Solix was born.\n\nSolix is a company focused on the development of engineering solutions using renewable energy sources in the energy market. We want to foster widespread adoption of modern principles of using renewable energy sources.\n\nSolix is a socially responsible company, we contribute to sustainable development and respect for the environment by introducing environmentally friendly and green technologies.",
+    "economy": {
+        "title": "We helped our customers save <br> <span class = 'number'> 3 859 357 </span> MDL",
+        "text": "Solar power provides year-round efficiency and savings in any climate. Solix customers don't care about rising electricity prices. Your solar energy system will start saving money since you turn it on.",
+        "data": [
+            {
+                "name": "MW Power",
+                "value": "25"
+            },
+            {
+                "name": "Millions of MDL per 1 kWh",
+                "value": "1.3"
+            },
+            {
+                "name": "Savings",
+                "value": "50%"
+            },
+            {
+                "name": "SPP kW power",
+                "value": "5"
+            }
+        ]
+    },
+    "values": {
+        "title": "Our values",
+        "list": [
+            {
+                "title": "Turnkey solutions",
+                "text": "we design and build turnkey facilities of any capacity, both for on-grid and autonomous generation, taking into account all the needs of our customers."
+            },
+            {
+                "title": "Individual approach",
+                "text": "we do not work with standard or ready-made projects. Our technical solutions are optimized for each project, taking into account all the features of your house or business."
+            },
+            {
+                "title": "Quality",
+                "text": "we do not compromise on quality. We are constantly working to improve and develop optimal energy solutions and use only proven technologies."
+            },
+            {
+                "title": "Innovation",
+                "text": "our company was founded based on innovation. We create innovative energy solutions with a new sustainable approach and ensure continuous improvement of our products and processes."
+            }
+        ]
+    }
+}

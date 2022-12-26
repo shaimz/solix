@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[86],{160:function(e,n,o){"use strict";o.r(n),(t=function(){var e=this,n=e.$createElement;return(e._self._c||n)("h1",[e._v("Not found")])})._withStripped=!0;var t;o=o(9);(t=Object(o.a)({name:"NotFound"},t,[],!1,null,null,null)).options.__file="resources/js/components/includes/PageNotFound.vue",n.default=t.exports}}]);

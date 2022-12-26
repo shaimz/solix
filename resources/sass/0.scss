@@ -1,0 +1,1876 @@
+@media screen and (min-width: 0px) and (max-width: 428px) {
+    h1 {
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+    h2 {
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        line-height: 32px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+
+    }
+    p:not(.roboto) {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+    .col-md-11 {
+        min-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    #app div[data-id="b2b"] ,#app div[data-id="b2b"] #firstPage,
+    #app div[data-id="b2c"],
+    #app div[data-id="b2g"],
+    #app div[data-id="about"],
+    #app div[data-id="Home"],
+    #app div[data-id="singleNews"],
+    #app div[data-id="singleCareer"],
+    #app div[data-id="productsCategory"],
+    #app div[data-id="projects"],
+    #app div[data-id="news"],
+    #app div[data-id="career"],
+    #app div[data-id="services"],
+    #app div[data-id="service"],
+    #app div[data-id="products"],
+    #app div[data-id="project"],
+    #app div[data-id="product"] {
+        div.col-xl-8 {
+            padding: 0 0px 0 0px !important;
+        }
+
+        div.col-xl-7 {
+            padding: 0px 15px 0 15px !important;
+        }
+    }
+    div.col-xl-7 {
+        padding: 20px 5px 0 5px !important;
+    }
+    div.col-xl-8 {
+        padding: 20px 5px 0 5px !important;
+    }
+    #header-bottom .header-columns .slick-slider{
+        padding:0 !important;
+    }
+    #carousel-partners{
+        .card-body h5{
+            font-weight: 700 !important;
+            color:#1f1f1f !important;
+        }
+        .card-body h5:after{
+            height: 34px !important;
+        }
+    }
+    .card-body h5:after{
+        top:0 !important;
+    }
+    .background-variant{
+        background: url('/assets/components/b2c/variant-bg.jpg');
+        background-position: center;
+    }
+    #app #connections > .col-lg-12 > .row{
+        padding-bottom: 85px !important;
+    }
+    #app #steps > .col-11{
+        padding:0 15px 0 15px !important;
+    }
+    div[data-id="service"],div[data-id="project"] {
+        .header-columns .header-card .content-card .card-text{
+            min-height: 1px;
+        }
+    }
+    #app {
+        div[data-id="Home"],div[data-id="b2g"],div[data-id="b2b"],div[data-id="b2c"]{
+            #header-bottom{
+                .header-columns{
+                    .header-card{
+                        padding:40px 30px !important;
+                        .content-card{
+                            .card-title{
+                                line-height: 24px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #energy {
+        position: relative;
+        background: #F3F5F6;
+        padding-left:15px !important;
+        padding-right:15px !important;
+
+        .energy-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .energy-sidebar-left {
+                max-width: 470px;
+                margin-bottom: 60px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                & > h1{
+                    max-width: 290px;
+                }
+                button {
+                    margin-top: 45px;
+                }
+            }
+
+            .energy-sidebar-right {
+                max-width: 1090px;
+                width: 100%;
+            }
+
+            .energy-item {
+                max-width: 800px;
+                text-align: center;
+                &:nth-child(2) {
+                    margin-top: 86px;
+                }
+                &:nth-child(3) {
+                    margin-top: 86px;
+                }
+                h1 {
+                    font-size: 34px !important;
+                    font-weight: 700 !important;
+                    margin-bottom: 20px;
+                    &:before{
+                        content:unset !important;
+                    }
+                }
+                .energy-item-header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column-reverse;
+                    h1{
+                        font-size: 34px;
+                    }
+                    img {
+                        margin-bottom:15px;
+                    }
+                }
+            }
+        }
+    }
+    #tarif {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #services {
+        div.col-xl-8 {
+            padding: 0px 15px 0 15px !important;
+        }
+    }
+
+    #app #economy .economy-data.d-flex{
+        margin-top: 50px;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 44px 40px 39px 50px;
+        display: flex !important;
+        flex-direction: column !important;
+
+        &>p:nth-child(1){
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        &>p:nth-child(2){
+            font-size: 24px !important;
+            font-weight: 700;
+            padding-bottom: 30px !important;
+            border-bottom: 1px solid #dedede;
+        }
+        .economy-item{
+            max-width: 100% !important;
+            &:nth-child(3){
+                padding-top: 0 !important;
+                margin-top: 20px !important;
+            }
+            &:nth-child(4){
+                padding-top: 0 !important;
+                margin-top: 20px !important;
+            }
+        }
+    }
+    .gallery{
+        display: flex !important;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .services-text{
+        text-align: center;
+    }
+    #service .left-connection{
+        padding:0 15px !important;
+    }
+    #firstPage #modules>.col-lg-5.col.col-11{
+        .sides-modules{
+            padding:0 15px !important;
+            margin:0 0 30px 0 !important;
+            .v-slide-group__content{
+                justify-content: center;
+            }
+            .v-tab{
+                width: 139px !important;
+            }
+            .v-tab.v-tab--active h5:after{
+                background: unset !important;
+            }
+        }
+    }
+    div[data-id="singleNews"]{
+        .top-header{
+            background-image: linear-gradient(rgb(121, 194, 90), rgb(121, 194, 90)) !important;
+        }
+    }
+    #products{
+        .tab-pane.fade{
+            padding-bottom: 100px !important;
+        }
+    }
+    #products .product-categories .card{
+        height: fit-content !important;
+    }
+    #app #products .product-categories .card .card-title{
+        margin: 30px 0 35px 0px !important;
+    }
+    #app div[data-id="projects"] {
+        .top-header {
+            background-image: linear-gradient(
+                    0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/projects/header/projects-mobile-min.jpg');
+        }
+    }
+    #app div[data-id="services"] {
+        .top-header {
+            background-image: linear-gradient(
+                    0deg, rgb(121, 194, 90), rgb(121, 194, 90));
+        }
+    }
+    #app #economy {
+        background-image: url('/assets/components/home/economy/about-economy-mobile.png') !important;
+        background-size: 100% !important;
+    }
+    #app div[data-id="about"] {
+        #economy {
+            background-image: url('/assets/components/home/economy/about-economy-mobile.png') !important;
+            background-size: 100% !important;
+        }
+    }
+    #app div[data-id="project"] {
+        .top-header {
+            background-image: linear-gradient(
+                    0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/projects/header/project-mobile-min.jpg');
+        }
+    }
+    #solutions .row .max-437 {
+        padding: 0 !important;
+    }
+    #header-bottom .header-columns{
+        .card-title{
+            font-size: 24px !important;
+            line-height: 32px !important;
+        }
+    }
+    #app #features {
+        padding: 100px 0 !important;
+
+        & > .col-11.col-lg-12 > .row.h-autofill{
+            display: flex !important;
+        }
+        .features-grid {
+            padding: 0 0 20px 0 !important;
+
+            .content-card {
+                height: 100% !important;
+                padding: 0 !important;
+
+                .card-title {
+                    margin-bottom: 20px !important;
+                    font-weight: 600 !important;
+                    font-size: 24px !important;
+                    line-height: 32px !important;
+                }
+            }
+        }
+
+        .right-feature {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .left-feature {
+            p {
+                margin: 20px 0 0 0 !important;
+            }
+        }
+
+        .features-text {
+            margin: 20px auto 25px auto !important;
+            max-width: 290px;
+        }
+    }
+    #economy {
+        background-image: url('/assets/components/home/economy/economy-mobile.png') !important;
+        padding: 100px 0 !important;
+        background-size: 100% !important;
+        background-position: left 55% top 0px !important;
+
+        .row-economy {
+            .economy-body h2 {
+                margin-bottom: 20px;
+                padding:0 15px !important;
+            }
+
+            .economy-item {
+                .economy-bottom {
+                    margin-top: 20px !important;
+                    align-items: center;
+
+                    p {
+                        margin-top: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+    #app #header {
+        padding-bottom: 75px ;
+    }
+    #app #service .top-header{
+        background: linear-gradient(to right, rgb(121, 194, 90), rgb(121, 194, 90));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #app #service #header{
+        padding-bottom: 75px  !important;
+        padding:0 15px 75px 15px !important;
+    }
+    #firstPage #solutions > .row {
+        min-height: 607px !important;
+
+        .max-437 {
+            margin: 100px 0 !important;
+        }
+    }
+    div[data-id="contacts"] .navbar{
+        background-color: white !important;
+    }
+
+    #firstPage #solutions {
+        .row{
+            .background-col{
+                min-height: 607px !important;
+            }
+        }
+        .row:nth-child(2) {
+            .background-col {
+                padding-top: 100px !important;
+                padding-bottom: 121px !important;
+                margin: auto;
+            }
+
+            .content-side {
+                padding-left: 15px !important;
+            }
+        }
+
+     /*   .row:nth-child(3) .content-side {
+            padding-top: 75px !important;
+            padding-bottom: 75px !important;
+        }*/
+    }
+    #contacts {
+        background-color: white !important;
+    }
+    div[data-id="contacts"] {
+        .v-card__actions {
+            margin-top: 45px !important;
+            flex-direction: column !important;
+
+            p {
+                text-align: center;
+                margin: auto !important;
+            }
+        }
+    }
+    #v-pills-tab a.dropdown-toggle {
+        color: #1f1f1f !important;
+    }
+
+    #connections{
+        .connections-grid{
+            grid-row-gap: 0px !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            .content-card{
+                text-align: center;
+                &:not(.icon-card-item){
+                    img{
+                        margin-top: 0 !important;
+                    }
+                }
+                &.group{
+                    margin-bottom:40px;
+                    .group-parent{
+                        .group-flex{
+                            .plus-icon{
+                                margin-top: 40px !important;
+                            }
+                        }
+                    }
+                }
+                &.header{
+                    margin-top: 40px;
+                }
+                .card-text{
+                    padding: 0 !important;
+                }
+                h5.card-title{
+                    padding: 0 !important;
+                    margin: auto !important;
+                    margin-bottom: 10px !important;
+                    font-size: 16px !important;
+                    &:before{
+                        display: none;
+                    }
+                }
+                &.icon-card-item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 40px;
+                    width: 40px;
+                    margin: 0px auto;
+                    img{
+                        transform: none !important;
+                        margin: 0 !important;
+                        padding: 0 !important;
+                    }
+                }
+            }
+            .plus-icon{
+                margin: 40px 0 !important;
+            }
+            &.icon-card-item{
+                height: 20px !important;
+                width: 20px !important;
+                margin: 0 auto !important;
+            }
+            &.firstTab{
+                background: white !important;
+                margin: 0 15px !important;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                border-radius: 10px;
+
+                .card-title{
+                    margin-bottom: 10px !important;
+                    font-size: 16px !important;
+                }
+                .card-text{
+                    font-size: 14px !important;
+                }
+                .content-card{
+                    & > div{
+                        max-width: 230px;
+                        margin: auto;
+                        padding: 20px 0;
+                    }
+                }
+            }
+            &.secondTab{
+                .card-title{
+                    margin-bottom: 10px !important;
+                    font-size: 16px !important;
+                }
+                .card-text{
+                    font-size: 14px !important;
+                }
+                .content-card:nth-child(1),.content-card:nth-child(3){
+                    background: transparent !important;
+                }
+                .content-card.header > div,.content-card.header > p{
+                    max-width: 230px;
+                    margin: auto;
+                }
+                .content-card .group-flex{
+                    max-width: 230px;
+                    margin: auto;
+                }
+                .content-card{
+                    padding: 20px 0;
+                }
+                .content-card > div{
+                    max-width: 230px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    #connections {
+        .left-connection.super-margin {
+            margin-bottom: 30px
+        }
+
+        .connections-grid {
+            grid-row-gap: 20px;
+            .content-card {
+                border-radius: 10px;
+
+                .card-text {
+                    padding-left: 30px !important;
+                    padding-right: 30px !important;
+                }
+
+                img {
+                    padding-bottom: 4px !important;
+                }
+
+                .card-title {
+                    padding-right: 0 !important;
+                    padding-left: 30px !important;
+                    max-width: 230px;
+                    font-size: 16px !important;
+                    font-weight: bold !important;
+                }
+            }
+        }
+
+        .col-xl-5.col-11 {
+            padding: 0 15px !important;
+        }
+
+        .connections-text {
+            & > h2 {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+    #steps {
+        .steps-description{
+            margin-top:0 !important;
+        }
+        #v-pills-tabContent{
+            padding-top:0 !important;
+        }
+    }
+
+    #moreItems {
+        padding-bottom: 20px !important;
+        .more-container a.card{
+            height: fit-content;
+            .project-description{
+                margin-top: 0 !important;
+            }
+            .card-price{
+                padding-bottom: 15px !important;
+            }
+            h4{
+                margin-bottom:0 !important;
+                font-size: 24px !important;
+                font-weight: 600 !important;
+            }
+        }
+
+    }
+    #steps {
+        .v-tabs {
+            margin-bottom: 0 !important;
+        }
+
+        #v-pills-tab > ul {
+            margin-bottom: 0 !important;
+        }
+
+        #v-pills-tab .dropdown-tabs .nav-item.dropdown {
+            margin-top: 0 !important;
+        }
+    }
+    #products .product-categories .card .card-product-mobile {
+        margin: 17px 0 35px 0px !important;
+    }
+    div[data-id="Home"], div[data-id="b2b"], div[data-id="b2g"], div[data-id="b2c"] {
+        #header-bottom {
+            margin-top: 0px !important;
+        }
+
+        #header {
+            margin-bottom: 75px !important;
+        }
+    }
+    div[data-id="b2b"]{
+        .background-variant{
+            background: url("/assets/components/b2b/b2b-background-variant-mobile.png") !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: cover !important;
+        }
+    }
+    div[data-id="services"]{
+        .service-department{
+            margin-bottom: 0 !important;
+        }
+        .tab-pane{
+            margin-bottom: 0 !important;
+        }
+    }
+    div:not([data-id="Home"]), div:not([data-id="b2b"]), div:not([data-id="b2g"]), div:not([data-id="b2c"]) {
+        .top-header {
+            padding: 0 !important;
+        }
+    }
+    .services-text{
+        margin-bottom: 40px !important;
+    }
+    #service .content-card .card-title{
+        padding: 40px 30px 5px 30px !important;
+        line-height: 24px !important;
+    }
+    #services, #service {
+        .header-text > h1 {
+            margin-bottom: 0 !important;
+        }
+        .services-grid {
+            grid-row-gap: 20px !important;
+            .content-card{
+                .card-title{
+                    font-weight: 700 !important;
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+    #app #moreItems {
+        padding-top: 50px !important;
+        & > div > h2{
+            margin-bottom: 40px !important;
+        }
+    }
+    div[id^=single] #header-bottom .header-columns .header-card .content-card {
+        .card-title{
+            font-size: 70px !important;
+            margin-bottom: 20px !important;
+            line-height: 56px !important;
+        }
+    }
+    #projects #v-pills-tab .nav-item.dropdown .nav-link.dropdown-toggle:after{
+        margin-top: 5px !important;
+    }
+
+    #app #products {
+        .product-categories:not(.brands) {
+            grid-auto-rows: max-content !important;
+        }
+
+        .product-categories {
+            grid-template-columns: repeat(1, minmax(150px, 200px));
+            margin: 0 0 20px 0;
+
+            &.brands {
+                grid-template-columns: repeat(1, minmax(150px, 450px));
+            }
+        }
+
+    }
+
+    div[data-id="product"] {
+        #product {
+            .price {
+                text-align: left;
+            }
+
+            .orderProduct {
+                flex-direction: row-reverse;
+
+                .btn-primary {
+                    position: fixed;
+                    bottom: 0;
+                    width: 90%;
+                    left: 0 !important;
+                    right: 0;
+                    margin: 15px auto;
+                    z-index: 4;
+                }
+            }
+
+            .advantage-title {
+                text-align: left;
+                margin: 0px 0 20px 15px !important;
+                padding: 25px 0 0 0;
+                border-top: 1px solid rgba(31, 31, 31, .1);
+                font-weight: 700;
+            }
+
+            .companyFeatures {
+                grid-template-columns: repeat(1, minmax(100px, 1fr));
+                margin-top: 0px;
+
+                .advantage-info {
+                    margin-left: 20px !important;
+                }
+            }
+
+            .advantage-info {
+                text-align: left;
+            }
+
+            .feature {
+                .feature-info {
+                    text-align: left;
+                }
+            }
+
+            .productFeatures {
+                grid-template-columns: repeat(2, minmax(120px, 1fr));
+                grid-row-gap: 15px;
+            }
+
+            .productDescription {
+                text-align: left;
+                .description-text{
+                    max-height: 120px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    line-height: 24px !important;
+                }
+            }
+        }
+        #moreItems{
+            .more-container.container-products{
+                grid-row-gap: 30px;
+            }
+        }
+    }
+    #product .features p{
+        text-align: left !important;
+    }
+
+    #nav-top {
+        z-index: 15;
+    }
+    #singleProject {
+        .header-columns .d-grid {
+            grid-template-columns: repeat(1, minmax(100px, 1fr));
+        }
+    }
+    #navbar-open #footer, #navbar-open2 #footer {
+        padding-top: 140px !important;
+
+        .footer-one{
+            margin-bottom: 0 !important;
+        }
+        .social-icon {
+            margin-top: 0 !important;
+        }
+    }
+    #footer .social-icons{
+        display: flex;
+        justify-content: center;
+        a{
+            margin: auto 10px 0 10px !important;
+        }
+    }
+    #navbar-open #footer .header-langs, #navbar-open2 #footer .header-langs {
+        display: flex !important;
+    }
+    #singleProject #header {
+        margin-top: 95px !important;
+    }
+    #contacts {
+        .contacts-form {
+            padding: 50px 15px 0 15px !important;
+        }
+
+        .v-card__title {
+            margin-bottom: 40px !important;
+
+            .card-title {
+                word-break: break-word;
+            }
+        }
+
+        .v-card__text {
+            & > .container > .row:nth-child(1) {
+                display: block;
+
+                .email {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                    flex: 0 0 100% !important;
+                    padding: 0 !important;
+                }
+
+                .phone {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                    flex: 0 0 100% !important;
+                    padding: 0 !important;
+                }
+            }
+        }
+    }
+    div[data-id="contacts"] {
+        #contacts .col-xl-7.col-12 {
+            padding: 0 !important;
+        }
+
+        #contacts {
+            .row {
+                display: block !important;
+
+                .col-6 {
+                    max-width: 100% !important;
+                    padding-left: 0 !important;
+                    padding-top: 0 !important;
+                    padding-bottom: 10px !important;
+                }
+            }
+        }
+
+        .contacts-form {
+            padding: 0 !important;
+        }
+
+        #app #contacts .contacts-sidebar {
+            & > p {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .list-group .d-flex {
+                flex-direction: column !important;
+
+                & > .body {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .news.v-card{
+        padding:0 0 15px 0 !important;
+        #order{
+            width: 100%;
+        }
+        .v-card__text{
+            padding:0 15px !important;
+        }
+        .v-card__actions{
+            padding-top: 5px !important;
+        }
+        .form-actions{
+            .v-input{
+                margin-right: 0 !important;
+                margin-bottom: 15px !important;
+            }
+        }
+    }
+    .v-dialog .v-card {
+        .v-card__text{
+            padding: 15px 15px !important;
+        }
+    }
+    #footer .footer-five {
+        & > h5 {
+            margin-bottom: 30px !important;
+        }
+
+        ul {
+            margin-bottom: 30px;
+        }
+    }
+    a[id^=trigger] {
+        height: 50px !important;
+    }
+    div[data-id=product] #product .advantage-title{
+        margin:0 0 20px 0 !important;
+    }
+    #app .orderProduct{
+        .price{
+            margin-left: 0 !important;
+        }
+    }
+    #products a[id^=trigger]{
+        height: auto !important;
+    }
+    #app #variants .sidebar-info ul li {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    [data-id="b2g"] {
+        & > .col-11{
+            padding:0 !important;
+        }
+        #steps .steps-description {
+            margin-top: 0 !important;
+        }
+
+        .steps-grid .step-title .roboto {
+            margin-left: 20px !important;
+            margin-right: 20px !important;
+        }
+
+        #app #steps > .col-11 {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            padding-top: 100px !important;
+
+            & > h2 {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        #app #steps {
+            #v-pills-tabContent {
+                padding: 0 15px 0 15px !important;
+            }
+        }
+
+        #app #steps .dropdown-toggle {
+            padding: 13px 9px !important;
+        }
+
+    }
+    .dropdown-categories{
+        .dropdown{
+            .dropdown-toggle{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:after{
+                    right: 20px;
+                    position: absolute;
+
+                }
+            }
+        }
+    }
+    #moreItems > div > h2{
+        .mb-4{
+            text-align: left;
+        }
+    }
+    #moreItems #more-products .btn-product.more{
+        max-width: 90px !important;
+        .arrow{
+            position: relative;
+        }
+        span{
+            padding-right: 30px;
+        }
+    }
+    #app #more-products .card-body{
+        padding:10px 20px 10px 20px !important;
+    }
+    #app #app .v-breadcrumbs {
+        justify-content: center !important;
+    }
+    #header .v-breadcrumbs {
+        justify-content: center !important;
+        padding: 18px 6px;
+        padding-left: 6px !important;
+    }
+    #header-bottom {
+        margin-top: 50px !important;
+    }
+    div[id^=single] #header-bottom .header-columns {
+        padding: 0 !important;
+    }
+    .v-breadcrumbs li:nth-child(2n) {
+        padding: 0 7px;
+    }
+    #app #header {
+        margin-top: 120px !important;
+        padding-top: 0 !important;
+    }
+    div[data-id=singleCareer] #singleCareer .description{
+        padding-bottom: 100px !important;
+    }
+    #app #singleCareer{
+        .career-introduction{
+            & > h1{
+                font-weight: 700 !important;
+            }
+             & > p {
+                 line-height: 24px !important;
+                 h3{
+                     font-size: 24px !important;
+                 }
+             }
+
+        }
+        #header .v-breadcrumbs{
+            justify-content: start !important;
+            padding-left: 0 !important;
+        }
+    }
+    #career{
+        .careers-grid{
+            grid-auto-rows: minmax(120px, 186px);
+            grid-row-gap: 15px;
+            .career{
+                justify-content: space-between;
+            }
+            .card{
+                .card-title{
+                    min-height:unset !important;
+                    margin-bottom: 0 !important;
+                    p{
+                        padding-top: 25px !important;
+                        padding-left: 25px !important;
+                    }
+                }
+                .card-title h4{
+                    margin-bottom: 0 !important;
+                    padding-left: 25px;
+                    line-height: 24px !important;
+                    font-size: 16px !important;
+                    font-weight: 700 !important;
+                }
+                .card-body{
+                    padding:25px !important;
+                }
+            }
+        }
+    }
+    #newsPage {
+        padding-bottom: 20px !important;
+        #header {
+            margin-top: 0 !important;
+        }
+
+        #news > div > .position-unset {
+            padding-right: 15px !important;
+        }
+
+        h4{
+            padding-left: 30px !important;
+        }
+        .news-more{
+            padding-left: 30px !important;
+        }
+        h4.before-border {
+            font-size: 14px !important;
+            line-height: 24px !important;
+            font-weight: 700 !important;
+            position: relative;
+
+            &:before {
+               /* left: -37px;*/
+            }
+        }
+        .card-body p{
+            margin-bottom: 0 !important;
+            margin-top: 0 !important;
+        }
+    }
+    #moreItems {
+        & > .col-xl-7 > h2 {
+            text-align: center;
+        }
+    }
+    .card-project-features .mr-5 {
+        display: flex;
+        align-items: center;
+    }
+    #complect {
+        .container > h2 {
+            margin-bottom: 30px !important;
+        }
+
+        #carousel-partners {
+            .d-grid {
+                grid-template-columns: repeat(1, minmax(260px, 1fr)) !important;
+                grid-row-gap: 20px !important;
+            }
+        }
+    }
+    #app #steps {
+        padding-top:100px !important;
+        .v-slide-group__prev {
+            display: none !important;
+        }
+
+        .v-item-group {
+            margin: 0 !important;
+
+            #v-pills-tab {
+
+            }
+        }
+        .step-title{
+            span:nth-child(2){
+                max-width: 135px;
+                font-size: 14px !important;
+                TEXT-ALIGN: LEFT;
+            }
+        }
+    }
+    #app #values .values-container .values-grid {
+        grid-template-columns: repeat(1, minmax(100px, 1fr)) !important;
+    }
+    .v-tabs-slider-wrapper {
+        display: none;
+    }
+    #app #variants {
+        grid-template-rows: 1fr 200px !important;
+
+        .v-card__text {
+            padding-right: 0;
+
+            ul {
+                display: block !important;
+
+                li {
+                    max-width: 240px;
+                    margin-right: auto !important;
+                    margin-left: auto !important;
+
+                    p:nth-child(2) {
+                        max-width: 200px;
+                        margin: 15px auto auto auto;
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+
+        .dropdown-menu.show {
+            padding: 0 !important;
+            transform: translate3d(0px, 0px, 0px) !important;
+        }
+    }
+    .dropdown-menu.show {
+        position: fixed !important;
+        bottom: 0 !important;
+        height: 176px;
+        top: unset !important;
+        left: 0 !important;
+        right: 0;
+        transform: translate3d(0px, 0px, 0px) !important;
+        border: 1px solid #dadada;
+        border: unset;
+    }
+    .set-picker {
+        background: #f3f5f6;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 20px;
+        font-size: 14px;
+        FONT-WEIGHT: 700;
+    }
+    .picker-mobile {
+        background: transparent !important;
+        border: 1px solid #79C25A;
+        border-radius: 6px;
+        padding: 13px 20px 13px 20px;
+        text-align: left;
+        color: #555555;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        a {
+            color: #1f1f1f;
+            padding: 0 !important;
+        }
+    }
+    #products{
+        .picker-mobile{
+            padding:0 !important;
+        }
+    }
+    #app #products #trigger10{
+      height: 50px !important;
+        width: 100% !important;
+    }
+    #v-pills-tab {
+        .nav-item.dropdown.show .dropdown-menu.show {
+            background: white !important;
+            padding: 0 !important;
+        }
+
+        .picker-up {
+            background: rgb(255 255 255);
+        }
+
+        .picker-down {
+            background: rgb(255 255 255);
+        }
+    }
+    #variants {
+        .sidebar-info ul {
+            width: 100%;
+        }
+    }
+    #app #v-pills-tab {
+        flex-direction: column !important;
+        top:30px;
+        margin: 0px auto 30px auto !important;
+        padding: 0 !important;
+
+        & > ul{
+            margin-bottom: 0 !important;
+        }
+        .nav-item.dropdown {
+            width: 100%;
+        }
+
+        .dropdown-toggle {
+            border-radius: 10px;
+            justify-content: center;
+            width: 100%;
+            border: 1px solid #ffe454;
+            padding: 9px !important;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background-color: transparent;
+
+            &:after {
+                position: absolute;
+                right: 20px;
+            }
+        }
+    }
+    #services {
+        .dropdown-toggle {
+            width: 100%;
+            border: 1px solid #ffe454;
+            padding: 9px !important;
+            display: flex;
+            align-items: center;
+
+            &:after {
+                position: absolute;
+                right: 20px;
+            }
+        }
+
+        #v-pills-tab {
+            flex-direction: column !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .bg-secondary.pt-16 {
+            padding-top: 30px !important;
+        }
+    }
+    #app div[data-id="Home"] .top-header {
+        background: linear-gradient(0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/home/header/home-mob-min.jpg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+    #app div[data-id="b2c"] .top-header {
+        background: linear-gradient(0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/b2c/b2c-mobile-min.jpg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+    #app div[data-id="b2b"] .top-header {
+        background: linear-gradient(0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/b2b/b2b-mobile-min.jpg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+    #app div[data-id="b2g"] .top-header {
+        background: linear-gradient(0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/b2g/b2g-mobile-min.jpg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .steps-grid {
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
+    #projects #v-pills-tabContent .tab-pane > .row.flex-wrap .card:nth-child(1) {
+        margin-left: auto !important;
+    }
+    #projects #v-pills-tabContent .tab-pane > .row.flex-wrap .card:nth-child(2) {
+        margin-left: auto !important;
+    }
+    #projects #v-pills-tabContent .tab-pane > .row.flex-wrap .card:nth-child(3) {
+        margin-left: auto !important;
+    }
+
+    .mobile-contact.form-navbar {
+        display: flex !important;
+    }
+    div.padding-125 {
+        padding: 100px 0 !important;
+    }
+    div.padding-bottom-125 {
+        padding-bottom: 100px !important;
+    }
+    div.padding-top-125 {
+        padding-top: 100px !important;
+    }
+    div.padding-xs-top-125 {
+        padding-top: 100px !important;
+    }
+
+
+    #app #questions {
+        & > .container {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .question-text {
+            & ul {
+                list-style-position: inside;
+            }
+        }
+
+        .question-sidebar h2 {
+            margin-bottom: 20px !important;
+        }
+
+        .question-handler {
+            right: 0 !important;
+            margin-top: -7px;
+        }
+
+        .question-title {
+            line-height: 24px !important;
+            max-width: 240px !important;
+        }
+    }
+    #app div[data-id=services] #v-pills-tab .nav-link {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+    #app .v-breadcrumbs {
+        li:nth-child(2n){
+            padding: 0 3px !important;
+        }
+    }
+    #app #projects {
+        min-height: 100% !important;
+        padding: 30px 0 100px 0 !important;
+        z-index: 4;
+
+        & > .all-projects {
+            margin: 50px auto 0 auto !important;
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #v-pills-tabContent {
+            padding: 0 20px !important;
+
+            .tab-pane > .row {
+                margin-bottom: 0 !important;
+                justify-content: space-evenly !important;
+
+                .card {
+                    margin: auto auto 20px auto !important;
+
+                    .before-border {
+                        margin: 30px 30px 15px 0px;
+                        padding: 0 0 0 30px;
+                    }
+
+                    .project-description {
+                        padding: 0 30px 25px 30px
+                    }
+
+                    .card-project-features {
+                        padding: 0 30px 0px 30px;
+                    }
+
+                    .card-body {
+                        padding: 0 !important;
+                        h4{
+                            font-size: 24px !important;
+                        }
+                        .project-power{
+                            font-family: 'Roboto',sans-serif !important;
+                            font-weight: 700;
+                            font-style: normal;
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slick-center {
+            -moz-transform: scale(1.08);
+            -ms-transform: scale(1.08);
+            -o-transform: scale(1.08);
+            -webkit-transform: scale(1.08);
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        #v-pills-tab {
+            .nav-item.dropdown {
+                padding: 0 20px;
+
+                .nav-link.dropdown-toggle {
+                    max-width: 430px;
+                }
+            }
+        }
+
+        #v-pills-tab .nav-link {
+            padding-left: 0 !important;
+        }
+
+
+        #v-pills-tabContent {
+            .project-slick {
+                padding: 0 15px;
+
+                .card, .card.col-md-6 {
+                    margin-left: 10px !important;
+                    margin-right: 10px !important;
+                }
+            }
+
+            .tab-pane {
+                .card {
+                    max-width: 442px !important;
+                    min-width: 250px !important;
+                    width: 100%;
+
+                    .card-body {
+                        padding: 30px 30px !important;
+                    }
+                }
+            }
+        }
+
+        .card-body {
+            min-height: unset;
+        }
+
+        #more-projects {
+            .more {
+                margin: 30px 25px
+            }
+        }
+
+        & > .col-11 > .all-projects {
+            display: none;
+        }
+
+        .home-projects-header {
+            margin: auto auto 20px auto;
+            text-align: center;
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+
+        .card-project-features {
+            & > div {
+                display: flex;
+            }
+        }
+
+        #v-pills-tab .nav-item.dropdown {
+            padding: 0 !important;
+
+            .nav-link.dropdown-toggle {
+                padding: 14px 0 !important;
+            }
+        }
+
+        #v-pills-tabContent {
+            padding: 0 !important;
+
+            .tab-pane > .row.flex-wrap .card {
+                flex: 0 0 100% !important;
+            }
+        }
+    }
+    #v-pills-tab {
+        & > ul {
+            margin-bottom: 30px;
+        }
+        .nav-item.dropdown{
+            margin-top: 0 !important;
+        }
+    }
+    .all-projects {
+        margin-top: 50px !important;
+
+        h4 {
+            margin-bottom: 20px !important;
+        }
+    }
+    #projects .card .project-more, #more-items .card .project-more {
+        margin: 35px 30px 30px 30px !important;
+    }
+    .mobile-contact:after {
+        display: none;
+    }
+    .mobile-contact.pr-4 {
+        padding: 0 0 0 16px !important;
+    }
+    .row-economy .economy-data {
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
+    #partners {
+        h2.col-md-10 {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-bottom: 18px !important;
+        }
+        .mobile-carousel{
+            .slick-slide{
+                min-height: 267px;
+                max-height: 267px;
+                height: 100%;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                .card-body{
+                    h5{
+                        &:after{
+                            margin-top:40px;
+                            width:100% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #discount {
+        background: url('/assets/components/home/discount/discount-mobile.svg'), url('/assets/components/home/discount/white-discount-mobile.png') , linear-gradient(rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/home/discount/discount-bg-plan-min.jpg');
+        background-position: top 0 center,top 0 center, center, center;
+        background-size: 45%, 100%, cover, cover;
+        background-repeat: no-repeat;
+    }
+    div[data-id="b2g"]#app {
+        #connections #v-pills-tab {
+            display: none;
+        }
+    }
+    #footer {
+        .footer-two,.footer-four{
+            text-transform: uppercase !important;
+            font-weight: bold !important;
+        }
+    }
+    div[data-id="contacts"]{
+        #contacts{
+            .contacts-form{
+                .card-title{
+                    text-align: center;
+                    margin:auto !important;
+                }
+                .v-card__text{
+                    .email{
+                        margin-bottom: 15px;
+                    }
+                    .phone{
+                        margin-bottom: 15px;
+                    }
+                }
+                #order{
+                    width: 100%;
+                }
+                .v-card__actions{
+                    p{
+                        margin-top: 5px !important;
+                        margin-left:auto !important;
+                    }
+                }
+            }
+        }
+
+    }
+    #app #steps {
+        .schema {
+            border-radius: 0 !important;
+            width: 100vw;
+            margin-left: -15px;
+            margin-bottom: 0 !important;
+            padding:50px 15px 100px 15px !important;
+            margin-top: 0 !important;
+
+            & > .row .col-md-2{
+                max-width: 290px !important;
+            }
+            .row {
+                .text-right {
+                    text-align: center !important;
+                }
+            }
+        }
+        .schema > .row {
+            .schema-visualisation {
+                max-width: 238px !important;
+                p:nth-child(2):after{
+                   /* bottom:80px !important;*/
+                    bottom:60px !important;
+                }
+            }
+        }
+    }
+    #products h2.title{
+        margin-bottom: 20px !important;
+    }
+    .sidebar-modules{
+        .v-tabs-bar{
+            margin:30px 0 0 0 !important;
+        }
+    }
+    #app #modules {
+        background-size: 100%, cover !important;
+
+        .modules-features{
+            li p:nth-child(2){
+                color:white;
+                font-weight: 400;
+            }
+        }
+        #v-pills-tabContent {
+            padding-top: 0 !important;
+        }
+
+        .v-tabs {
+            margin-bottom: 0 !important;
+        }
+
+        .v-tabs-bar--is-mobile .dropdown.show .nav-link.dropdown-toggle {
+            background-color: transparent !important;
+        }
+
+        #v-pills-tab {
+            padding: 0 15px !important;
+
+            ul {
+                margin-bottom: 0 !important;
+            }
+
+            .dropdown-toggle {
+                border: 1px solid white !important;
+                color: white !important;
+            }
+        }
+
+        .modules-features {
+            display: block !important;
+
+            & > li {
+                margin: auto auto 40px auto;
+            }
+        }
+
+        .card-text {
+            padding: 0 15px !important;
+            color: white;
+            font-weight: 400 !important;
+        }
+    }
+    #aboutPage{
+        #values{
+            .card-title{
+                font-weight: 700 !important;
+                padding-top:0 !important;
+            }
+            .card-img{
+                height: 38px !important;
+                width: 40px !important;
+                background-size: contain !important;
+                margin-bottom: 20px !important;
+            }
+        }
+    }
+    #contacts .v-card__actions p{
+        margin-left: 0 !important;
+    }
+    #footer {
+        .footer-one{
+            margin-bottom: 20px;
+        }
+        .footer-col > h5 {
+            font-weight: bold !important;
+            font-size: 14px !important;
+        }
+
+        .footer-col:not(.footer-five) .list-unstyled {
+            li a {
+                font-size: 14px !important;
+                font-weight: 700 !important;
+            }
+        }
+
+        .footer-five {
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 100%;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background-color: #DEDEDE;
+                margin: auto;
+            }
+
+            .border-top {
+                border-top: unset !important;
+            }
+        }
+    }
+    .mobileSelect .content .panel .wheel{
+        height: 100% !important;
+    }
+    .mobileSelect .content .panel .wheel .selectContainer li {
+        font-size: 16px;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer;
+    }
+    .mobileSelect {
+        .selectLine{
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .shadowMask{
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .ensure,.cancel{
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+    .v-dialog {
+        .card-title {
+            margin: 0 auto 20px auto;
+        }
+    }
+    #navbar-open #footer .footer-col ul.list-unstyled li a {
+        font-weight: 700 !important;
+    }
+    #map .map-info > .col-xl-12.col-11 {
+        margin-right: auto !important;
+    }
+    .form-contact{
+        .v-card__text{
+            & > .container > .row > .col-6{
+                margin-bottom: 15px !important;
+            }
+        }
+    }
+    .v-text-field{
+        margin-top: 0 !important;
+    }
+    #services {
+        .col-xl-8 > .col-md-12.position-unset {
+            padding: 0 15px !IMPORTANT;
+            margin-left: 0 !IMPORTANT;
+        }
+
+        .service-department {
+            text-align: center;
+            .services{
+                .card{
+                    & > img{
+                        width: 100%;
+                    }
+                    h4{
+                        max-width: 280px !important;
+                        font-size: 24px !important;
+                    }
+                }
+            }
+        }
+
+        .services {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+            grid-row-gap: 10px !important;
+        }
+    }
+    #app #singleProject {
+        .header-text h1{
+            margin-bottom: 50px !important;
+            margin-top: 10px !important;
+        }
+        #header-bottom{
+            padding-bottom: 0 !important;
+            .slick-slider{
+                padding-bottom: 50px !important;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #app #steps #v-pills-tab .dropdown-toggle:after {
+        right: 20px !important;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .v-dialog:not(.v-dialog--fullscreen) {
+        max-height: 100% !important;
+    }
+    .v-dialog {
+        margin: 0 14px !important;
+    }
+    .v-dialog.v-dialog--active .close-form:after, .v-dialog.v-dialog--active .close-form:before {
+        top: 20px;
+        right: 20px;
+        width: 5px;
+        height: 20px;
+        background-color: #1f1f1f;
+        transform-origin: top left;
+        position: absolute;
+        content: "";
+        cursor: pointer;
+        z-index: 999;
+    }
+    .v-dialog.v-dialog--active .close-form:after {
+        transform: rotate(
+                -45deg
+        ) translate(-50%, -50%);
+    }
+    .v-dialog.v-dialog--active .close-form:before {
+        transform: rotate(
+                45deg
+        ) translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #firstPage #header .header-text button {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 290px) {
+    .card-project-features {
+        padding: 0 20px !important;
+        display: block !important;
+
+        & > .mr-5, & > .font-number {
+            margin-bottom: 10px !important;
+        }
+    }
+}
+

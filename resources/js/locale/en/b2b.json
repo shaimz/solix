@@ -1,0 +1,363 @@
+{
+    "header": {
+        "title": "Complex business solutions",
+        "text": "Solar energy is an alternative source of energy supply, ensuring a stable power supply to your home and a significant reduction in energy costs.",
+        "button": "Order call"
+    },
+    "features": {
+        "title": "Benefits of using",
+        "text": "Solix offers a turnkey installation of solar power plants for businesses for their own consumption. Business owners are faced with the problem of constant growth of tariffs for legal entities. A solar power panel means energy independence for business entities and the formation of a positive image of an innovative, socially responsible company in the eyes of society and potential customers. Installing your own solar power plant, you can quickly and easily increase the supplied power at the facility or create a reliable backup of important nodes, the failure of which is unacceptable.",
+        "button": "Request a call",
+        "cards": [
+            {
+                "img": "/assets/icons/features/ecology-1.png",
+                "title": "Green Energy",
+                "text": "Solar power is a great way to reduce your carbon footprint. A typical solar panel manufacturing eliminates 11 to 24 tons of carbon emissions per year, which is equivalent to planting more than 600 trees annually."
+            },
+            {
+                "img": "/assets/icons/features/ecology-1.png",
+                "title": "Cost-efficiency",
+                "text": "Reduce or even eliminate electricity bills. With a solar panel system, you will generate electricity free of charge for the entire 25-year life cycle of your system."
+            },
+            {
+                "img": "/assets/icons/features/plant-1.png",
+                "title": "Predictable costs",
+                "text": "By investing in a solar energy system now, you can lock in your electricity tariff and protect yourself from unpredictable increases in costs. Switching to solar energy will also help you better predict and manage your costs."
+            },
+            {
+                "img": "/assets/icons/features/light-bulb-1.png",
+                "title": "Competitiveness",
+                "text": "Companies are quickly realizing the economic benefits of using solar energy. Since early adopters are already outstripping the competition, we suggest looking at solar energy as a way to stay competitive."
+            },
+            {
+                "img": "/assets/icons/features/diploma-1.png",
+                "title": "Free of charge",
+                "text": "Solar energy is a free source of energy, as no one can monopolize sunlight. Your solar energy panel will start saving money from the moment you turn it on."
+            },
+            {
+                "img": "/assets/icons/features/green-energy-1.png",
+                "title": "Autonomy and independence",
+                "text": "Your own solar panel is a guarantee of your peace of mind, independence, and energy security for business and home. You will never again be worried about wind, rain, snow, or broken power lines."
+            }
+        ]
+    },
+    "partners": {
+        "title": "What is included",
+        "cards": [
+            {"title": "Solar modules", "text": ""},
+            {"title": "Battery (for autonomous sets)", "text": ""},
+            {"title": "Controller", "text": ""},
+            {"title": "Electrical shield", "text": ""},
+            {"title": "Solar cable", "text": ""},
+            {"title": "Support structures (optional)", "text": ""},
+            {"title": "MC4 connectors", "text": ""},
+            {"title": "Inverter", "text": ""}
+        ]
+    },
+    "variants": {
+        "title": "Accommodation options",
+        "list":[
+            {
+                "listItem": "On the roof",
+                "text": "The most optimal option for objects located on a small plot of land. Solix solar modules can be mounted on both flat and pitched roof types. Our experts will always find the best solution for placing solar panels for any architectural solution.",
+                "advantages": {
+                    "title": "Benefits of placing solar panels on the roof",
+                    "items": [
+                        "No need for additional space",
+                        "Additional sound insulation and protection of the roof from atmospheric precipitation."
+                    ]
+                },
+                "card": [
+                    {
+                        "name": "30 year performance guarantee",
+                        "value": "30 years"
+                    },
+                    {
+                        "name": "Less than 0.6 per year solar module degradation",
+                        "value": ">0,6"
+                    }
+                ]
+            },
+            {
+                "listItem": "On the ground",
+                "text": "It is possible to place the solar panel directly on the ground using special support structures. To do this, you need to choose a place where shading from nearby objects will not be created. The installation of support structures on the ground takes place in two stages: first, the foundation is installed, usually of concrete, and only then the installation of the structures themselves is carried out on it.",
+                "card": [
+                    {
+                        "name": "Performance guarantee",
+                        "value": "30 years"
+                    },
+                    {
+                        "name": "Less than 0.6 per year solar module degradation",
+                        "value": ">0,6"
+                    }
+                ]
+            },
+            {
+                "listItem": "On the facade",
+                "text": "Solar cells integrated into the facade perform the function of generating energy and are at the same time structural elements of the building.Our engineers will select the best option for placing a solar power plant depending on your conditions. The solar power plant on the facade is a rational solution to save space and energy costs.",
+                "card": [
+                    {
+                        "name": "Performance guarantee",
+                        "value": "30 years"
+                    },
+                    {
+                        "name": "Less than 0.6 per year solar module degradation",
+                        "value": ">0,6"
+                    },
+                    {
+                        "name": "Up to 22.5% efficiency of solar cells",
+                        "value": ">22,5%"
+                    }
+                ]
+            },
+            {
+                "listItem": "On the water",
+                "text": "This type of placement allows you to achieve greater power generation. This is achieved due to the fact that water absorbs heat from solar panels generated during their operation and is highly reflective. It is advisable to build floating solar power plants on artificial reservoirs, for example, reservoirs, treatment facilities, dams, since even a minor storm can cause serious damage to a power plant.",
+                "card": [
+                    {
+                        "name": "Performance guarantee",
+                        "value": "30 years"
+                    },
+                    {
+                        "name": "Less than 0.6 per year solar module degradation",
+                        "value": ">0,6"
+                    },
+                    {
+                        "name": "Up to 22.5% efficiency of solar cells",
+                        "value": ">22,5%"
+                    }
+                ]
+            },
+            {
+                "listItem": "Mobile placement",
+                "text": "Mobile solar power plants are designed for temporary (including seasonal) power supply to facilities located at a significant distance from a centralized energy source. So, mobile power plants are most effective when organizing mobile food points, in agriculture for irrigation / watering, watering animals in pastures, during entertainment events.",
+                "card": [
+                    {
+                        "name": "30 years performance guarantee",
+                        "value": "30 years"
+                    },
+                    {
+                        "name": "Less than 0.6 per year solar module degradation",
+                        "value": ">0,6"
+                    },
+                    {
+                        "name": "Up to 22.5% efficiency of solar cells",
+                        "value": ">22,5%"
+                    }
+                ]
+            }
+        ]
+    },
+    "connections": {
+        "title": "Connection types",
+        "tabs": [
+            {
+                "title": "Autonomous",
+                "text": "An autonomous solar power system is intended for the autonomous power supply of houses and various objects located at a distance from the centralized network, or, if necessary, reliable backup of the existing connection.",
+                "button": "Request a call",
+                "tabNumber": 1,
+                "icon": {
+                    "type": "next",
+                    "index": "0"
+                },
+                "cards": [
+                    {
+                        "title": "Purchase",
+                        "text": "Purchase of a solar power station",
+                        "img": "/assets/icons/panel-factory.png"
+                    },
+                    {
+                        "title": "Mounting",
+                        "text": "Mounting of a solar power plant",
+                        "img": "/assets/icons/tools-factory.png"
+                    }
+                ]
+            },
+            {
+                "title": "On-grid",
+                "text": "On-grid solar power plant is ideal for powering objects connected to the centralized grid in order to reduce energy costs and increase the supplied power to the grid. The grid-connected solar plant does not have the ability to store electricity and is only able to work in parallel with the grid, due to lack of rechargeable batteries. ",
+                "button": "Request a call",
+                "tabNumber": 2,
+                "icon": {
+                    "type": "next",
+                    "index": "0,1,2"
+                },
+                "cards": [
+                    {
+                        "title": "Purchase",
+                        "text": "Purchase of a solar power system",
+                        "img": "/assets/icons/panel-factory.png"
+                    },
+                    {
+                        "title": "Mounting",
+                        "text": "Mounting of a solar power system",
+                        "img": "/assets/icons/tools-factory.png"
+                    },
+                    {
+                        "header": "Regional <br/> Electric Grid Company",
+                        "group": [
+
+                            {
+                                "title": "TS registration",
+                                "text": "Registration of technical specifications for connection",
+                                "icon": "plus",
+                                "img": "/assets/icons/paper-factory.png"
+                            },
+                            {
+                                "title": "Installation",
+                                "text": "Setting a bidirectional counter",
+                                "img": "/assets/icons/123.png"
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Your power supply company",
+                        "title": "Agreement",
+                        "text": "Electricity purchase agreement",
+                        "img": "/assets/icons/pen-factory.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "modules": {
+        "title": "Types of modules",
+        "tabs": [
+            {
+                "title": "Heterojunction",
+                "text": "New generation heterostructure modules combine the advantages of thin-film and crystalline technologies. Heterostructure modules convert a wider spectrum of radiation into electricity, which is reflected in a record efficiency - up to 23.5% per cell, 22% per module. It is a highly efficient technology that is in the TOP-5 in terms of efficiency in the world.",
+                "features": [
+                    {
+                        "value": ">670",
+                        "name": "Up to 670W power"
+                    },
+                    {
+                        "value": "30",
+                        "name": "30 years warranty"
+                    }
+                ]
+            },
+            {
+                "title": "Thin-film",
+                "text": "Thin-film photovoltaic modules are manufactured using micromorphic thin-film technology, which provides the fastest return on investment: the micromorphic module converts both the visible and infrared spectrum of solar radiation.",
+                "features": [
+                    {
+                        "value": ">460",
+                        "name": "Up to 460W"
+                    },
+                    {
+                        "value": "30",
+                        "name": "30 years warranty"
+                    }
+                ]
+            }
+        ],
+        "subtabs": [
+            {
+                "id": "one",
+                "title": "Unilateral",
+                "text": ""
+            },
+            {
+                "id": "two",
+                "title": "Bilateral",
+                "text": ""
+            }
+        ]
+    },
+    "map": {
+        "title": "Kit selection",
+        "tabs": [
+            {
+                "title": "By parameters",
+                "text": "Mark your object on the map and the computer will analyze the climate of the settlement and provide a unique solution"
+
+            },
+            {
+                "title": "By location",
+                "text": "Mark your object on the map and the calculator will analyze the climate of the settlement and suggest",
+                "inputTitle": "Enter the address, then select the object on the map",
+                "find": "Find",
+                "button": "Pick up a kit"
+            }
+        ]
+    },
+    "steps": {
+        "title": "Financial solutions",
+        "tabs": [
+            {
+                "title": "Energy supply agreement",
+                "text": "Long-term contract for the supply of electricity to industrial enterprises. No investment by the customer during the construction phase of solar energy production",
+                "list": [
+                    {
+                        "title": "Contract signing",
+                        "text": "The Supplier and the Customer sign long-term contracts for power supply at fixed price"
+                    },
+                    {
+                        "title": "SPP construction",
+                        "text": "The Suppler construct solar power station and synchronizes work with diesel power plant"
+                    },
+                    {
+                        "title": "Start-up and maintenance",
+                        "text": "The Supplier provides stable operation and maintenance of SPP"
+                    },
+                    {
+                        "title": "Payment for power",
+                        "text": "Pays monthly for the amount of electric power produced on solar power plant"
+                    }
+                ]
+            },
+            {
+                "title": "The key",
+                "text": "Long-term contract for the supply of electricity to industrial enterprises. No investment by the customer during the construction phase of solar energy production",
+                "list": [
+                    {
+                        "title": "Contract signing",
+                        "text": "The Supplier and the Customer sign long-term contracts for power supply at fixed price"
+                    },
+                    {
+                        "title": "SPP construction",
+                        "text": "The Suppler construct solar power station and synchronizes work with diesel power plant"
+                    },
+                    {
+                        "title": "Commissioning",
+                        "text": "Supplier enters into operation the SPP"
+                    },
+                    {
+                        "title": "Maintenance",
+                        "text": "The Supplier provides stable operation and maintenance of SPP"
+                    }
+                ]
+            }
+        ],
+        "scheme": {
+            "animation": "/assets/animation/json/EN.json",
+            "title": "Project implementation scheme",
+            "upperText": "Power supply <br> at a fixed rate",
+            "lowerText": "Payment for electricity <br> generated from SES",
+            "customer": {
+                "title": "Client",
+                "text": "exploits an object remotely"
+            },
+            "supplier": {
+                "title": "Supplier",
+                "text": "provides electricity"
+            }
+        }
+    },
+    "energy": {
+        "title": "Green electricity for own needs",
+        "items": [
+            {
+                "title": "Net accounting",
+                "text": "This mechanism is aimed at end-users. Owners of power plant systems that produce renewable energy for their own needs and who have entered into a contract with the supplier for the supply of electricity at a regulated price will benefit from the net metering mechanism.",
+                "src": "/assets/icons/research.png"
+            },
+            {
+                "title": "Direct Benefits",
+                "text": "End-users who produce renewable energy for their own use can significantly lower their electricity bills or become supplier independent.",
+                "src": "/assets/icons/sun.png"
+            }
+        ]
+    }
+}

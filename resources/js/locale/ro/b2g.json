@@ -1,0 +1,299 @@
+{
+    "header": {
+        "title": "Soluții complexe pentru agențiile guvernamentale",
+        "text": "Proiectăm și construim facilități „la cheie” de orice capacitate, atât pentru rețea, cât și pentru generarea autonomă, ținând cont de toate nevoile clientului.",
+        "button": "Solicită un apel"
+    },
+    "features": {
+        "title": "Avantajele utilizării",
+        "text": "Solix propune instalarea «la cheie» a centralelor solare pentru businessul cu consumpția proprie. Proprietarii companiilor se confruntă cu problema creșterii constante a tarifelor pentru persoanele juridice. O centrală solară înseamnă independență energetică pentru companie (business) și crearea unei imagini inovaționale și social responsabile pentru companie în ochii comunității și a clienților potențiali. Datorită instalării centralei electrice proprii veți putea rapid și cu ușurință să sporiți puterea furnizată per obiect sau să creați o rezervă de încrederea pentru nodurile importante, defecțiunile cărora sunt inacceptabile.",
+        "button": "Solicitați un apel",
+        "cards": [
+            {
+                "img": "/assets/icons/features/ecology-1.png",
+                "title": "Ecologia",
+                "text": "Energia solară – metoda perfectă pentru diminuarea amprentei de carbon. Un sistem tipic de baterii solare, în procesul funcționării, înlătură de la 11 la 24 de tone de emisii de carbon per an, ceea ce este echivalent cu sădirea anuală a 600 de copaci și mai mult."
+            },
+            {
+                "img": "/assets/icons/features/plant-1.png",
+                "title": "Economisirea",
+                "text": "Diminuați sau refuzați complet la chitanța pentru consumul de energie electrică. Cu ajutorul sistemului de baterii solare dvs. veți putea genera gratuit energie electrică pe parcursului întregului ciclu de viață de 25 de ani a sistemului dvs."
+            },
+            {
+                "img": "/assets/icons/features/diploma-1.png",
+                "title": "Cheltuielile previzibile",
+                "text": "Investind în sistemul energetic solar acum, vă puteți fixa tariful pentru energia electrică și să vă protejați de creșterea nepreconizată a cheltuielilor. Trecerea la energia solară vă va ajuta, de asemenea, să prognozați cheltuielile dvs. și să le gestionați."
+            },
+            {
+                "img": "/assets/icons/features/green-energy-1.png",
+                "title": "Competitivitatea",
+                "text": "Companiile înțeleg rapid avantajele economice de utilizare a energiei solare. Dat fiind faptul că utilizatorii deja depășesc concurenții, noi propunem tratarea energiei solare drept a unei metode de a rămâne competitivi."
+            },
+            {
+                "img": "/assets/icons/features/light-bulb-1.png",
+                "title": "Costuri proiectate",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            },
+            {
+                "img": "/assets/icons/features/gauge-1.png",
+                "title": "Autonomie și independență",
+                "text": "Un panou electric propriu reprezintă garanția calmului, independenței și siguranței energetice pentru business și casă. De acum înainte, vântul, ploaia, zăpada sau ruptura cablurilor electrice nu vă vor mai deranja."
+            }
+        ]
+    },
+    "partners": {
+        "title": "Ce este inclus",
+        "cards": [
+            {"title": "Module solare", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Scut electric", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Conectori MC4", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Baterie", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Cablu solar", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Invertor", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Structuri de sprijin", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"},
+            {"title": "Structuri de sprijin", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"}
+        ]
+    },
+    "variants": {
+        "title": "Opțiuni de cazare",
+        "list":[
+            {
+                "listItem": "Pe acoperiș",
+                "text": "Această opțiune este cea mai optimă pentru obiectele situate pe un teren mic. Modulele solare Hevel pot fi montate atât pe tipurile de acoperiș plat, cât și pe cele înclinate, care sunt cele mai solicitate astăzi în construcția de locuințe private",
+                "card": [
+                    {
+                        "name": "Ani de garanție",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Mii de MDL pentru 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "Pe pământ",
+                "text": "Această opțiune este cea mai optimă pentru obiectele situate pe un teren mic. Modulele solare Hevel pot fi montate atât pe tipurile de acoperiș plat, cât și pe cele înclinate, care sunt cele mai solicitate astăzi în construcția de locuințe private",
+                "card": [
+                    {
+                        "name": "Ani de garanție",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Mii de MDL pentru 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "Pe apă",
+                "text": "Această opțiune este cea mai optimă pentru obiectele situate pe un teren mic. Modulele solare Hevel pot fi montate atât pe tipurile de acoperiș plat, cât și pe cele înclinate, care sunt cele mai solicitate astăzi în construcția de locuințe private",
+                "card": [
+                    {
+                        "name": "Ani de garanție",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Mii de MDL pentru 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "Pe fațadă",
+                "text": "Această opțiune este cea mai optimă pentru obiectele situate pe un teren mic. Modulele solare Hevel pot fi montate atât pe tipurile de acoperiș plat, cât și pe cele înclinate, care sunt cele mai solicitate astăzi în construcția de locuințe private",
+                "card": [
+                    {
+                        "name": "Ani de garanție",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Mii de MDL pentru 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            },
+            {
+                "listItem": "Plasament mobil",
+                "text": "Această opțiune este cea mai optimă pentru obiectele situate pe un teren mic. Modulele solare Hevel pot fi montate atât pe tipurile de acoperiș plat, cât și pe cele înclinate, care sunt cele mai solicitate astăzi în construcția de locuințe private",
+                "card": [
+                    {
+                        "name": "Ani de garanție",
+                        "value": "25"
+                    },
+                    {
+                        "name": "Mii de MDL pentru 1 kWh",
+                        "value": "1,3"
+                    }
+                ]
+            }
+        ]
+    },
+    "connections": {
+        "title": "Tipuri de conexiuni",
+        "tabs": [
+            {
+                "title": "Reţea",
+                "text": "O centrală solară autonomă este proiectată pentru alimentarea autonomă a caselor și a diferitelor obiecte situate la distanță de rețeaua centralizată sau, dacă este necesar, pentru o copie de rezervă fiabilă a conexiunii existente",
+                "button": "Solicitați un apel",
+                "cards": [
+                    {
+                        "title": "Randamentul investițiilor",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Economisind combustibil",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Menținerea venitului brut necesar al operatorului",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Transferul ASUE în proprietatea operatorului",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Menținerea venitului brut necesar al operatorului",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "title": "Reducerea tarifului justificat economic",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    }
+                ]
+            }
+        ]
+    },
+    "modules": {
+        "title": "Tipuri de module",
+        "tabs": [
+            {
+                "title": "Heterostructural",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text",
+                "features": [
+                    {
+                        "value": "380",
+                        "name": "Putere în wați"
+                    },
+                    {
+                        "value": "25",
+                        "name": "Ani de garanție"
+                    }
+                ]
+            },
+            {
+                "title": "Film subtire",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text",
+                "features": [
+                    {
+                        "value": "380",
+                        "name": "Putere în wați"
+                    },
+                    {
+                        "value": "25",
+                        "name": "Ani de garanție"
+                    }
+                ]
+            }
+        ]
+    },
+    "rights": {
+        "title": "Temei organizatoric și juridic",
+        "text": "Soluția este oferită de cadrul legislativ și de reglementarea actuală",
+        "button": "Afiseaza"
+    },
+    "steps": {
+        "title": "Soluții financiare",
+        "tabs": [
+            {
+                "title": "Acord de furnizare a energiei",
+                "text": "Contract pe termen lung pentru furnizarea de energie electrică pentru întreprinderile industriale. Nicio investiție din partea clientului în timpul fazei de construcție a producerii energiei solare",
+                "list": [
+                    {
+                        "title": "Încheierea contractului",
+                        "text": "Furnizorul și clientul încheie un contract pe termen lung pentru furnizarea de energie electrică la un preț fix"
+                    },
+                    {
+                        "title": "Construcția centralei solare",
+                        "text": "Furnizorul construiește o centrală solară și sincronizează activitatea cu centrala electrică diesel"
+                    },
+                    {
+                        "title": "Pornire și întreținere",
+                        "text": "Furnizorul asigură funcționarea și întreținerea stabilă a centralei solare"
+                    },
+                    {
+                        "title": "Alimentarea cu energie electrică",
+                        "text": "Clientul plătește lunar pentru cantitatea de energie electrică produsă de centrala solară"
+                    }
+                ]
+            },
+            {
+                "title": "La cheie",
+                "text": "Contract pe termen lung pentru furnizarea de energie electrică pentru întreprinderile industriale. Nicio investiție din partea clientului în timpul fazei de construcție a producerii energiei solare",
+                "list": [
+                    {
+                        "title": "Încheierea contractului",
+                        "text": "Furnizorul și clientul încheie un contract pe termen lung pentru furnizarea de energie electrică la un preț fix"
+                    },
+                    {
+                        "title": "Construcția centralei solare",
+                        "text": "Furnizorul construiește o centrală solară și sincronizează activitatea cu centrala electrică diesel"
+                    },
+                    {
+                        "title": "Punere in functiune",
+                        "text": "Furnizorul pune în funcțiune centrala solară"
+                    },
+                    {
+                        "title": "Întreținere",
+                        "text": "Furnizorul asigură funcționarea și întreținerea stabilă a centralei solare"
+                    }
+                ]
+            }
+        ],
+        "scheme": {
+            "animation": "/assets/animation/json/RO.json",
+            "title": "Schema de implementare a proiectului",
+            "upperText": "Alimentarea cu energie electrică<br> la un tarif fix",
+            "lowerText": "Plata pentru energia electrică<br> generată de la SES",
+            "customer": {
+                "title": "Client",
+                "text": "exploatează un obiect la distanță"
+            },
+            "supplier": {
+                "title": "Furnizorul",
+                "text": "furnizează energie electrică"
+            }
+        }
+    },
+    "economy": {
+        "title": "Efect economic<br> din implementare",
+        "text": "Instalarea panourilor fotovoltaice (PV) este o investiție inițial costisitoare, dar pe termen mediu economiile de energie realizate sunt deja foarte mari. Factura dvs. de energie electrică va fi mai ieftină și, în plus, cu contoare bidirecționale veți avea posibilitatea să obțineți un profit din energia pe care nu o utilizați și să o „revindeți”. Aceasta este o opțiune pentru oricine dorește să economisească la consumul de energie.",
+        "data": [
+            {"value": "50%", "name": "Economie de combustibil"},
+            {"value": "50%", "name": "Costuri reduse"},
+            {"value": "45%", "name": "Economie de combustibil"},
+            {"value": "35%", "name": "Costuri reduse"}
+        ]
+    },
+    "energy": {
+        "title": "Energie regenerabilă cu scop comercial",
+        "items": [
+            {
+                "title": "Tarife fixe",
+                "text": "Această schemă de suport este orientată spre producătorii care dețin o centrală electrică cu o putere cumulată ce depășește 10 kW. Schema respectivă este orientată spre producătorii mici, care intenționează să investească în capacități de generare cu limita cuprinsă între 10 kW și 4 MW pentru instalații eoliene, 1 MW pentru alte tipuri de unități de generare, precum sunt cele fotovoltaice, hidroelectrice și instalații de cogenerare pe biomasă și biogaz.",
+                "src": "/assets/icons/diploma.png"
+            },
+            {
+                "title": "Preț fix",
+                "text": "Această schemă de sprijin vizează producătorii care vor să investească în centrale cu o capacitate mai mare de 4 MW pentru instalații eoliene și 1 MW pentru instalațiile fotovoltaice și de cogenerare pe biogaz. Statutul de producător este oferit prin intermediul licitațiilor organizate de Guvern.",
+                "src": "/assets/icons/ecology_1.png"
+            },
+            {
+                "title": "Beneficii directe",
+                "text": "Producătorii de energie din surse regenerabile care vor utiliza schemele — Tarif fix sau Preț fix — vor beneficia de achiziționarea întregului volum de energie regenerabilă produs timp de 15 ani la tarife stabilite sau la prețuri negociate prin licitații. Tarifele sunt revizuite cu periodicitatea de un an.",
+                "src": "/assets/icons/sun.png"
+            }
+        ]
+    }
+}

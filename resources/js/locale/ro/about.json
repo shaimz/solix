@@ -1,0 +1,47 @@
+{
+    "title": "Despre companie",
+    "text": "În anul 2012 noi am fondat companie «Vivercon» și ne-am ocupat, preponderent, de construcții și lucrări de montaj electric.\nÎncepând cu anul 2019, am început să ne dezvoltăm în domeniul surselor de energie renovabile – așa s-a format compania Solix.\nSolix este compania, care se focusează asupra dezvoltării soluțiilor inginerești pe piața energetică, cu utilizarea surselor de energie renovabile. Noi ne dorim să ajungem la răspândirea principiilor moderne de utilizare a energiei din surse renovabile.\nSolix este o companie social responsabilă, așadar noi ne aducem aportul în dezvoltarea statornică și atașarea precaută față de mediul ambiant, încorporând tehnologii ecologice și sigure.",
+    "economy": {
+        "title": "Ne-am ajutat clienții să economisească <br> <span class='number'>3 859 357</span> MDL",
+        "text": "Energia solară asigură eficiență pe tot parcursul anului și economisirea în orice climă. Pe clienții Solix nu îi preocupă sporirea prețurilor la curentul electric. Sistemul dvs. de energie solară vă va economisi banii începând cu momentul când îl veți aprinde.",
+        "data": [
+            {
+                "name": "Puterea MW",
+                "value": "25"
+            },
+            {
+                "name": "Milioane de MDL la 1 kWh",
+                "value": "1,3"
+            },
+            {
+                "name": "Economii",
+                "value": "50%"
+            },
+            {
+                "name": "Puterea kW a SPP",
+                "value": "5"
+            }
+        ]
+    },
+    "values":{
+        "title":"Valori",
+        "list":[
+            {
+                "title": "Soluție «la cheie»",
+                "text": "noi proiectăm și construim «la cheie» obiectele de orice voltaj atât pentru generarea de rețea, cât și pentru cea autonomă, luând în considerare toate necesitățile și cererile clientului."
+            },
+            {
+                "title": "Abordare individuală",
+                "text": "noi nu lucrăm cu proiectele tipice sau gata făcute. Soluțiile noastre tehnice sunt optimizate pentru fiecare proiect în parte, cu luarea în considerare a tuturor caracteristicilor locuinței sau a unităților dvs. industriale."
+            },
+            {
+                "title": "Calitate",
+                "text": "noi nu ieșim la compromis în ceea ce privește chestiunile de calitate. Noi în continuu lucrăm asupra ameliorării și elaborării soluțiilor energetice optime și utilizăm doar tehnologiile verificate."
+            },
+            {
+                "title": "Inovații",
+                "text": "companie noastră a fost fondată pe baza inovațiilor. Noi creăm soluții energetice inovative în concordanță cu atitudinea pro-ecologică și asigurarea continuă a îmbunătățirii proceselor și a producției noastre."
+            }
+        ]
+    }
+}

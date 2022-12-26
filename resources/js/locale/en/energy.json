@@ -1,0 +1,15 @@
+{
+    "title": "Green electricity for own needs",
+    "items": [
+        {
+            "title": "Net accounting",
+            "text": "This mechanism is aimed at end-users. Owners of power plant systems that produce renewable energy for their own needs and who have entered into a contract with the supplier for the supply of electricity at a regulated price will benefit from the net metering mechanism.",
+            "src": "/assets/icons/research.png"
+        },
+        {
+            "title": "Direct Benefits",
+            "text": "End-users who produce renewable energy for their own use can significantly lower their electricity bills or become supplier independent.",
+            "src": "/assets/icons/sun.png"
+        }
+    ]
+}

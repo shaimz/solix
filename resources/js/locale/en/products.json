@@ -1,0 +1,18 @@
+{
+    "title": "Products",
+    "sidebar": {
+        "title": "Catalog"
+    },
+    "categories" : {
+        "all": "All products"
+    },
+    "available" : "Available",
+    "notAvailable" : "Not available",
+    "price": "Price",
+    "order": "Order",
+    "description": "Description",
+    "features": "Specifications",
+    "advantages": "Advantages",
+    "all": "All products",
+    "moreTitle": "Buy with this product"
+}

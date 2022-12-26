@@ -1,0 +1,15 @@
+{
+    "title": "Energie electrică verde pentru consum propriu",
+    "items": [
+        {
+            "title": "Contorizare Netă",
+            "text": "Acest mecanism vizează consumatorii finali. Deţinătorii centralelor electrice, care produc energie regenerabilă pentru uz propriu și care au încheiat cu furnizorul un contract de furnizare a energiei electrice la preţ reglementat, vor beneficia de mecanismul de contorizare netă.",
+            "src": "/assets/icons/research.png"
+        },
+        {
+            "title": "Beneficii directe",
+            "text": "Consumatorii finali care vor produce energie regenerabilă pentru consum propriu își pot reduce considerabil factura pentru energia electrică sau pot deveni independenți de furnizor.",
+            "src": "/assets/icons/sun.png"
+        }
+    ]
+}

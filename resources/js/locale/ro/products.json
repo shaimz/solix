@@ -1,0 +1,18 @@
+{
+    "title": "Produse",
+    "sidebar": {
+        "title": "Catalog"
+    },
+    "categories" : {
+        "all": "Toate produsele"
+    },
+    "available" : "În stoc",
+    "notAvailable" : "În afara stocului",
+    "price": "Preț",
+    "order": "Comandă",
+    "description": "Descriere",
+    "features": "Caracteristici",
+    "advantages": "Avantaje",
+    "all": "Toate produsele",
+    "moreTitle": "Cumpărați cu acest produs"
+}

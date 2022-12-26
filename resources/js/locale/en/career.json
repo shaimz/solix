@@ -1,0 +1,14 @@
+{
+    "title": "Career",
+    "button": "Navigate",
+    "offers": {
+        "title": "What awaits you"
+    },
+    "requirements": {
+        "title": "What we expect from you"
+    },
+    "footer": {
+        "text": "Let's grow up together and make free electricity!",
+        "button": "Reply"
+    }
+}

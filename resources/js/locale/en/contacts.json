@@ -1,0 +1,28 @@
+{
+    "title": "Contacts",
+    "text": "If you have any questions, please leave a request or don't hesitate to contact us directly",
+    "list": [
+        {
+            "icon": "/assets/icons/phone.svg",
+            "title": "Phone number",
+            "id": "phone",
+            "value": "+373 78 972 603"
+        },
+        {
+            "icon": "/assets/icons/mailbox.png",
+            "title": "Email",
+            "id": "email",
+            "value": "info@solix.md",
+            "valueHR": "hr@solix.md"
+        },
+        {
+            "icon": "/assets/icons/location.png",
+            "title": "Location",
+            "id": "location",
+            "value": "Moldova, Chisinau"
+        }
+    ],
+    "card": {
+        "title": "Ask a question"
+    }
+}

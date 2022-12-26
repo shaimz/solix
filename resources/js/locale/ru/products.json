@@ -1,0 +1,18 @@
+{
+    "title": "Продукция",
+    "sidebar": {
+        "title": "Каталог"
+    },
+    "categories" : {
+        "all": "Вся продукция"
+    },
+    "available" : "В наличии",
+    "notAvailable" : "Нет в наличие",
+    "price": "Цена",
+    "order": "Заказать",
+    "description": "Описание",
+    "advantages": "Преимущества",
+    "features": "Характеристика",
+    "all": "Все товары",
+    "moreTitle": "С этим товаром покупают"
+}

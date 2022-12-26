@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "label": "Sorteaza dupa dată",
+            "name": "date"
+        },
+        {
+            "label": "Sorteaza dupa nume",
+            "name": "name"
+        },
+        {
+            "label": "Sorteaza după preț",
+            "name": "price"
+        }
+    ]
+}

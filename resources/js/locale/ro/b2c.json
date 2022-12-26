@@ -1,0 +1,268 @@
+{
+    "header": {
+        "title": "Energie solară pentru casa ta",
+        "text": "Energia solară este o sursă alternativă de furnizare a energiei, garantând o sursă de alimentare stabilă la casa dvs. și o reducere semnificativă a costurilor cu energia.",
+        "button": "Solicită un apel"
+    },
+    "features": {
+        "title": "Avantajele utilizării",
+        "text": "Energia solară este o sursă de încredere de alimentare electrică a casei dvs., care garantează accesul stabil al casei dvs. la energie alternativă. Sistemul dvs. de energie solară vă va economisi banii începând cu momentul când îl veți aprinde. Noi creăm soluții tehnice individuale pentru fiecare client Solix. Încredințați alegerea optimă a soluției complete pentru dvs. inginerilor noștri de înaltă calificare.",
+        "button": "Solicitați un apel",
+        "cards": [
+            {
+                "img": "/assets/icons/features/ecology-1.png",
+                "title": "Ecologia",
+                "text": "Energia solară – metoda perfectă pentru diminuarea amprentei de carbon. Un sistem tipic de baterii solare, în procesul funcționării, înlătură de la 11 la 24 de tone de emisii de carbon per an, ceea ce este echivalent cu sădirea anuală a 600 de copaci și mai mult."
+            },
+            {
+                "img": "/assets/icons/features/plant-1.png",
+                "title": "Economisirea",
+                "text": "Diminuați sau refuzați complet la chitanța pentru consumul de energie electrică. Cu ajutorul sistemului de baterii solare dvs. veți putea genera gratuit energie electrică pe parcursului întregului ciclu de viață de 25 de ani a sistemului dvs."
+            },
+            {
+                "img": "/assets/icons/features/light-bulb-1.png",
+                "title": "Cheltuielile previzibile",
+                "text": "Investind în sistemul energetic solar acum, vă puteți fixa tariful pentru energia electrică și să vă protejați de creșterea nepreconizată a cheltuielilor. Trecerea la energia solară vă va ajuta, de asemenea, să prognozați cheltuielile dvs. și să le gestionați."
+            },
+            {
+                "img": "/assets/icons/features/diploma-1.png",
+                "title": "Competitivitatea",
+                "text": "Companiile înțeleg rapid avantajele economice de utilizare a energiei solare. Dat fiind faptul că utilizatorii deja depășesc concurenții, noi propunem tratarea energiei solare drept a unei metode de a rămâne competitivi."
+            },
+            {
+                "img": "/assets/icons/features/green-energy-1.png",
+                "title": "Disponibilitatea",
+                "text": "Energia solară este o sursă gratuită de energie, deoarece nimeni nu poate monopoliza lumina soarelui. Panoul dvs. de energie solară va începe să economisească bani din momentul în care îl porniți."
+            },
+            {
+                "img": "/assets/icons/features/gauge-1.png",
+                "title": "Autonomie și independență",
+                "text": "Un panou electric propriu reprezintă garanția calmului, independenței și siguranței energetice pentru business și casă. De acum înainte, vântul, ploaia, zăpada sau ruptura cablurilor electrice nu vă vor mai deranja."
+            }
+        ]
+    },
+    "partners": {
+        "title": "Ce este inclus în set",
+        "cards": [
+            {
+                "title": "Module solare",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Acumulator electric (pentru seturile autonome)",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Controlor",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Scut electric",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Cablu solar",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Structuri de sprijin (opțional)",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Conectori MC4",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title": "Invertor",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            }
+        ]
+    },
+    "variants": {
+        "title": "Variante de amplasare",
+        "list": [
+            {
+                "listItem": "Pe acoperiș",
+                "text": "Cea mai optimă variantă pentru obiectele situate pe un teren de pământ mic. Modulele solare Solix pot fi montate atât pe acoperișurile plane, cât și pe cele cu pantă, care sunt întrebuințate cel mai des în construcția caselor la moment. Specialiștii noștri mereu vor găsi soluția optimă pentru amplasarea panourilor solare pentru orice model arhitectural sau de design.",
+                "advantages": {
+                    "title": "Avantajele amplasării panourilor solare pe acoperiș",
+                    "items": [
+                        "Lipsa necesității de amplasare a panourilor pe pământul costisitor",
+                        "Izolare fonică suplimentară și protecția acoperișului de precipitațiile atmosferice"
+                    ]
+                },
+                "card": [
+                    {
+                        "name": "Montarea și conectarea",
+                        "value": "3 zile"
+                    },
+                    {
+                        "name": "Garanția de eficiență",
+                        "value": "30 ani"
+                    }
+                ]
+            },
+            {
+                "listItem": "Pe pământ",
+                "text": "Este posibilă amplasarea panoului solar direct pe pământ cu utilizarea structurilor de sprijin. Pentru aceasta este necesară alegerea locului, care nu se va umbri din cauza obiectelor ce se află în apropiere. Montarea construcțiilor de sprijin se realizează în două etape: mai întâi este montată baza, de regulă de beton, și doar apoi pe ea sunt amplasate construcțiile propriu-zise.",
+                "card": [
+                    {
+                        "name": "Montarea și conectarea",
+                        "value": "3 zile"
+                    },
+                    {
+                        "name": "Garanția de eficiență",
+                        "value": "30 ani"
+                    }
+                ]
+            }
+        ]
+    },
+    "connections": {
+        "title": "Tipuri de conectare",
+        "tabs": [
+            {
+                "title": "Autonomă",
+                "text": "Centrala electrică autonomă este menită pentru asigurarea electrică autonomă a caselor și diferitor obiecte amplasate la depărtare de rețelele centralizate, sau în caz de necesitate de rezervare sigură a conexiunii existente.",
+                "button": "Solicitați un apel",
+                "tabNumber": 1,
+                "icon": {
+                    "type": "next",
+                    "index": "0"
+                },
+                "cards": [
+                    {
+                        "title": "Achiziție",
+                        "text": "Achiziția centralei solare Solix",
+                        "img": "/assets/icons/panel-factory.png"
+                    },
+                    {
+                        "title": "Montare",
+                        "text": "Montarea centralei solare Solix",
+                        "img": "/assets/icons/tools-factory.png"
+                    }
+                ]
+            },
+            {
+                "title": "Rețea",
+                "text": "O centrală solară autonomă este proiectată pentru alimentarea autonomă a caselor și a diferitelor obiecte situate la distanță de rețeaua centrală sau, dacă este necesar, pentru o copie de siguranță fiabilă a conexiunii existente",
+                "button": "Solicitați un apel",
+                "tabNumber": 2,
+                "icon": {
+                    "type": "next",
+                    "index": "0,1,2"
+                },
+                "cards": [
+                    {
+                        "title": "Achiziție",
+                        "text": "Achiziția centralei solare Solix",
+                        "img": "/assets/icons/panel-factory.png"
+                    },
+                    {
+                        "title": "Montare",
+                        "text": "Montarea centralei solare Solix",
+                        "img": "/assets/icons/tools-factory.png"
+                    },
+                    {
+                        "header": "Companie regională <br/> de rețea electrică",
+                        "group": [
+                            {
+                                "title": "Înregistrarea CT",
+                                "text": "Înregistrarea condițiilor tehnice pentru conectare",
+                                "icon": "plus",
+                                "img": "/assets/icons/paper-factory.png"
+                            },
+                            {
+                                "title": "Instalare",
+                                "text": "Instalarea contorului bidirecțional",
+                                "img": "/assets/icons/123.png"
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Compania dvs. de <br>alimentare",
+                        "title": "Contract",
+                        "text": "Contract de achiziție de electricitate",
+                        "img": "/assets/icons/pen-factory.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "modules": {
+        "title": "Tipuri de module",
+        "tabs": [
+            {
+                "title": "Heterostructurale",
+                "text": "Modulele heterostructurale de noua generație îmbină în sine avantajele tehnologiei din film subțire și a celei cu cristale. Modulele heterostructurale transformă un spectru mai larg de radiații în energie electrică, ceea ce se demonstrează cu ajutorul randamentului de record – până la 23,5% pe celulă, 22% pe modul. Această tehnologie de o eficiență înaltă întră în TOP-5 după efectivitate în lume.",
+                "features": [
+                    {
+                        "value": ">670",
+                        "name": "Până la 670W putere"
+                    },
+                    {
+                        "value": "30",
+                        "name": "Ani de garanție"
+                    }
+                ]
+            },
+            {
+                "title": "Din film subțire",
+                "text": "Modulele fotovoltaice din film subțire sunt produse prin tehnologia micromofă din film subțire, care asigră cea mai rapidă rambursare: modulul micromorf transformă atât radiația invizibilă, cât și cea infraroșie.",
+                "features": [
+                    {
+                        "value": ">460",
+                        "name": "Putere în wați"
+                    },
+                    {
+                        "value": "30",
+                        "name": "Ani de garanție"
+                    }
+                ]
+            }
+        ],
+        "subtabs": [
+            {
+                "id": "one",
+                "title": "Unilateral",
+                "text": ""
+            },
+            {
+                "id": "two",
+                "title": "Bilateral",
+                "text": ""
+            }
+        ]
+    },
+    "map": {
+        "title": "Selecția kitului",
+        "tabs": [
+            {
+                "title": "După parametri",
+                "text": "Marcați-vă obiectul pe hartă, iar calculatorul va analiza climatul așezării și va oferi o soluție unică"
+            },
+            {
+                "title": "По местоположению",
+                "text": "Отметьте ваш объект на карте и калькулятор проанализирует климат населённого пункта и предложит уникальное решение",
+                "inputTitle": "Введите адрес, затем выберите объект на карте",
+                "find": "Найти",
+                "button": "Подобрать комплект"
+            }
+        ]
+    },
+    "energy": {
+        "title": "Energie electrică verde pentru consum propriu",
+        "items": [
+            {
+                "title": "Contorizare Netă",
+                "text": "Acest mecanism vizează consumatorii finali. Deţinătorii centralelor electrice, care produc energie regenerabilă pentru uz propriu și care au încheiat cu furnizorul un contract de furnizare a energiei electrice la preţ reglementat, vor beneficia de mecanismul de contorizare netă.",
+                "src": "/assets/icons/research.png"
+            },
+            {
+                "title": "Beneficii directe",
+                "text": "Consumatorii finali care vor produce energie regenerabilă pentru consum propriu își pot reduce considerabil factura pentru energia electrică sau pot deveni independenți de furnizor.",
+                "src": "/assets/icons/sun.png"
+            }
+        ]
+    }
+}

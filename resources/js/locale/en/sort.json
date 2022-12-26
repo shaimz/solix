@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "label": "Sort by date",
+            "name": "date"
+        },
+        {
+            "label": "Sort by name",
+            "name": "name"
+        },
+        {
+            "label": "Sort by price",
+            "name": "price"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Контакты",
+    "text": "Если у вас есть вопросы, оставьте заявку или свяжитесь с нами напрямую",
+    "list": [
+        {
+            "icon": "/assets/icons/phone.svg",
+            "title": "Телефон",
+            "id": "phone",
+            "value": "+373 78 972 603"
+        },
+        {
+            "icon": "/assets/icons/mailbox.png",
+            "title": "Email",
+            "id": "email",
+            "value": "info@solix.md",
+            "valueHR": "hr@solix.md"
+        },
+        {
+            "icon": "/assets/icons/location.png",
+            "title": "Место нахождения",
+            "id": "location",
+            "value": "Молдова, Кишинев"
+        }
+    ],
+    "card": {
+        "title": "Задать вопрос"
+    }
+}

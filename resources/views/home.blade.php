@@ -110,16 +110,16 @@
     </style>
 </head>
 <body>
-<link rel="preload" href="{{ mix('css/app.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('css/app.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ mix('css/app.css') }}" type="text/css"></noscript>
-<link rel="preload" href="{{ mix('css/1024.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('css/1024.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ mix('css/1024.css') }}" type="text/css"></noscript>
-<link rel="preload" href="{{ mix('css/768.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('css/768.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ mix('css/768.css') }}" type="text/css"></noscript>
-<link rel="preload" href="{{ mix('css/320.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('css/320.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ mix('css/320.css') }}" type="text/css"></noscript>
-<link rel="preload" href="{{ mix('css/0.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ mix('css/0.css') }}" type="text/css"></noscript>
+<link rel="preload" href="{{ asset('css/0.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ asset('css/0.css') }}" type="text/css"></noscript>
 <div id="app">
     <public></public>
 </div>

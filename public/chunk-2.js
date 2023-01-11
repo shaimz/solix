@@ -1,14 +1,1346 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2"],{"./resources/js/components/backend/careers/AddCareers.vue":
-/*!****************************************************************************!*\
-  !*** ./resources/js/components/backend/careers/AddCareers.vue + 4 modules ***!
-  \****************************************************************************/
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-2"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VBtn/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VForm/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VGrid/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VRadioGroup/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VTextField/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VTextarea/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/event/eventbus.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify-loader/lib/runtime/installComponents.js (<- Module is not an ECMAScript module) */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    "div",\n    { attrs: { id: "add-item-page" } },\n    [\n      _c("Navbar", {\n        attrs: {\n          tabs: [{ Careers: "Careers", "Add Job": "Add Job" }],\n          heading: "Job",\n          "email-page": true\n        }\n      }),\n      _vm._v(" "),\n      _c(\n        "v-form",\n        {\n          ref: "form",\n          staticClass: "add-news add-career",\n          class: [_vm.loading ? "loading-form" : ""],\n          attrs: { method: "POST", enctype: "multipart/form-data" },\n          model: {\n            value: _vm.form.valid,\n            callback: function($$v) {\n              _vm.$set(_vm.form, "valid", $$v)\n            },\n            expression: "form.valid"\n          }\n        },\n        [\n          _c("input", {\n            attrs: { type: "hidden", name: "_token" },\n            domProps: { value: _vm.csrf }\n          }),\n          _vm._v(" "),\n          _vm.loading ? _c("div", { staticClass: "lds-dual-ring" }) : _vm._e(),\n          _vm._v(" "),\n          _c("div", [\n            _c("h4", { staticClass: "form-title" }, [\n              _vm._v(_vm._s(_vm.updatePage ? "Edit Job" : "Add Job"))\n            ]),\n            _vm._v(" "),\n            _c("ul", { staticClass: "list-group-inline" }, [\n              _c("li", { staticClass: "nav-item", attrs: { "data-id": "3" } }, [\n                _c(\n                  "a",\n                  {\n                    staticClass: "nav-link",\n                    class: { active: _vm.isActive(3) },\n                    attrs: { href: "#rus" },\n                    on: {\n                      click: function($event) {\n                        $event.preventDefault()\n                        return _vm.setActive($event, 3)\n                      }\n                    }\n                  },\n                  [_vm._v("RUS")]\n                )\n              ]),\n              _vm._v(" "),\n              _c("li", { staticClass: "nav-item", attrs: { "data-id": "1" } }, [\n                _c(\n                  "a",\n                  {\n                    staticClass: "nav-link",\n                    class: { active: _vm.isActive(1) },\n                    attrs: { href: "#eng" },\n                    on: {\n                      click: function($event) {\n                        $event.preventDefault()\n                        return _vm.setActive($event, 1)\n                      }\n                    }\n                  },\n                  [_vm._v("ENG")]\n                )\n              ]),\n              _vm._v(" "),\n              _c("li", { staticClass: "nav-item", attrs: { "data-id": "2" } }, [\n                _c(\n                  "a",\n                  {\n                    staticClass: "nav-link",\n                    class: { active: _vm.isActive(2) },\n                    attrs: { href: "#ro" },\n                    on: {\n                      click: function($event) {\n                        $event.preventDefault()\n                        return _vm.setActive($event, 2)\n                      }\n                    }\n                  },\n                  [_vm._v("RO")]\n                )\n              ])\n            ])\n          ]),\n          _vm._v(" "),\n          _c(\n            "div",\n            { staticClass: "tab-content py-3", attrs: { id: "addNewsTabs" } },\n            [\n              _c(\n                "div",\n                {\n                  staticClass: "tab-pane fade",\n                  class: { "active show": _vm.isActive(1) },\n                  attrs: { id: "eng" }\n                },\n                [\n                  _c(\n                    "v-container",\n                    [\n                      _c(\n                        "v-row",\n                        [\n                          _c("h5", { staticClass: "row-title" }, [\n                            _vm._v("Visibility")\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c(\n                                "v-radio-group",\n                                {\n                                  attrs: { row: "", mandatory: "" },\n                                  model: {\n                                    value: _vm.form[1].available,\n                                    callback: function($$v) {\n                                      _vm.$set(_vm.form[1], "available", $$v)\n                                    },\n                                    expression: "form[1].available"\n                                  }\n                                },\n                                [\n                                  _c("v-radio", {\n                                    attrs: {\n                                      color: "success",\n                                      value: 1,\n                                      label: "Show"\n                                    }\n                                  }),\n                                  _vm._v(" "),\n                                  _c("v-radio", {\n                                    attrs: {\n                                      color: "success",\n                                      value: 0,\n                                      label: "Hide"\n                                    }\n                                  })\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c("h5", { staticClass: "row-title" }, [\n                            _vm._v("Name")\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-text-field", {\n                                attrs: {\n                                  placeholder: "Name",\n                                  required: "",\n                                  rules: _vm.form[1].nameRules\n                                },\n                                model: {\n                                  value: _vm.form[1].name,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[1], "name", $$v)\n                                  },\n                                  expression: "form[1].name"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-text-field", {\n                                attrs: {\n                                  placeholder: "Location",\n                                  required: ""\n                                },\n                                model: {\n                                  value: _vm.form[1].location,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[1], "location", $$v)\n                                  },\n                                  expression: "form[1].location"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-textarea", {\n                                attrs: {\n                                  placeholder: "Job description",\n                                  required: "",\n                                  name: "text",\n                                  rules: _vm.form[1].descriptionRules\n                                },\n                                model: {\n                                  value: _vm.form[1].description,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[1], "description", $$v)\n                                  },\n                                  expression: "form[1].description"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        { staticClass: "d-flex justify-content-end" },\n                        [\n                          _c(\n                            "v-btn",\n                            {\n                              staticClass: "discard-form",\n                              attrs: { width: "auto" },\n                              on: { click: _vm.discard }\n                            },\n                            [\n                              _vm._v(\n                                "\\n                            Discard\\n                        "\n                              )\n                            ]\n                          ),\n                          _vm._v(" "),\n                          _vm.updatePage\n                            ? _c(\n                                "v-btn",\n                                {\n                                  staticClass: "submit-form",\n                                  attrs: { width: "auto", right: "" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.stopPropagation()\n                                      $event.preventDefault()\n                                      return _vm.update($event)\n                                    }\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    "\\n                            UPDATE\\n                        "\n                                  )\n                                ]\n                              )\n                            : _c(\n                                "v-btn",\n                                {\n                                  staticClass: "submit-form",\n                                  attrs: { width: "auto", right: "" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.stopPropagation()\n                                      $event.preventDefault()\n                                      return _vm.send($event)\n                                    }\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    "\\n                            SEND\\n                        "\n                                  )\n                                ]\n                              )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c("input", {\n                        attrs: { type: "hidden" },\n                        domProps: { value: 1 }\n                      })\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(" "),\n              _c(\n                "div",\n                {\n                  staticClass: "tab-pane fade",\n                  class: { "active show": _vm.isActive(2) },\n                  attrs: { id: "ro" }\n                },\n                [\n                  _c(\n                    "v-container",\n                    [\n                      _c(\n                        "v-row",\n                        [\n                          _c("h5", { staticClass: "row-title" }, [\n                            _vm._v("Visibility")\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c(\n                                "v-radio-group",\n                                {\n                                  attrs: { row: "", mandatory: "" },\n                                  model: {\n                                    value: _vm.form[2].available,\n                                    callback: function($$v) {\n                                      _vm.$set(_vm.form[2], "available", $$v)\n                                    },\n                                    expression: "form[2].available"\n                                  }\n                                },\n                                [\n                                  _c("v-radio", {\n                                    attrs: {\n                                      color: "success",\n                                      value: 1,\n                                      label: "Show"\n                                    }\n                                  }),\n                                  _vm._v(" "),\n                                  _c("v-radio", {\n                                    attrs: {\n                                      color: "success",\n                                      value: 0,\n                                      label: "Hide"\n                                    }\n                                  })\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c("h5", { staticClass: "row-title" }, [\n                            _vm._v("Career")\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-text-field", {\n                                attrs: { placeholder: "Name" },\n                                model: {\n                                  value: _vm.form[2].name,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[2], "name", $$v)\n                                  },\n                                  expression: "form[2].name"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-text-field", {\n                                attrs: {\n                                  placeholder: "Location",\n                                  required: ""\n                                },\n                                model: {\n                                  value: _vm.form[2].location,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[2], "location", $$v)\n                                  },\n                                  expression: "form[2].location"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-textarea", {\n                                attrs: {\n                                  placeholder: "Job description",\n                                  required: "",\n                                  name: "text"\n                                },\n                                model: {\n                                  value: _vm.form[2].description,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[2], "description", $$v)\n                                  },\n                                  expression: "form[2].description"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        { staticClass: "d-flex justify-content-end" },\n                        [\n                          _c(\n                            "v-btn",\n                            {\n                              staticClass: "discard-form",\n                              attrs: { width: "auto" },\n                              on: { click: _vm.discard }\n                            },\n                            [\n                              _vm._v(\n                                "\\n                            Discard\\n                        "\n                              )\n                            ]\n                          ),\n                          _vm._v(" "),\n                          _vm.updatePage\n                            ? _c(\n                                "v-btn",\n                                {\n                                  staticClass: "submit-form",\n                                  attrs: { width: "auto", right: "" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.stopPropagation()\n                                      $event.preventDefault()\n                                      return _vm.update($event)\n                                    }\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    "\\n                            UPDATE\\n                        "\n                                  )\n                                ]\n                              )\n                            : _c(\n                                "v-btn",\n                                {\n                                  staticClass: "submit-form",\n                                  attrs: { width: "auto", right: "" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.stopPropagation()\n                                      $event.preventDefault()\n                                      return _vm.send($event)\n                                    }\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    "\\n                            SEND\\n                        "\n                                  )\n                                ]\n                              )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c("input", {\n                        attrs: { type: "hidden" },\n                        domProps: { value: 2 }\n                      })\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(" "),\n              _c(\n                "div",\n                {\n                  staticClass: "tab-pane fade",\n                  class: { "active show": _vm.isActive(3) },\n                  attrs: { id: "rus" }\n                },\n                [\n                  _c(\n                    "v-container",\n                    [\n                      _c(\n                        "v-row",\n                        [\n                          _c("h5", { staticClass: "row-title" }, [\n                            _vm._v("Visibility")\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c(\n                                "v-radio-group",\n                                {\n                                  attrs: { row: "", mandatory: "" },\n                                  model: {\n                                    value: _vm.form[3].available,\n                                    callback: function($$v) {\n                                      _vm.$set(_vm.form[3], "available", $$v)\n                                    },\n                                    expression: "form[3].available"\n                                  }\n                                },\n                                [\n                                  _c("v-radio", {\n                                    attrs: {\n                                      color: "success",\n                                      value: 1,\n                                      label: "Show"\n                                    }\n                                  }),\n                                  _vm._v(" "),\n                                  _c("v-radio", {\n                                    attrs: {\n                                      color: "success",\n                                      value: 0,\n                                      label: "Hide"\n                                    }\n                                  })\n                                ],\n                                1\n                              )\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c("h5", { staticClass: "row-title" }, [\n                            _vm._v("Career")\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-text-field", {\n                                attrs: { placeholder: "Name" },\n                                model: {\n                                  value: _vm.form[3].name,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[3], "name", $$v)\n                                  },\n                                  expression: "form[3].name"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-text-field", {\n                                attrs: {\n                                  placeholder: "Location",\n                                  required: ""\n                                },\n                                model: {\n                                  value: _vm.form[3].location,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[3], "location", $$v)\n                                  },\n                                  expression: "form[3].location"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        [\n                          _c(\n                            "v-col",\n                            { attrs: { cols: "12" } },\n                            [\n                              _c("v-textarea", {\n                                attrs: {\n                                  placeholder: "Job description",\n                                  required: "",\n                                  name: "text"\n                                },\n                                model: {\n                                  value: _vm.form[3].description,\n                                  callback: function($$v) {\n                                    _vm.$set(_vm.form[3], "description", $$v)\n                                  },\n                                  expression: "form[3].description"\n                                }\n                              })\n                            ],\n                            1\n                          )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "v-row",\n                        { staticClass: "d-flex justify-content-end" },\n                        [\n                          _c(\n                            "v-btn",\n                            {\n                              staticClass: "discard-form",\n                              attrs: { width: "auto" },\n                              on: { click: _vm.discard }\n                            },\n                            [\n                              _vm._v(\n                                "\\n                            Discard\\n                        "\n                              )\n                            ]\n                          ),\n                          _vm._v(" "),\n                          _vm.updatePage\n                            ? _c(\n                                "v-btn",\n                                {\n                                  staticClass: "submit-form",\n                                  attrs: { width: "auto", right: "" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.stopPropagation()\n                                      $event.preventDefault()\n                                      return _vm.update($event)\n                                    }\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    "\\n                            UPDATE\\n                        "\n                                  )\n                                ]\n                              )\n                            : _c(\n                                "v-btn",\n                                {\n                                  staticClass: "submit-form",\n                                  attrs: { width: "auto", right: "" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.stopPropagation()\n                                      $event.preventDefault()\n                                      return _vm.send($event)\n                                    }\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    "\\n                            SEND\\n                        "\n                                  )\n                                ]\n                              )\n                        ],\n                        1\n                      ),\n                      _vm._v(" "),\n                      _c("input", {\n                        attrs: { type: "hidden" },\n                        domProps: { value: 3 }\n                      })\n                    ],\n                    1\n                  )\n                ],\n                1\n              ),\n              _vm._v(" "),\n              _c("p", { staticClass: "text-center text-danger mt-3" }, [\n                _vm._v(\n                  _vm._s(\n                    _vm.form[_vm.lang_id].errors\n                      ? _vm.form[_vm.lang_id].errors\n                      : ""\n                  )\n                )\n              ]),\n              _vm._v(" "),\n              _c("p", { staticClass: "text-center text-success mt-3" }, [\n                _vm._v(\n                  _vm._s(\n                    _vm.form[_vm.lang_id].success\n                      ? _vm.form[_vm.lang_id].success\n                      : ""\n                  )\n                )\n              ])\n            ]\n          )\n        ]\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818&\n\n// EXTERNAL MODULE: ./resources/js/event/eventbus.js\nvar eventbus = __webpack_require__("./resources/js/event/eventbus.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n\nconst Navbar = () => __webpack_require__.e(/*! import() */ "chunk-7").then(__webpack_require__.bind(null, /*! ../includes/Navbar */ "./resources/js/components/backend/includes/Navbar.vue"));\n\n/* harmony default export */ var AddCareersvue_type_script_lang_js_ = ({\n  name: \'Career\',\n  components: {\n    Navbar\n  },\n  props: [\'lang\', \'id\'],\n\n  data() {\n    return {\n      csrf: document.querySelector(\'meta[name="csrf-token"]\').getAttribute(\'content\'),\n      updatePage: false,\n      form: [],\n      lang_id: 2,\n      loading: false\n    };\n  },\n\n  created: function () {\n    this.lang_id = Vue.ls.get(\'language\', 1);\n\n    let _this = this;\n\n    Vue.ls.on(\'language\', function (val) {\n      _this.lang_id = val;\n    });\n\n    for (let i = 1; i < 4; i++) {\n      Vue.set(this.form, i, {\n        valid: false,\n        status: 1,\n        header: \'\',\n        description: \'\',\n        descriptionRules: [v => !!v || \'Description is required\'],\n        name: \'\',\n        nameRules: [v => !!v || \'Name is required\'],\n        activeItem: i,\n        errors: \'\',\n        success: \'\'\n      });\n    }\n  },\n  methods: {\n    setActive(event, menuItem) {\n      let thisForm = { ...this.form\n      };\n      let language = this.lang_id;\n      this.lang_id = menuItem;\n      Vue.ls.set(\'language\', parseInt(menuItem));\n\n      if (Array.from(this.$store.state.dataForm).find(item => item.activeItem === menuItem)) {\n        /*       if(!this.updatePage){\n                   if(language !== menuItem){\n                       this.$store.dispatch(\'dataForm\',thisForm);\n                   }\n               }*/\n        this.form = this.$store.state.dataForm;\n      } else {\n        this.form.name = \'\';\n        this.form.description = \'\';\n        this.form.location = \'\';\n      }\n\n      if (this.updatePage) {\n        if (language !== menuItem) {\n          this.$store.dispatch(\'singleCareer\', {\n            id: this.$route.params.id,\n            lang_id: menuItem\n          }).then(() => {\n            let data = [];\n            let career = this.careers;\n\n            if (career[\'translates\']) {\n              data = career;\n            } else {\n              this.form[menuItem][\'name\'] = \'\';\n              this.form[menuItem][\'description\'] = \'\';\n              this.form[menuItem][\'location\'] = \'\';\n            }\n\n            for (let elem in data) {\n              if (data[elem]) {\n                if (typeof data[elem] === \'object\') {\n                  for (let e in data[elem]) {\n                    if (data[elem][e]) {\n                      this.form[menuItem][e] = data[elem][e];\n                    }\n                  }\n                } else {\n                  this.form[menuItem][elem] = data[elem];\n                  this.form[menuItem][\'status\'] = parseInt(data[\'status\']);\n                }\n              }\n            }\n          });\n        }\n      }\n\n      this.$store.dispatch(\'dataForm\', thisForm);\n    },\n\n    isActive(menuItem) {\n      if (this.getRoute(this.$route.path)) {\n        this.updatePage = true;\n      }\n\n      return parseInt(menuItem) === parseInt(this.lang_id);\n    },\n\n    discard() {\n      this.$refs.form.reset();\n\n      if (this.updatePage) {\n        this.$store.dispatch(\'page\', this.$route.params.pagination);\n      }\n\n      this.$router.go(-1);\n    },\n\n    send() {\n      let form = new FormData();\n      let process = false;\n      this.form.forEach((f, i) => {\n        if (f.name) {\n          form.append(\'file\', f.file);\n          form.append(\'data[]\', JSON.stringify(f));\n        }\n\n        process = true;\n\n        if (!f.name && i === this.lang_id) {\n          this.form[i].errors = \'Some fields needs to be completed\';\n          process = false;\n        }\n      });\n\n      if (process) {\n        axios.post(\'/admin/careers/add\', form).then(res => {\n          if (res.status === 200 && !res.data.error) {\n            process = false;\n            this.$router.go(-1);\n          } else {\n            this.form[this.lang_id].errors = res.data.error;\n          }\n        });\n      }\n    },\n\n    update() {\n      this.loading = true;\n      this.form.forEach((f, i) => {\n        if (f.name) {\n          let form = new FormData();\n          form.append(\'data\', JSON.stringify(f));\n          axios.post(`/admin/careers/${this.$route.params.id}`, form).then(res => {\n            if (this.form[i + 1] === undefined || !this.form[i + 1].name) {\n              this.loading = false;\n              this.form[i].success = \'Updated successfully\';\n              setTimeout(() => {\n                this.form[i].success = \'\';\n              }, 3000);\n            }\n          });\n        } else if (!f.name && i === this.lang_id) {\n          this.form[i].errors = \'Some fields needs to be completed\';\n        }\n      });\n    },\n\n    getRoute(route) {\n      let length = route.split("/").length;\n      let array = route.split(\'/\');\n      return array[length - 1] === \'edit\';\n    }\n\n  },\n\n  mounted() {\n    this.lang_id = 2;\n    this.$store.state.dataForm = [];\n\n    if (this.updatePage) {\n      this.$store.dispatch(\'singleCareer\', {\n        id: this.$route.params.id,\n        lang_id: this.lang_id\n      }).then(() => {\n        let data = [];\n\n        if (this.careers[\'id\']) {\n          data = this.careers;\n        }\n\n        for (let elem in data) {\n          if (data[elem]) {\n            if (typeof data[elem] === \'object\') {\n              for (let e in data[elem]) {\n                if (data[elem][e]) {\n                  this.form[this.lang_id][e] = data[elem][e];\n                }\n              }\n            } else {\n              this.form[this.lang_id][elem] = data[elem];\n            }\n          }\n        }\n      });\n    }\n  },\n\n  watch: {\n    lang_id: function (val) {\n      Vue.ls.set(\'language\', val);\n    }\n  },\n  computed: {\n    careers() {\n      return this.$store.getters.getSingleCareer;\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js&\n /* harmony default export */ var careers_AddCareersvue_type_script_lang_js_ = (AddCareersvue_type_script_lang_js_); \n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify-loader/lib/runtime/installComponents.js\nvar installComponents = __webpack_require__("./node_modules/vuetify-loader/lib/runtime/installComponents.js");\nvar installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBtn/index.js\nvar VBtn = __webpack_require__("./node_modules/vuetify/lib/components/VBtn/index.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VGrid/index.js + 9 modules\nvar VGrid = __webpack_require__("./node_modules/vuetify/lib/components/VGrid/index.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VForm/index.js + 1 modules\nvar VForm = __webpack_require__("./node_modules/vuetify/lib/components/VForm/index.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VRadioGroup/index.js + 4 modules\nvar VRadioGroup = __webpack_require__("./node_modules/vuetify/lib/components/VRadioGroup/index.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextField/index.js\nvar VTextField = __webpack_require__("./node_modules/vuetify/lib/components/VTextField/index.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTextarea/index.js + 2 modules\nvar VTextarea = __webpack_require__("./node_modules/vuetify/lib/components/VTextarea/index.js");\n\n// CONCATENATED MODULE: ./resources/js/components/backend/careers/AddCareers.vue\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  careers_AddCareersvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* vuetify-loader */\n\n\n\n\n\n\n\n\n\n\ninstallComponents_default()(component, {VBtn: VBtn["VBtn"],VCol: VGrid["VCol"],VContainer: VGrid["VContainer"],VForm: VForm["VForm"],VRadio: VRadioGroup["VRadio"],VRadioGroup: VRadioGroup["VRadioGroup"],VRow: VGrid["VRow"],VTextField: VTextField["VTextField"],VTextarea: VTextarea["VTextarea"]})\n\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/backend/careers/AddCareers.vue"\n/* harmony default export */ var AddCareers = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/backend/careers/AddCareers.vue_+_4_modules?')}}]);
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _event_eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../event/eventbus */ "./resources/js/event/eventbus.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+var Navbar = function Navbar() {
+  return __webpack_require__.e(/*! import() */ "chunk-7").then(__webpack_require__.bind(null, /*! ../includes/Navbar */ "./resources/js/components/backend/includes/Navbar.vue"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'Career',
+  components: {
+    Navbar: Navbar
+  },
+  props: ['lang', 'id'],
+  data: function data() {
+    return {
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+      updatePage: false,
+      form: [],
+      lang_id: 2,
+      loading: false
+    };
+  },
+  created: function created() {
+    this.lang_id = Vue.ls.get('language', 1);
+
+    var _this = this;
+
+    Vue.ls.on('language', function (val) {
+      _this.lang_id = val;
+    });
+
+    for (var i = 1; i < 4; i++) {
+      Vue.set(this.form, i, {
+        valid: false,
+        status: 1,
+        header: '',
+        description: '',
+        descriptionRules: [function (v) {
+          return !!v || 'Description is required';
+        }],
+        name: '',
+        nameRules: [function (v) {
+          return !!v || 'Name is required';
+        }],
+        activeItem: i,
+        errors: '',
+        success: ''
+      });
+    }
+  },
+  methods: {
+    setActive: function setActive(event, menuItem) {
+      var _this2 = this;
+
+      var thisForm = _objectSpread({}, this.form);
+
+      var language = this.lang_id;
+      this.lang_id = menuItem;
+      Vue.ls.set('language', parseInt(menuItem));
+
+      if (Array.from(this.$store.state.dataForm).find(function (item) {
+        return item.activeItem === menuItem;
+      })) {
+        /*       if(!this.updatePage){
+                   if(language !== menuItem){
+                       this.$store.dispatch('dataForm',thisForm);
+                   }
+               }*/
+        this.form = this.$store.state.dataForm;
+      } else {
+        this.form.name = '';
+        this.form.description = '';
+        this.form.location = '';
+      }
+
+      if (this.updatePage) {
+        if (language !== menuItem) {
+          this.$store.dispatch('singleCareer', {
+            id: this.$route.params.id,
+            lang_id: menuItem
+          }).then(function () {
+            var data = [];
+            var career = _this2.careers;
+
+            if (career['translates']) {
+              data = career;
+            } else {
+              _this2.form[menuItem]['name'] = '';
+              _this2.form[menuItem]['description'] = '';
+              _this2.form[menuItem]['location'] = '';
+            }
+
+            for (var elem in data) {
+              if (data[elem]) {
+                if (_typeof(data[elem]) === 'object') {
+                  for (var e in data[elem]) {
+                    if (data[elem][e]) {
+                      _this2.form[menuItem][e] = data[elem][e];
+                    }
+                  }
+                } else {
+                  _this2.form[menuItem][elem] = data[elem];
+                  _this2.form[menuItem]['status'] = parseInt(data['status']);
+                }
+              }
+            }
+          });
+        }
+      }
+
+      this.$store.dispatch('dataForm', thisForm);
+    },
+    isActive: function isActive(menuItem) {
+      if (this.getRoute(this.$route.path)) {
+        this.updatePage = true;
+      }
+
+      return parseInt(menuItem) === parseInt(this.lang_id);
+    },
+    discard: function discard() {
+      this.$refs.form.reset();
+
+      if (this.updatePage) {
+        this.$store.dispatch('page', this.$route.params.pagination);
+      }
+
+      this.$router.go(-1);
+    },
+    send: function send() {
+      var _this3 = this;
+
+      var form = new FormData();
+      var process = false;
+      this.form.forEach(function (f, i) {
+        if (f.name) {
+          form.append('file', f.file);
+          form.append('data[]', JSON.stringify(f));
+        }
+
+        process = true;
+
+        if (!f.name && i === _this3.lang_id) {
+          _this3.form[i].errors = 'Some fields needs to be completed';
+          process = false;
+        }
+      });
+
+      if (process) {
+        axios.post('/admin/careers/add', form).then(function (res) {
+          if (res.status === 200 && !res.data.error) {
+            process = false;
+
+            _this3.$router.go(-1);
+          } else {
+            _this3.form[_this3.lang_id].errors = res.data.error;
+          }
+        });
+      }
+    },
+    update: function update() {
+      var _this4 = this;
+
+      this.loading = true;
+      this.form.forEach(function (f, i) {
+        if (f.name) {
+          var form = new FormData();
+          form.append('data', JSON.stringify(f));
+          axios.post("/admin/careers/".concat(_this4.$route.params.id), form).then(function (res) {
+            if (_this4.form[i + 1] === undefined || !_this4.form[i + 1].name) {
+              _this4.loading = false;
+              _this4.form[i].success = 'Updated successfully';
+              setTimeout(function () {
+                _this4.form[i].success = '';
+              }, 3000);
+            }
+          });
+        } else if (!f.name && i === _this4.lang_id) {
+          _this4.form[i].errors = 'Some fields needs to be completed';
+        }
+      });
+    },
+    getRoute: function getRoute(route) {
+      var length = route.split("/").length;
+      var array = route.split('/');
+      return array[length - 1] === 'edit';
+    }
+  },
+  mounted: function mounted() {
+    var _this5 = this;
+
+    this.lang_id = 2;
+    this.$store.state.dataForm = [];
+
+    if (this.updatePage) {
+      this.$store.dispatch('singleCareer', {
+        id: this.$route.params.id,
+        lang_id: this.lang_id
+      }).then(function () {
+        var data = [];
+
+        if (_this5.careers['id']) {
+          data = _this5.careers;
+        }
+
+        for (var elem in data) {
+          if (data[elem]) {
+            if (_typeof(data[elem]) === 'object') {
+              for (var e in data[elem]) {
+                if (data[elem][e]) {
+                  _this5.form[_this5.lang_id][e] = data[elem][e];
+                }
+              }
+            } else {
+              _this5.form[_this5.lang_id][elem] = data[elem];
+            }
+          }
+        }
+      });
+    }
+  },
+  watch: {
+    lang_id: function lang_id(val) {
+      Vue.ls.set('language', val);
+    }
+  },
+  computed: {
+    careers: function careers() {
+      return this.$store.getters.getSingleCareer;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { attrs: { id: "add-item-page" } },
+    [
+      _c("Navbar", {
+        attrs: {
+          tabs: [{ Careers: "Careers", "Add Job": "Add Job" }],
+          heading: "Job",
+          "email-page": true
+        }
+      }),
+      _vm._v(" "),
+      _c(
+        "v-form",
+        {
+          ref: "form",
+          staticClass: "add-news add-career",
+          class: [_vm.loading ? "loading-form" : ""],
+          attrs: { method: "POST", enctype: "multipart/form-data" },
+          model: {
+            value: _vm.form.valid,
+            callback: function($$v) {
+              _vm.$set(_vm.form, "valid", $$v)
+            },
+            expression: "form.valid"
+          }
+        },
+        [
+          _c("input", {
+            attrs: { type: "hidden", name: "_token" },
+            domProps: { value: _vm.csrf }
+          }),
+          _vm._v(" "),
+          _vm.loading ? _c("div", { staticClass: "lds-dual-ring" }) : _vm._e(),
+          _vm._v(" "),
+          _c("div", [
+            _c("h4", { staticClass: "form-title" }, [
+              _vm._v(_vm._s(_vm.updatePage ? "Edit Job" : "Add Job"))
+            ]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "list-group-inline" }, [
+              _c("li", { staticClass: "nav-item", attrs: { "data-id": "3" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    class: { active: _vm.isActive(3) },
+                    attrs: { href: "#rus" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.setActive($event, 3)
+                      }
+                    }
+                  },
+                  [_vm._v("RUS")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item", attrs: { "data-id": "1" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    class: { active: _vm.isActive(1) },
+                    attrs: { href: "#eng" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.setActive($event, 1)
+                      }
+                    }
+                  },
+                  [_vm._v("ENG")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item", attrs: { "data-id": "2" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    class: { active: _vm.isActive(2) },
+                    attrs: { href: "#ro" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.setActive($event, 2)
+                      }
+                    }
+                  },
+                  [_vm._v("RO")]
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "tab-content py-3", attrs: { id: "addNewsTabs" } },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane fade",
+                  class: { "active show": _vm.isActive(1) },
+                  attrs: { id: "eng" }
+                },
+                [
+                  _c(
+                    "v-container",
+                    [
+                      _c(
+                        "v-row",
+                        [
+                          _c("h5", { staticClass: "row-title" }, [
+                            _vm._v("Visibility")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c(
+                                "v-radio-group",
+                                {
+                                  attrs: { row: "", mandatory: "" },
+                                  model: {
+                                    value: _vm.form[1].available,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.form[1], "available", $$v)
+                                    },
+                                    expression: "form[1].available"
+                                  }
+                                },
+                                [
+                                  _c("v-radio", {
+                                    attrs: {
+                                      color: "success",
+                                      value: 1,
+                                      label: "Show"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("v-radio", {
+                                    attrs: {
+                                      color: "success",
+                                      value: 0,
+                                      label: "Hide"
+                                    }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c("h5", { staticClass: "row-title" }, [
+                            _vm._v("Name")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  placeholder: "Name",
+                                  required: "",
+                                  rules: _vm.form[1].nameRules
+                                },
+                                model: {
+                                  value: _vm.form[1].name,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[1], "name", $$v)
+                                  },
+                                  expression: "form[1].name"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  placeholder: "Location",
+                                  required: ""
+                                },
+                                model: {
+                                  value: _vm.form[1].location,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[1], "location", $$v)
+                                  },
+                                  expression: "form[1].location"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-textarea", {
+                                attrs: {
+                                  placeholder: "Job description",
+                                  required: "",
+                                  name: "text",
+                                  rules: _vm.form[1].descriptionRules
+                                },
+                                model: {
+                                  value: _vm.form[1].description,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[1], "description", $$v)
+                                  },
+                                  expression: "form[1].description"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        { staticClass: "d-flex justify-content-end" },
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "discard-form",
+                              attrs: { width: "auto" },
+                              on: { click: _vm.discard }
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Discard\n                        "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _vm.updatePage
+                            ? _c(
+                                "v-btn",
+                                {
+                                  staticClass: "submit-form",
+                                  attrs: { width: "auto", right: "" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.stopPropagation()
+                                      $event.preventDefault()
+                                      return _vm.update($event)
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                            UPDATE\n                        "
+                                  )
+                                ]
+                              )
+                            : _c(
+                                "v-btn",
+                                {
+                                  staticClass: "submit-form",
+                                  attrs: { width: "auto", right: "" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.stopPropagation()
+                                      $event.preventDefault()
+                                      return _vm.send($event)
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                            SEND\n                        "
+                                  )
+                                ]
+                              )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "hidden" },
+                        domProps: { value: 1 }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane fade",
+                  class: { "active show": _vm.isActive(2) },
+                  attrs: { id: "ro" }
+                },
+                [
+                  _c(
+                    "v-container",
+                    [
+                      _c(
+                        "v-row",
+                        [
+                          _c("h5", { staticClass: "row-title" }, [
+                            _vm._v("Visibility")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c(
+                                "v-radio-group",
+                                {
+                                  attrs: { row: "", mandatory: "" },
+                                  model: {
+                                    value: _vm.form[2].available,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.form[2], "available", $$v)
+                                    },
+                                    expression: "form[2].available"
+                                  }
+                                },
+                                [
+                                  _c("v-radio", {
+                                    attrs: {
+                                      color: "success",
+                                      value: 1,
+                                      label: "Show"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("v-radio", {
+                                    attrs: {
+                                      color: "success",
+                                      value: 0,
+                                      label: "Hide"
+                                    }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c("h5", { staticClass: "row-title" }, [
+                            _vm._v("Career")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: { placeholder: "Name" },
+                                model: {
+                                  value: _vm.form[2].name,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[2], "name", $$v)
+                                  },
+                                  expression: "form[2].name"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  placeholder: "Location",
+                                  required: ""
+                                },
+                                model: {
+                                  value: _vm.form[2].location,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[2], "location", $$v)
+                                  },
+                                  expression: "form[2].location"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-textarea", {
+                                attrs: {
+                                  placeholder: "Job description",
+                                  required: "",
+                                  name: "text"
+                                },
+                                model: {
+                                  value: _vm.form[2].description,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[2], "description", $$v)
+                                  },
+                                  expression: "form[2].description"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        { staticClass: "d-flex justify-content-end" },
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "discard-form",
+                              attrs: { width: "auto" },
+                              on: { click: _vm.discard }
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Discard\n                        "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _vm.updatePage
+                            ? _c(
+                                "v-btn",
+                                {
+                                  staticClass: "submit-form",
+                                  attrs: { width: "auto", right: "" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.stopPropagation()
+                                      $event.preventDefault()
+                                      return _vm.update($event)
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                            UPDATE\n                        "
+                                  )
+                                ]
+                              )
+                            : _c(
+                                "v-btn",
+                                {
+                                  staticClass: "submit-form",
+                                  attrs: { width: "auto", right: "" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.stopPropagation()
+                                      $event.preventDefault()
+                                      return _vm.send($event)
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                            SEND\n                        "
+                                  )
+                                ]
+                              )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "hidden" },
+                        domProps: { value: 2 }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane fade",
+                  class: { "active show": _vm.isActive(3) },
+                  attrs: { id: "rus" }
+                },
+                [
+                  _c(
+                    "v-container",
+                    [
+                      _c(
+                        "v-row",
+                        [
+                          _c("h5", { staticClass: "row-title" }, [
+                            _vm._v("Visibility")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c(
+                                "v-radio-group",
+                                {
+                                  attrs: { row: "", mandatory: "" },
+                                  model: {
+                                    value: _vm.form[3].available,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.form[3], "available", $$v)
+                                    },
+                                    expression: "form[3].available"
+                                  }
+                                },
+                                [
+                                  _c("v-radio", {
+                                    attrs: {
+                                      color: "success",
+                                      value: 1,
+                                      label: "Show"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("v-radio", {
+                                    attrs: {
+                                      color: "success",
+                                      value: 0,
+                                      label: "Hide"
+                                    }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c("h5", { staticClass: "row-title" }, [
+                            _vm._v("Career")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: { placeholder: "Name" },
+                                model: {
+                                  value: _vm.form[3].name,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[3], "name", $$v)
+                                  },
+                                  expression: "form[3].name"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  placeholder: "Location",
+                                  required: ""
+                                },
+                                model: {
+                                  value: _vm.form[3].location,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[3], "location", $$v)
+                                  },
+                                  expression: "form[3].location"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-textarea", {
+                                attrs: {
+                                  placeholder: "Job description",
+                                  required: "",
+                                  name: "text"
+                                },
+                                model: {
+                                  value: _vm.form[3].description,
+                                  callback: function($$v) {
+                                    _vm.$set(_vm.form[3], "description", $$v)
+                                  },
+                                  expression: "form[3].description"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-row",
+                        { staticClass: "d-flex justify-content-end" },
+                        [
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "discard-form",
+                              attrs: { width: "auto" },
+                              on: { click: _vm.discard }
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Discard\n                        "
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _vm.updatePage
+                            ? _c(
+                                "v-btn",
+                                {
+                                  staticClass: "submit-form",
+                                  attrs: { width: "auto", right: "" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.stopPropagation()
+                                      $event.preventDefault()
+                                      return _vm.update($event)
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                            UPDATE\n                        "
+                                  )
+                                ]
+                              )
+                            : _c(
+                                "v-btn",
+                                {
+                                  staticClass: "submit-form",
+                                  attrs: { width: "auto", right: "" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.stopPropagation()
+                                      $event.preventDefault()
+                                      return _vm.send($event)
+                                    }
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                            SEND\n                        "
+                                  )
+                                ]
+                              )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "hidden" },
+                        domProps: { value: 3 }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center text-danger mt-3" }, [
+                _vm._v(
+                  _vm._s(
+                    _vm.form[_vm.lang_id].errors
+                      ? _vm.form[_vm.lang_id].errors
+                      : ""
+                  )
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center text-success mt-3" }, [
+                _vm._v(
+                  _vm._s(
+                    _vm.form[_vm.lang_id].success
+                      ? _vm.form[_vm.lang_id].success
+                      : ""
+                  )
+                )
+              ])
+            ]
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/backend/careers/AddCareers.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/components/backend/careers/AddCareers.vue ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AddCareers_vue_vue_type_template_id_e4bee818___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AddCareers.vue?vue&type=template&id=e4bee818& */ "./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818&");
+/* harmony import */ var _AddCareers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AddCareers.vue?vue&type=script&lang=js& */ "./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _AddCareers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AddCareers_vue_vue_type_template_id_e4bee818___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AddCareers_vue_vue_type_template_id_e4bee818___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/backend/careers/AddCareers.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCareers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./AddCareers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/careers/AddCareers.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCareers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCareers_vue_vue_type_template_id_e4bee818___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./AddCareers.vue?vue&type=template&id=e4bee818& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/careers/AddCareers.vue?vue&type=template&id=e4bee818&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCareers_vue_vue_type_template_id_e4bee818___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCareers_vue_vue_type_template_id_e4bee818___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

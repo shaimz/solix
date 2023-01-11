@@ -1,7 +1,370 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-19"],{"./resources/js/components/public/includes/Services/Services.vue":
-/*!***********************************************************************************!*\
-  !*** ./resources/js/components/public/includes/Services/Services.vue + 6 modules ***!
-  \***********************************************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/Services/Services.vue?vue&type=template&id=303210d6&scoped=true&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c("div", { staticClass: "pt-16 bg-secondary padding-bottom-125" }, [\n    _c(\n      "div",\n      {\n        staticClass:\n          "d-flex justify-content-center col-xl-8 col-lg-11 col-11 mx-auto py-0"\n      },\n      [\n        _c("div", { staticClass: "col-md-12 p-0 ml-4 position-unset" }, [\n          _vm.render\n            ? _c(\n                "div",\n                {\n                  staticClass: "tab-content col-12 pr-0",\n                  attrs: { id: "v-pills-tabContent" }\n                },\n                _vm._l(_vm.$t("home.projects.filter"), function(item) {\n                  return _c(\n                    "div",\n                    {\n                      class: [\n                        "tab-pane",\n                        "fade",\n                        item.tab === _vm.active ? "show active" : ""\n                      ],\n                      attrs: {\n                        id: item.tab,\n                        role: "tabpanel",\n                        "aria-labelledby": "v-pills-home-tab"\n                      }\n                    },\n                    _vm._l(_vm.itemSort(_vm.services, _vm.active), function(\n                      card,\n                      key\n                    ) {\n                      return _c(\n                        "div",\n                        {\n                          key: "service-" + key,\n                          staticClass: "service-department"\n                        },\n                        [\n                          _c("h2", [_vm._v(_vm._s(card.category))]),\n                          _vm._v(" "),\n                          _c(\n                            "div",\n                            { staticClass: "services" },\n                            _vm._l(card.items, function(item) {\n                              return item.data\n                                ? _c(\n                                    "div",\n                                    {\n                                      key: item.id,\n                                      staticClass:\n                                        "justify-content-evenly card service"\n                                    },\n                                    [\n                                      _c("img", {\n                                        attrs: {\n                                          src:\n                                            "/private/images/services/" +\n                                            item.id +\n                                            "/service-" +\n                                            item.id +\n                                            "-min.jpg"\n                                        }\n                                      }),\n                                      _vm._v(" "),\n                                      _c("div", { staticClass: "card-body" }, [\n                                        _c("h4", { staticClass: "mb-4" }, [\n                                          _vm._v(_vm._s(item.data.name))\n                                        ])\n                                      ])\n                                    ]\n                                  )\n                                : _vm._e()\n                            }),\n                            0\n                          )\n                        ]\n                      )\n                    }),\n                    0\n                  )\n                }),\n                0\n              )\n            : _vm._e()\n        ])\n      ]\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/Services/Services.vue?vue&type=template&id=303210d6&scoped=true&\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__("./resources/js/width.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/Services/Services.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ var Servicesvue_type_script_lang_js_ = ({\n  name: \'allServices\',\n  props: [\'lang\', \'show\'],\n\n  data() {\n    return {\n      language: this.$route.params.locale === \'en\' ? 1 : this.$route.params.locale === \'ru\' ? 3 : 2,\n      services: [],\n      active: \'all\',\n      itemsToShow: 4,\n      toShow: this.show,\n      total: 0,\n      render: false,\n      text: \'\'\n    };\n  },\n\n  computed: {\n    xsmall() {\n      return width["default"].data.xsmall;\n    },\n\n    windowWidth() {\n      return width["default"].data.xlarge;\n    }\n\n  },\n  methods: {\n    fetchList(list) {\n      let array = [];\n\n      for (let i in list) {\n        if (list[i].text) array.push({\n          id: i,\n          value: list[i].text\n        });\n      }\n\n      return array;\n    },\n\n    getTab(item) {\n      let list = this.$t(\'home.projects.filter\');\n\n      for (let i in list) {\n        if (list[i].text === item.value) {\n          return list[i].tab;\n        }\n      }\n    },\n\n    initialisePicker() {\n      setTimeout(() => {\n        let trigger = document.querySelector(\'#trigger7\');\n\n        if (trigger) {\n          let _this = this;\n\n          let vm = this;\n          var mobileSelect1 = new MobileSelect({\n            trigger: "#trigger7",\n            title: "",\n            wheels: [{\n              data: this.fetchList(this.$t(\'home.projects.filter\'))\n            }],\n            cancelBtnText: this.$t(\'cancel\'),\n            ensureBtnText: this.$t(\'select\'),\n            jsonType: true,\n            position: [0],\n            transitionEnd: function (indexArr, data) {},\n            onShow: e => {},\n            callback: function (indexArr, data) {\n              let s = data[0];\n              vm.active = _this.getTab(s);\n              vm.text = s.value;\n            }\n          });\n        }\n      }, 700);\n    },\n\n    addItem(item, index = 0) {\n      this.text = item.text;\n      this.$nextTick(() => {\n        this.active = item.tab;\n      });\n    },\n\n    itemSort(items, type) {\n      let data = [];\n\n      switch (type) {\n        case \'all\':\n          return items;\n\n        case \'person\':\n          items.forEach((elem, index) => {\n            if (elem) data.push({\n              category: elem.category,\n              items: elem.items.map(item => {\n                if (item.type === \'personal\') return item;\n              })\n            });\n          });\n          break;\n\n        case \'business\':\n          items.forEach((elem, index) => {\n            if (elem) data.push({\n              category: elem.category,\n              items: elem.items.map(item => {\n                if (item.type === \'business\') return item;\n              })\n            });\n          });\n          break;\n\n        case \'juridic\':\n          items.forEach((elem, index) => {\n            if (elem) data.push({\n              category: elem.category,\n              items: elem.items.map(item => {\n                if (item.type === \'juridic\') return item;\n              })\n            });\n          });\n          break;\n\n        default:\n          data = [];\n          break;\n      }\n\n      let array = [];\n      data.map(item => {\n        if (item.items[0]) return array.push(item);\n      });\n      return array;\n    },\n\n    setActive(tab) {\n      let types = {\n        all: \'\',\n        personal: \'personal\',\n        business: \'business\',\n        juridic: \'juridic\'\n      };\n\n      if (tab !== this.active) {\n        this.active = tab;\n        let total = Object.values(this.services).filter((item, key) => item.type === types[tab]);\n        this.total = total.length;\n\n        if (tab === \'all\') {\n          this.total = this.services.length;\n        }\n      }\n    }\n\n  },\n\n  created() {\n    this.$store.dispatch(\'services\', {\n      lang_id: this.language,\n      limit: this.show,\n      offset: 0\n    }).then(() => {\n      this.services = this.$store.getters.getServices;\n      this.total = this.services.length;\n      this.itemsToShow = this.show;\n      this.render = true;\n    });\n  },\n\n  mounted() {\n    this.initialisePicker();\n  },\n\n  watch: {\n    language(newVal, oldVal) {\n      if (oldVal !== newVal) this.language = newVal;\n      this.$store.dispatch(\'services\', {\n        lang_id: newVal,\n        limit: this.show,\n        offset: 0\n      }).then(() => {\n        this.services = this.$store.getters.getServices;\n        this.total = this.services.length;\n      });\n    },\n\n    services(newVal, oldVal) {\n      if (newVal !== oldVal) this.total = this.services.length;\n    },\n\n    rowsToShow(newVal, oldVal) {\n      if (newVal !== oldVal) this.itemsToShow = newVal;\n    },\n\n    xsmall(n, o) {\n      if (n !== o) {\n        if (n) {\n          this.initialisePicker();\n        }\n      }\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/Services/Services.vue?vue&type=script&lang=js&\n /* harmony default export */ var Services_Servicesvue_type_script_lang_js_ = (Servicesvue_type_script_lang_js_); \n// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/Services/Services.vue?vue&type=style&index=0&id=303210d6&scoped=true&lang=css&\n// extracted by mini-css-extract-plugin\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/Services/Services.vue?vue&type=style&index=0&id=303210d6&scoped=true&lang=css&\n\n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/Services/Services.vue\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  Services_Servicesvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  "303210d6",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/Services/Services.vue"\n/* harmony default export */ var Services = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/Services/Services.vue_+_6_modules?')}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-19"],{
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && typeof btoa !== 'undefined') {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ })
+
+}]);

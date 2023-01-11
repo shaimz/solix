@@ -1,7 +1,316 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-25"],{"./resources/js/components/public/includes/economy.vue":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/public/includes/economy.vue + 4 modules ***!
-  \*************************************************************************/
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-25"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/event/eventbus.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    "div",\n    { staticClass: "text-white padding-125", attrs: { id: "economy" } },\n    [\n      _c("div", { staticClass: "row justify-content-center px-0" }, [\n        _c(\n          "div",\n          {\n            staticClass:\n              "row-economy col-lg-11 col-xl-7 col-11 justify-content-center pl-0"\n          },\n          [\n            _c("div", { staticClass: "economy-body" }, [\n              _c("h2", {\n                domProps: {\n                  innerHTML: _vm._s(_vm.$t(_vm.page + ".economy.title"))\n                }\n              }),\n              _vm._v(" "),\n              _c("p", [_vm._v(_vm._s(_vm.$t(_vm.page + ".economy.text")))]),\n              _vm._v(" "),\n              _vm.page !== "b2g"\n                ? _c(\n                    "button",\n                    {\n                      staticClass: "btn-primary",\n                      on: {\n                        click: function($event) {\n                          return _vm.toggleModal(true)\n                        }\n                      }\n                    },\n                    [_vm._v(_vm._s(_vm.$t("order")))]\n                  )\n                : _vm._e()\n            ]),\n            _vm._v(" "),\n            _c(\n              "div",\n              { staticClass: "economy-data d-flex" },\n              [\n                _c(\n                  "p",\n                  {\n                    directives: [\n                      {\n                        name: "show",\n                        rawName: "v-show",\n                        value: _vm.page !== "b2g",\n                        expression: "page !== \'b2g\'"\n                      }\n                    ]\n                  },\n                  [_vm._v(_vm._s(_vm.$t("home.economy.formula")))]\n                ),\n                _vm._v(" "),\n                _c(\n                  "p",\n                  {\n                    directives: [\n                      {\n                        name: "show",\n                        rawName: "v-show",\n                        value: _vm.page !== "b2g",\n                        expression: "page !== \'b2g\'"\n                      }\n                    ]\n                  },\n                  [_vm._v("1,3 m kwh×1.812 mdl/kwh = 2 355 600 mdl")]\n                ),\n                _vm._v(" "),\n                _vm._l(_vm.$t(_vm.page + ".economy.data"), function(item) {\n                  return _c(\n                    "div",\n                    { staticClass: "economy-item col-lg-3 col-md-12" },\n                    [\n                      _c("h1", { staticClass: "number" }, [\n                        _vm._v(_vm._s(item.value))\n                      ]),\n                      _vm._v(" "),\n                      _c("div", { staticClass: "economy-bottom" }, [\n                        _c("span", [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/assets/icons/light-yellow.png",\n                                expression: "\'/assets/icons/light-yellow.png\'"\n                              }\n                            ]\n                          })\n                        ]),\n                        _vm._v(" "),\n                        _c("p", { staticClass: "d-inline-block ml-2 mt-2" }, [\n                          _vm._v(_vm._s(item.name)),\n                          item.tooltip\n                            ? _c(\n                                "span",\n                                {\n                                  staticClass: "tooltip",\n                                  attrs: {\n                                    "data-toggle": "tooltip",\n                                    title: item.tooltip.text\n                                  }\n                                },\n                                [\n                                  _c("img", {\n                                    attrs: { src: "/assets/icons/tooltip.png" }\n                                  })\n                                ]\n                              )\n                            : _vm._e()\n                        ])\n                      ])\n                    ]\n                  )\n                })\n              ],\n              2\n            )\n          ]\n        )\n      ])\n    ]\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136&\n\n// EXTERNAL MODULE: ./resources/js/event/eventbus.js\nvar eventbus = __webpack_require__("./resources/js/event/eventbus.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ var economyvue_type_script_lang_js_ = ({\n  name: \'economy\',\n  props: [\'page\'],\n\n  data() {\n    return {\n      scrolled: true\n    };\n  },\n\n  mounted() {\n    this.initiateCount();\n    $(\'[data-toggle="tooltip"]\').tooltip();\n  },\n\n  methods: {\n    toggleModal(val) {\n      eventbus["bus"].$emit(\'openModal\', {\n        value: val,\n        type: \'call\'\n      });\n    },\n\n    initiateCount() {\n      let _this = this;\n\n      $(window).scroll(function () {\n        var scrTop = $(window).scrollTop();\n\n        if (_this.scrolled && $(\'.economy-item .number\').offset() !== undefined) {\n          if (scrTop > $(\'.economy-item .number\').offset().top - $(window).height()) {\n            _this.animate();\n\n            _this.scrolled = false;\n          }\n        }\n      });\n    },\n\n    animate() {\n      let numbers = $(\'.economy-item\');\n      numbers.each((i, e) => {\n        var number = 0;\n        let num = $(e).find(\'.number\').text().replace(/(,)/g, \'.\');\n        let char = num.replace(/\\d+/g, \'\');\n        let reset = setInterval(function () {\n          number = parseFloat(number) + (num.includes(\'.\') ? 0.1 : 1);\n\n          if (number.toFixed(2) <= parseFloat(num)) {\n            $(e).find(\'.number\').text(`${parseFloat(number.toFixed(4)).toString().replace(\'.\', \',\')}${char === \'.\' ? \'\' : char}`);\n          } else {\n            clearInterval(reset);\n          }\n        }, 60);\n      });\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_economyvue_type_script_lang_js_ = (economyvue_type_script_lang_js_); \n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/economy.vue\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  includes_economyvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/economy.vue"\n/* harmony default export */ var economy = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/economy.vue_+_4_modules?')}}]);
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _event_eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../event/eventbus */ "./resources/js/event/eventbus.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'economy',
+  props: ['page'],
+  data: function data() {
+    return {
+      scrolled: true
+    };
+  },
+  mounted: function mounted() {
+    this.initiateCount();
+    $('[data-toggle="tooltip"]').tooltip();
+  },
+  methods: {
+    toggleModal: function toggleModal(val) {
+      _event_eventbus__WEBPACK_IMPORTED_MODULE_0__["bus"].$emit('openModal', {
+        value: val,
+        type: 'call'
+      });
+    },
+    initiateCount: function initiateCount() {
+      var _this = this;
+
+      $(window).scroll(function () {
+        var scrTop = $(window).scrollTop();
+
+        if (_this.scrolled && $('.economy-item .number').offset() !== undefined) {
+          if (scrTop > $('.economy-item .number').offset().top - $(window).height()) {
+            _this.animate();
+
+            _this.scrolled = false;
+          }
+        }
+      });
+    },
+    animate: function animate() {
+      var numbers = $('.economy-item');
+      numbers.each(function (i, e) {
+        var number = 0;
+        var num = $(e).find('.number').text().replace(/(,)/g, '.');
+
+        var _char = num.replace(/\d+/g, '');
+
+        var reset = setInterval(function () {
+          number = parseFloat(number) + (num.includes('.') ? 0.1 : 1);
+
+          if (number.toFixed(2) <= parseFloat(num)) {
+            $(e).find('.number').text("".concat(parseFloat(number.toFixed(4)).toString().replace('.', ',')).concat(_char === '.' ? '' : _char));
+          } else {
+            clearInterval(reset);
+          }
+        }, 60);
+      });
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "text-white padding-125", attrs: { id: "economy" } },
+    [
+      _c("div", { staticClass: "row justify-content-center px-0" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "row-economy col-lg-11 col-xl-7 col-11 justify-content-center pl-0"
+          },
+          [
+            _c("div", { staticClass: "economy-body" }, [
+              _c("h2", {
+                domProps: {
+                  innerHTML: _vm._s(_vm.$t(_vm.page + ".economy.title"))
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.$t(_vm.page + ".economy.text")))]),
+              _vm._v(" "),
+              _vm.page !== "b2g"
+                ? _c(
+                    "button",
+                    {
+                      staticClass: "btn-primary",
+                      on: {
+                        click: function($event) {
+                          return _vm.toggleModal(true)
+                        }
+                      }
+                    },
+                    [_vm._v(_vm._s(_vm.$t("order")))]
+                  )
+                : _vm._e()
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "economy-data d-flex" },
+              [
+                _c(
+                  "p",
+                  {
+                    directives: [
+                      {
+                        name: "show",
+                        rawName: "v-show",
+                        value: _vm.page !== "b2g",
+                        expression: "page !== 'b2g'"
+                      }
+                    ]
+                  },
+                  [_vm._v(_vm._s(_vm.$t("home.economy.formula")))]
+                ),
+                _vm._v(" "),
+                _c(
+                  "p",
+                  {
+                    directives: [
+                      {
+                        name: "show",
+                        rawName: "v-show",
+                        value: _vm.page !== "b2g",
+                        expression: "page !== 'b2g'"
+                      }
+                    ]
+                  },
+                  [_vm._v("1,3 m kwh×1.812 mdl/kwh = 2 355 600 mdl")]
+                ),
+                _vm._v(" "),
+                _vm._l(_vm.$t(_vm.page + ".economy.data"), function(item) {
+                  return _c(
+                    "div",
+                    { staticClass: "economy-item col-lg-3 col-md-12" },
+                    [
+                      _c("h1", { staticClass: "number" }, [
+                        _vm._v(_vm._s(item.value))
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "economy-bottom" }, [
+                        _c("span", [
+                          _c("img", {
+                            directives: [
+                              {
+                                name: "lazy",
+                                rawName: "v-lazy",
+                                value: "/assets/icons/light-yellow.png",
+                                expression: "'/assets/icons/light-yellow.png'"
+                              }
+                            ]
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "d-inline-block ml-2 mt-2" }, [
+                          _vm._v(_vm._s(item.name)),
+                          item.tooltip
+                            ? _c(
+                                "span",
+                                {
+                                  staticClass: "tooltip",
+                                  attrs: {
+                                    "data-toggle": "tooltip",
+                                    title: item.tooltip.text
+                                  }
+                                },
+                                [
+                                  _c("img", {
+                                    attrs: { src: "/assets/icons/tooltip.png" }
+                                  })
+                                ]
+                              )
+                            : _vm._e()
+                        ])
+                      ])
+                    ]
+                  )
+                })
+              ],
+              2
+            )
+          ]
+        )
+      ])
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/economy.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/public/includes/economy.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _economy_vue_vue_type_template_id_7c72a136___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./economy.vue?vue&type=template&id=7c72a136& */ "./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136&");
+/* harmony import */ var _economy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./economy.vue?vue&type=script&lang=js& */ "./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _economy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _economy_vue_vue_type_template_id_7c72a136___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _economy_vue_vue_type_template_id_7c72a136___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/public/includes/economy.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_economy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./economy.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/economy.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_economy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_economy_vue_vue_type_template_id_7c72a136___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./economy.vue?vue&type=template&id=7c72a136& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/economy.vue?vue&type=template&id=7c72a136&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_economy_vue_vue_type_template_id_7c72a136___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_economy_vue_vue_type_template_id_7c72a136___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

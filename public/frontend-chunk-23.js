@@ -1,10 +1,370 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-23"],{"./resources/js/components/public/includes/connections.vue":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/components/public/includes/connections.vue + 6 modules ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VTabs/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/event/eventbus.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify-loader/lib/runtime/installComponents.js (<- Module is not an ECMAScript module) */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/connections.vue?vue&type=template&id=3cf2437c&scoped=true&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c("div", { attrs: { id: "connections" } }, [\n    _c("div", { staticClass: "col-12 col-lg-12 py-0" }, [\n      _c("div", { staticClass: "row padding-125 flex-column" }, [\n        _c(\n          "div",\n          { staticClass: "col-xl-5 col-11 py-0 left-connection super-margin" },\n          [\n            _c(\n              "div",\n              { staticClass: "connections-text w-75 ml-auto" },\n              [\n                _c("h2", [_vm._v(_vm._s(_vm.$t("b2c.connections.title")))]),\n                _vm._v(" "),\n                _vm.xsmall\n                  ? _c(\n                      "div",\n                      {\n                        staticClass:\n                          "nav flex-column nav-pills me-3 col-lg-2 col-11 px-0 flex-md-row flex-lg-column",\n                        attrs: {\n                          id: "v-pills-tab",\n                          role: "tablist",\n                          "aria-orientation": "vertical"\n                        }\n                      },\n                      [\n                        _c("ul", [\n                          _c("li", { staticClass: "nav-item dropdown" }, [\n                            _c(\n                              "a",\n                              {\n                                staticClass: "nav-link dropdown-toggle",\n                                attrs: {\n                                  id: "trigger8",\n                                  "data-toggle": "dropdown",\n                                  href: "#",\n                                  role: "button",\n                                  "aria-haspopup": "true",\n                                  "aria-expanded": "false"\n                                }\n                              },\n                              [\n                                _vm._v(\n                                  _vm._s(\n                                    _vm.title\n                                      ? _vm.title\n                                      : _vm.$t("b2c.connections.tabs")[0].title\n                                  )\n                                )\n                              ]\n                            )\n                          ])\n                        ])\n                      ]\n                    )\n                  : _vm._e(),\n                _vm._v(" "),\n                !_vm.xsmall\n                  ? _c(\n                      "v-tabs",\n                      {\n                        model: {\n                          value: _vm.tab,\n                          callback: function($$v) {\n                            _vm.tab = $$v\n                          },\n                          expression: "tab"\n                        }\n                      },\n                      _vm._l(_vm.$t("b2c.connections.tabs"), function(\n                        tab,\n                        index\n                      ) {\n                        return _c("v-tab", { key: "tab-" + index }, [\n                          _c("h5", [_vm._v(_vm._s(tab.title))])\n                        ])\n                      }),\n                      1\n                    )\n                  : _vm._e(),\n                _vm._v(" "),\n                !_vm.xsmall\n                  ? _c(\n                      "v-tabs-items",\n                      {\n                        model: {\n                          value: _vm.tab,\n                          callback: function($$v) {\n                            _vm.tab = $$v\n                          },\n                          expression: "tab"\n                        }\n                      },\n                      _vm._l(_vm.$t(_vm.page + ".connections.tabs"), function(\n                        item,\n                        i\n                      ) {\n                        return _c("v-tab-item", { key: "tab-" + i }, [\n                          _c("p", [_vm._v(_vm._s(item.text))])\n                        ])\n                      }),\n                      1\n                    )\n                  : _vm._e(),\n                _vm._v(" "),\n                _vm.xsmall\n                  ? _c(\n                      "div",\n                      {\n                        staticClass: "tab-content col-lg-10 col-12 pr-0",\n                        attrs: { id: "v-pills-tabContent" }\n                      },\n                      _vm._l(_vm.$t(_vm.page + ".connections.tabs"), function(\n                        item,\n                        i\n                      ) {\n                        return _c(\n                          "div",\n                          {\n                            key: "tab-" + i,\n                            class: [\n                              "tab-pane",\n                              "fade",\n                              item.title === _vm.active ? "show active" : ""\n                            ],\n                            attrs: {\n                              id: item.title,\n                              role: "tabpanel",\n                              "aria-labelledby": "v-pills-home-tab"\n                            }\n                          },\n                          [_c("p", [_vm._v(_vm._s(item.text))])]\n                        )\n                      }),\n                      0\n                    )\n                  : _vm._e(),\n                _vm._v(" "),\n                _c(\n                  "button",\n                  {\n                    staticClass: "btn-primary",\n                    on: {\n                      click: function($event) {\n                        return _vm.toggleModal(true)\n                      }\n                    }\n                  },\n                  [_vm._v(_vm._s(_vm.$t("order")))]\n                )\n              ],\n              1\n            )\n          ]\n        ),\n        _vm._v(" "),\n        _c(\n          "div",\n          { staticClass: "col-xl-7 col-11 m-xl-0 m-auto py-0" },\n          [\n            !_vm.xsmall\n              ? _c(\n                  "v-tabs-items",\n                  {\n                    model: {\n                      value: _vm.tab,\n                      callback: function($$v) {\n                        _vm.tab = $$v\n                      },\n                      expression: "tab"\n                    }\n                  },\n                  _vm._l(_vm.$t(_vm.page + ".connections.tabs"), function(\n                    item,\n                    i\n                  ) {\n                    return _c(\n                      "v-tab-item",\n                      {\n                        key: "tab-item-" + i,\n                        class: [i ? "custom-cards" : ""]\n                      },\n                      [\n                        _c(\n                          "div",\n                          {\n                            staticClass: "connections-flex",\n                            class: [\n                              item.tabNumber === 1 ? "firstTab" : "secondTab"\n                            ]\n                          },\n                          _vm._l(_vm.cards(item, item.cards), function(\n                            card,\n                            num\n                          ) {\n                            return _c(\n                              "div",\n                              {\n                                staticClass: "content-card",\n                                class: [\n                                  card.group && card.header\n                                    ? "group"\n                                    : card.header && !card.group\n                                    ? "header"\n                                    : "",\n                                  card.hasOwnProperty("type")\n                                    ? "icon-card-item"\n                                    : ""\n                                ]\n                              },\n                              [\n                                card.header && !card.group\n                                  ? _c("p", {\n                                      domProps: {\n                                        innerHTML: _vm._s(card.header)\n                                      }\n                                    })\n                                  : _vm._e(),\n                                _vm._v(" "),\n                                !card.group && !card.hasOwnProperty("type")\n                                  ? _c("div", [\n                                      _c("img", {\n                                        directives: [\n                                          {\n                                            name: "lazy",\n                                            rawName: "v-lazy",\n                                            value: card.img,\n                                            expression: "card.img"\n                                          }\n                                        ]\n                                      }),\n                                      _vm._v(" "),\n                                      _c("div", { staticClass: "body mt-4" }, [\n                                        _c(\n                                          "h5",\n                                          { staticClass: "card-title" },\n                                          [_vm._v(_vm._s(card.title))]\n                                        ),\n                                        _vm._v(" "),\n                                        _c("p", { staticClass: "card-text" }, [\n                                          _vm._v(_vm._s(card.text))\n                                        ])\n                                      ])\n                                    ])\n                                  : _vm._e(),\n                                _vm._v(" "),\n                                card.header &&\n                                card.group &&\n                                !card.hasOwnProperty("type")\n                                  ? _c("div", { staticClass: "group-parent" }, [\n                                      _c("p", {\n                                        domProps: {\n                                          innerHTML: _vm._s(card.header)\n                                        }\n                                      }),\n                                      _vm._v(" "),\n                                      _c(\n                                        "div",\n                                        { staticClass: "group-flex" },\n                                        _vm._l(\n                                          _vm.cardGroups(card.group),\n                                          function(cg) {\n                                            return _c(\n                                              "div",\n                                              {\n                                                class: [\n                                                  cg.hasOwnProperty("type")\n                                                    ? "plus-card"\n                                                    : ""\n                                                ]\n                                              },\n                                              [\n                                                !cg.hasOwnProperty("type")\n                                                  ? _c("img", {\n                                                      directives: [\n                                                        {\n                                                          name: "lazy",\n                                                          rawName: "v-lazy",\n                                                          value: cg.img,\n                                                          expression: "cg.img"\n                                                        }\n                                                      ]\n                                                    })\n                                                  : _vm._e(),\n                                                _vm._v(" "),\n                                                !cg.hasOwnProperty("type")\n                                                  ? _c(\n                                                      "div",\n                                                      {\n                                                        staticClass: "body mt-4"\n                                                      },\n                                                      [\n                                                        _c(\n                                                          "h5",\n                                                          {\n                                                            staticClass:\n                                                              "card-title"\n                                                          },\n                                                          [\n                                                            _vm._v(\n                                                              _vm._s(cg.title)\n                                                            )\n                                                          ]\n                                                        ),\n                                                        _vm._v(" "),\n                                                        _c(\n                                                          "p",\n                                                          {\n                                                            staticClass:\n                                                              "card-text"\n                                                          },\n                                                          [\n                                                            _vm._v(\n                                                              _vm._s(cg.text)\n                                                            )\n                                                          ]\n                                                        )\n                                                      ]\n                                                    )\n                                                  : _vm._e(),\n                                                _vm._v(" "),\n                                                cg.hasOwnProperty("type")\n                                                  ? _c("img", {\n                                                      staticClass: "plus-icon",\n                                                      attrs: { src: cg.src }\n                                                    })\n                                                  : _vm._e()\n                                              ]\n                                            )\n                                          }\n                                        ),\n                                        0\n                                      )\n                                    ])\n                                  : _vm._e(),\n                                _vm._v(" "),\n                                card.hasOwnProperty("type") &&\n                                card.src === "next"\n                                  ? _c("img", {\n                                      style: _vm.nextIcon.style,\n                                      attrs: { src: _vm.nextIcon.src }\n                                    })\n                                  : _vm._e()\n                              ]\n                            )\n                          }),\n                          0\n                        )\n                      ]\n                    )\n                  }),\n                  1\n                )\n              : _vm._e(),\n            _vm._v(" "),\n            _vm.xsmall\n              ? _c(\n                  "div",\n                  {\n                    staticClass: "tab-content col-lg-10 col-12 pr-0",\n                    attrs: { id: "v-pills-tabContent" }\n                  },\n                  _vm._l(_vm.$t("b2c.connections.tabs"), function(item, index) {\n                    return _c(\n                      "div",\n                      {\n                        class: [\n                          "tab-pane",\n                          "fade",\n                          item.title === _vm.active ? "show active" : "",\n                          [index ? "custom-cards" : ""]\n                        ],\n                        attrs: {\n                          id: item.title,\n                          role: "tabpanel",\n                          "aria-labelledby": "v-pills-home-tab"\n                        }\n                      },\n                      [\n                        _c(\n                          "div",\n                          {\n                            staticClass: "connections-grid",\n                            class: [\n                              item.tabNumber === 1 ? "firstTab" : "secondTab"\n                            ]\n                          },\n                          _vm._l(_vm.cards(item, item.cards), function(card) {\n                            return _c(\n                              "div",\n                              {\n                                staticClass: "content-card",\n                                class: [\n                                  card.group && card.header\n                                    ? "group"\n                                    : card.header && !card.group\n                                    ? "header"\n                                    : "",\n                                  card.hasOwnProperty("type")\n                                    ? "icon-card-item"\n                                    : ""\n                                ]\n                              },\n                              [\n                                card.header && !card.group\n                                  ? _c("p", {\n                                      domProps: {\n                                        innerHTML: _vm._s(card.header)\n                                      }\n                                    })\n                                  : _vm._e(),\n                                _vm._v(" "),\n                                !card.group && !card.hasOwnProperty("type")\n                                  ? _c("div", [\n                                      _c("img", {\n                                        directives: [\n                                          {\n                                            name: "lazy",\n                                            rawName: "v-lazy",\n                                            value: card.img,\n                                            expression: "card.img"\n                                          }\n                                        ]\n                                      }),\n                                      _vm._v(" "),\n                                      _c("div", { staticClass: "body mt-4" }, [\n                                        _c(\n                                          "h5",\n                                          { staticClass: "card-title" },\n                                          [_vm._v(_vm._s(card.title))]\n                                        ),\n                                        _vm._v(" "),\n                                        _c("p", { staticClass: "card-text" }, [\n                                          _vm._v(_vm._s(card.text))\n                                        ])\n                                      ])\n                                    ])\n                                  : _vm._e(),\n                                _vm._v(" "),\n                                card.header &&\n                                card.group &&\n                                !card.hasOwnProperty("type")\n                                  ? _c("div", { staticClass: "group-parent" }, [\n                                      _c("p", {\n                                        domProps: {\n                                          innerHTML: _vm._s(card.header)\n                                        }\n                                      }),\n                                      _vm._v(" "),\n                                      _c(\n                                        "div",\n                                        { staticClass: "group-flex" },\n                                        _vm._l(\n                                          _vm.cardGroups(card.group),\n                                          function(cg) {\n                                            return _c("div", [\n                                              !cg.hasOwnProperty("type")\n                                                ? _c("img", {\n                                                    directives: [\n                                                      {\n                                                        name: "lazy",\n                                                        rawName: "v-lazy",\n                                                        value: cg.img,\n                                                        expression: "cg.img"\n                                                      }\n                                                    ]\n                                                  })\n                                                : _vm._e(),\n                                              _vm._v(" "),\n                                              !cg.hasOwnProperty("type")\n                                                ? _c(\n                                                    "div",\n                                                    {\n                                                      staticClass: "body mt-4"\n                                                    },\n                                                    [\n                                                      _c(\n                                                        "h5",\n                                                        {\n                                                          staticClass:\n                                                            "card-title"\n                                                        },\n                                                        [\n                                                          _vm._v(\n                                                            _vm._s(cg.title)\n                                                          )\n                                                        ]\n                                                      ),\n                                                      _vm._v(" "),\n                                                      _c(\n                                                        "p",\n                                                        {\n                                                          staticClass:\n                                                            "card-text"\n                                                        },\n                                                        [\n                                                          _vm._v(\n                                                            _vm._s(cg.text)\n                                                          )\n                                                        ]\n                                                      )\n                                                    ]\n                                                  )\n                                                : _vm._e(),\n                                              _vm._v(" "),\n                                              cg.hasOwnProperty("type")\n                                                ? _c("img", {\n                                                    staticClass: "plus-icon",\n                                                    attrs: { src: cg.src }\n                                                  })\n                                                : _vm._e()\n                                            ])\n                                          }\n                                        ),\n                                        0\n                                      )\n                                    ])\n                                  : _vm._e(),\n                                _vm._v(" "),\n                                card.hasOwnProperty("type") &&\n                                card.src === "next"\n                                  ? _c("img", {\n                                      style: _vm.nextIcon.style,\n                                      attrs: { src: _vm.nextIcon.src }\n                                    })\n                                  : _vm._e()\n                              ]\n                            )\n                          }),\n                          0\n                        )\n                      ]\n                    )\n                  }),\n                  0\n                )\n              : _vm._e()\n          ],\n          1\n        )\n      ])\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/connections.vue?vue&type=template&id=3cf2437c&scoped=true&\n\n// EXTERNAL MODULE: ./resources/js/event/eventbus.js\nvar eventbus = __webpack_require__("./resources/js/event/eventbus.js");\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__("./resources/js/width.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/connections.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n\n/* harmony default export */ var connectionsvue_type_script_lang_js_ = ({\n  name: \'connections\',\n  props: [\'page\'],\n\n  data() {\n    return {\n      tab: \'\',\n      active: this.$t(this.page + \'.connections.tabs\')[0].title,\n      text: \'\',\n      title: \'\',\n      icons: [\'/assets/icons/pen-factory.png\', \'/assets/icons/123.png\', \'/assets/icons/paper-factory.png\', \'/assets/icons/tools-factory.png\', \'/assets/icons/panel-factory.png\'],\n      nextIcon: {\n        src: \'/assets/icons/arrow-down-2.png\',\n        style: {\n          \'transform\': \'rotate(270deg)\'\n        }\n      },\n      downIcon: {\n        src: \'/assets/icons/arrow-down-2.png\'\n      },\n      plusIcon: {\n        src: \'/assets/icons/plus-sign.png\'\n      }\n    };\n  },\n\n  computed: {\n    width() {\n      return width["default"].data.width;\n    },\n\n    windowWidth() {\n      return width["default"].data.compare;\n    },\n\n    windowCompare() {\n      return width["default"].data.compare;\n    },\n\n    small() {\n      return width["default"].data.mediumCompare;\n    },\n\n    medium() {\n      return width["default"].data.medium;\n    },\n\n    large() {\n      return width["default"].data.large;\n    },\n\n    compare() {\n      return width["default"].data.windowCompare;\n    },\n\n    xsmall() {\n      return width["default"].data.xsmall;\n    }\n\n  },\n  methods: {\n    cardGroups(cards) {\n      let c = [...cards];\n      c.forEach((e, i) => {\n        if (e.icon === \'plus\') c.splice(i + 1, 0, {\n          type: \'image\',\n          src: \'/assets/icons/plus-sign.png\'\n        });\n      });\n      return c;\n    },\n\n    cards(main, cards) {\n      let index = main.icon.index.split(\',\');\n      let c = [...cards];\n      index.forEach((e, i) => {\n        let indicator = parseInt(e) + 1 + i;\n        c.splice(indicator, 0, {\n          type: \'image\',\n          src: main.hasOwnProperty(\'icon\') ? main.icon.type : \'\'\n        });\n      });\n      return c;\n    },\n\n    getIcon(card, index, style = \'\') {\n      if (style) {\n        if (card.icon === \'next\') {\n          if (!this.xsmall) {\n            return this.nextIcon.style;\n          }\n        }\n      } else {\n        switch (card.icon) {\n          case \'next\':\n            if (this.xsmall) return this.downIcon.src;else return this.downIcon.src;\n\n          case \'plus\':\n            return this.plusIcon.src;\n        }\n      }\n    },\n\n    getStyleIcon(card) {\n      return this.getIcon(card, true);\n    },\n\n    fetchList(list) {\n      let array = [];\n\n      for (let i in list) {\n        if (list[i].title) array.push({\n          id: i,\n          value: list[i].title\n        });\n      }\n\n      return array;\n    },\n\n    getTab(item) {\n      let list = this.$t(this.page + \'.connections.tabs\');\n\n      for (let i in list) {\n        if (list[i].title === item.value) {\n          return list[i].title;\n        }\n      }\n    },\n\n    setTab(tab) {\n      this.text = tab.title;\n    },\n\n    toggleModal(val) {\n      eventbus["bus"].$emit(\'openModal\', {\n        value: val,\n        type: \'call\'\n      });\n    },\n\n    initialisePicker() {\n      setTimeout(() => {\n        let trigger = document.querySelector(\'#trigger8\');\n\n        if (trigger) {\n          let _this = this;\n\n          let vm = this;\n          var mobileSelect1 = new MobileSelect({\n            trigger: "#trigger8",\n            title: "",\n            wheels: [{\n              data: this.fetchList(this.$t(this.page + \'.connections.tabs\'))\n            }],\n            cancelBtnText: this.$t(\'cancel\'),\n            ensureBtnText: this.$t(\'select\'),\n            jsonType: true,\n            position: [0],\n            transitionEnd: function (indexArr, data) {},\n            onShow: e => {},\n            callback: function (indexArr, data) {\n              let s = data[0];\n              vm.active = _this.getTab(s);\n              vm.text = s.value;\n            }\n          });\n        }\n      }, 700);\n    }\n\n  },\n\n  mounted() {\n    this.initialisePicker();\n  },\n\n  watch: {\n    xsmall(n, o) {\n      if (n !== o) {\n        if (n) {\n          this.initialisePicker();\n        }\n      }\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/connections.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_connectionsvue_type_script_lang_js_ = (connectionsvue_type_script_lang_js_); \n// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/connections.vue?vue&type=style&index=0&id=3cf2437c&scoped=true&lang=scss&\n// extracted by mini-css-extract-plugin\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/connections.vue?vue&type=style&index=0&id=3cf2437c&scoped=true&lang=scss&\n\n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify-loader/lib/runtime/installComponents.js\nvar installComponents = __webpack_require__("./node_modules/vuetify-loader/lib/runtime/installComponents.js");\nvar installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTabs/index.js + 7 modules\nvar VTabs = __webpack_require__("./node_modules/vuetify/lib/components/VTabs/index.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/connections.vue\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  includes_connectionsvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  "3cf2437c",\n  null\n  \n)\n\n/* vuetify-loader */\n\n\n\n\n\ninstallComponents_default()(component, {VTab: VTabs["VTab"],VTabItem: VTabs["VTabItem"],VTabs: VTabs["VTabs"],VTabsItems: VTabs["VTabsItems"]})\n\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/connections.vue"\n/* harmony default export */ var connections = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/connections.vue_+_6_modules?')}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-23"],{
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && typeof btoa !== 'undefined') {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ })
+
+}]);

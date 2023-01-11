@@ -1,6 +1,352 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-19"],{"./resources/js/components/backend/requests/ProductRequests.vue":
-/*!**********************************************************************************!*\
-  !*** ./resources/js/components/backend/requests/ProductRequests.vue + 4 modules ***!
-  \**********************************************************************************/
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-19"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    "div",\n    { attrs: { id: "request-page", title: "" } },\n    [\n      _c("Navbar", {\n        attrs: { heading: this.$attrs.head, tabs: this.$attrs.nav }\n      }),\n      _vm._v(" "),\n      _c(\n        "div",\n        { staticClass: "tab-content", attrs: { id: "pills-tabContent" } },\n        [\n          _c(\n            "div",\n            {\n              staticClass: "tab-pane fade show active",\n              attrs: {\n                id: "pills-active-requests",\n                role: "tabpanel",\n                "aria-labelledby": "pills-requests-tab"\n              }\n            },\n            [\n              _c("dataTables", {\n                attrs: {\n                  seenPage: "product",\n                  "page-type": "default",\n                  heading: Object.values(this.$attrs.nav[0])[0],\n                  headings: _vm.headers,\n                  items: _vm.showProductRequests(1)\n                },\n                on: { value: _vm.showModal }\n              })\n            ],\n            1\n          ),\n          _vm._v(" "),\n          _c(\n            "div",\n            {\n              staticClass: "tab-pane fade",\n              attrs: {\n                id: "pills-archive",\n                role: "tabpanel",\n                "aria-labelledby": "pills-archive-tab"\n              }\n            },\n            [\n              _c("dataTables", {\n                attrs: {\n                  "page-type": "archive",\n                  heading: Object.values(this.$attrs.nav[0])[1],\n                  headings: _vm.headers,\n                  items: _vm.showProductRequests(0)\n                }\n              })\n            ],\n            1\n          )\n        ]\n      ),\n      _vm._v(" "),\n      _vm.open\n        ? _c(\n            "modal-request",\n            _vm._b(\n              {\n                attrs: {\n                  route: "emailProduct",\n                  headings: this.$attrs.head,\n                  type: "product",\n                  id: _vm.id,\n                  open: _vm.open\n                },\n                on: { offvalue: _vm.toggleModal }\n              },\n              "modal-request",\n              _vm.data,\n              false\n            )\n          )\n        : _vm._e()\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e&\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nconst Navbar = () => __webpack_require__.e(/*! import() */ "chunk-7").then(__webpack_require__.bind(null, /*! ./../includes/Navbar */ "./resources/js/components/backend/includes/Navbar.vue"));\n\nconst dataTables = () => __webpack_require__.e(/*! import() */ "chunk-5").then(__webpack_require__.bind(null, /*! ./../data/dataTables */ "./resources/js/components/backend/data/dataTables.vue"));\n\nconst ModalRequest = () => __webpack_require__.e(/*! import() */ "chunk-6").then(__webpack_require__.bind(null, /*! ../data/modalRequest */ "./resources/js/components/backend/data/modalRequest.vue"));\n\nconst EmailProduct = () => __webpack_require__.e(/*! import() */ "chunk-21").then(__webpack_require__.bind(null, /*! ./email/Email */ "./resources/js/components/backend/requests/email/Email.vue"));\n\n/* harmony default export */ var ProductRequestsvue_type_script_lang_js_ = ({\n  name: \'productRequests\',\n  components: {\n    EmailProduct,\n    ModalRequest,\n    Navbar,\n    dataTables\n  },\n\n  mounted() {\n    this.$store.dispatch(\'productRequests\');\n  },\n\n  data: () => {\n    return {\n      headers: [{\n        text: \'Type\',\n        sortable: false,\n        align: \'left\',\n        value: \'name\'\n      }, {\n        text: \'Product\',\n        sortable: false,\n        value: \'products\'\n      }, {\n        text: \'Phone Number\',\n        sortable: false,\n        value: \'phone\'\n      }, {\n        text: \'Email\',\n        sortable: false,\n        value: \'email\'\n      }, {\n        text: \'Comment\',\n        sortable: false,\n        value: \'comment\'\n      }, {\n        text: \'Time\',\n        sortable: false,\n        value: \'time\'\n      }, {\n        text: \'Price\',\n        sortable: false,\n        value: \'price\'\n      }, {\n        text: \'\',\n        sortable: false,\n        value: \'controls\'\n      }],\n      open: false,\n      id: null,\n      isEmail: false,\n      email: null,\n      update: 0\n    };\n  },\n  computed: {\n    data() {\n      return this.$store.getters.getProductRequestById;\n    }\n\n  },\n  methods: {\n    showModal() {\n      this.open = true;\n    },\n\n    toggleModal(val) {\n      this.open = val;\n    },\n\n    getDate(str) {\n      let date = \'\' + str.replace(/[-?]/g, \'/\').replace(\'T\', \' \');\n      let result = date.split(\':\');\n      let time = [];\n      result.pop();\n      result[0].split(\'/\').forEach(e => {\n        time.push(e.split(\' \')[0]);\n      });\n      let temp = time[0];\n      time[0] = time[2];\n      time[2] = temp;\n      return time.join(\'/\');\n    },\n\n    showProductRequests(status = 1) {\n      let requests = this.$store.getters.getProductRequests;\n      let data = [];\n\n      if (requests) {\n        if (Array.isArray(requests)) {\n          requests.forEach(item => {\n            if (item.status === status) {\n              data.push({\n                value: true,\n                name: item.type,\n                products: item.name,\n                phone: item.phone,\n                email: item.email,\n                comment: item.comment,\n                time: this.getDate(item.created_at),\n                price: item.price + \' EUR\',\n                id: item.id\n              });\n            }\n          });\n        } else {\n          data.push({\n            value: false,\n            name: requests.type,\n            products: requests.name,\n            phone: requests.phone,\n            email: requests.email,\n            comment: requests.comment,\n            time: this.getDate(requests.created_at),\n            price: requests.price + \' EUR\',\n            id: requests.id\n          });\n        }\n\n        return data;\n      }\n    }\n\n  },\n\n  created() {},\n\n  ready: () => {},\n  watch: {\n    open(n, o) {\n      console.log("newval: " + n);\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js&\n /* harmony default export */ var requests_ProductRequestsvue_type_script_lang_js_ = (ProductRequestsvue_type_script_lang_js_); \n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// CONCATENATED MODULE: ./resources/js/components/backend/requests/ProductRequests.vue\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  requests_ProductRequestsvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/backend/requests/ProductRequests.vue"\n/* harmony default export */ var ProductRequests = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/backend/requests/ProductRequests.vue_+_4_modules?')}}]);
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var Navbar = function Navbar() {
+  return __webpack_require__.e(/*! import() */ "chunk-7").then(__webpack_require__.bind(null, /*! ./../includes/Navbar */ "./resources/js/components/backend/includes/Navbar.vue"));
+};
+
+var dataTables = function dataTables() {
+  return __webpack_require__.e(/*! import() */ "chunk-5").then(__webpack_require__.bind(null, /*! ./../data/dataTables */ "./resources/js/components/backend/data/dataTables.vue"));
+};
+
+var ModalRequest = function ModalRequest() {
+  return __webpack_require__.e(/*! import() */ "chunk-6").then(__webpack_require__.bind(null, /*! ../data/modalRequest */ "./resources/js/components/backend/data/modalRequest.vue"));
+};
+
+var EmailProduct = function EmailProduct() {
+  return __webpack_require__.e(/*! import() */ "chunk-21").then(__webpack_require__.bind(null, /*! ./email/Email */ "./resources/js/components/backend/requests/email/Email.vue"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'productRequests',
+  components: {
+    EmailProduct: EmailProduct,
+    ModalRequest: ModalRequest,
+    Navbar: Navbar,
+    dataTables: dataTables
+  },
+  mounted: function mounted() {
+    this.$store.dispatch('productRequests');
+  },
+  data: function data() {
+    return {
+      headers: [{
+        text: 'Type',
+        sortable: false,
+        align: 'left',
+        value: 'name'
+      }, {
+        text: 'Product',
+        sortable: false,
+        value: 'products'
+      }, {
+        text: 'Phone Number',
+        sortable: false,
+        value: 'phone'
+      }, {
+        text: 'Email',
+        sortable: false,
+        value: 'email'
+      }, {
+        text: 'Comment',
+        sortable: false,
+        value: 'comment'
+      }, {
+        text: 'Time',
+        sortable: false,
+        value: 'time'
+      }, {
+        text: 'Price',
+        sortable: false,
+        value: 'price'
+      }, {
+        text: '',
+        sortable: false,
+        value: 'controls'
+      }],
+      open: false,
+      id: null,
+      isEmail: false,
+      email: null,
+      update: 0
+    };
+  },
+  computed: {
+    data: function data() {
+      return this.$store.getters.getProductRequestById;
+    }
+  },
+  methods: {
+    showModal: function showModal() {
+      this.open = true;
+    },
+    toggleModal: function toggleModal(val) {
+      this.open = val;
+    },
+    getDate: function getDate(str) {
+      var date = '' + str.replace(/[-?]/g, '/').replace('T', ' ');
+      var result = date.split(':');
+      var time = [];
+      result.pop();
+      result[0].split('/').forEach(function (e) {
+        time.push(e.split(' ')[0]);
+      });
+      var temp = time[0];
+      time[0] = time[2];
+      time[2] = temp;
+      return time.join('/');
+    },
+    showProductRequests: function showProductRequests() {
+      var _this = this;
+
+      var status = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+      var requests = this.$store.getters.getProductRequests;
+      var data = [];
+
+      if (requests) {
+        if (Array.isArray(requests)) {
+          requests.forEach(function (item) {
+            if (item.status === status) {
+              data.push({
+                value: true,
+                name: item.type,
+                products: item.name,
+                phone: item.phone,
+                email: item.email,
+                comment: item.comment,
+                time: _this.getDate(item.created_at),
+                price: item.price + ' EUR',
+                id: item.id
+              });
+            }
+          });
+        } else {
+          data.push({
+            value: false,
+            name: requests.type,
+            products: requests.name,
+            phone: requests.phone,
+            email: requests.email,
+            comment: requests.comment,
+            time: this.getDate(requests.created_at),
+            price: requests.price + ' EUR',
+            id: requests.id
+          });
+        }
+
+        return data;
+      }
+    }
+  },
+  created: function created() {},
+  ready: function ready() {},
+  watch: {
+    open: function open(n, o) {
+      console.log("newval: " + n);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { attrs: { id: "request-page", title: "" } },
+    [
+      _c("Navbar", {
+        attrs: { heading: this.$attrs.head, tabs: this.$attrs.nav }
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "tab-content", attrs: { id: "pills-tabContent" } },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade show active",
+              attrs: {
+                id: "pills-active-requests",
+                role: "tabpanel",
+                "aria-labelledby": "pills-requests-tab"
+              }
+            },
+            [
+              _c("dataTables", {
+                attrs: {
+                  seenPage: "product",
+                  "page-type": "default",
+                  heading: Object.values(this.$attrs.nav[0])[0],
+                  headings: _vm.headers,
+                  items: _vm.showProductRequests(1)
+                },
+                on: { value: _vm.showModal }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "pills-archive",
+                role: "tabpanel",
+                "aria-labelledby": "pills-archive-tab"
+              }
+            },
+            [
+              _c("dataTables", {
+                attrs: {
+                  "page-type": "archive",
+                  heading: Object.values(this.$attrs.nav[0])[1],
+                  headings: _vm.headers,
+                  items: _vm.showProductRequests(0)
+                }
+              })
+            ],
+            1
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm.open
+        ? _c(
+            "modal-request",
+            _vm._b(
+              {
+                attrs: {
+                  route: "emailProduct",
+                  headings: this.$attrs.head,
+                  type: "product",
+                  id: _vm.id,
+                  open: _vm.open
+                },
+                on: { offvalue: _vm.toggleModal }
+              },
+              "modal-request",
+              _vm.data,
+              false
+            )
+          )
+        : _vm._e()
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/backend/requests/ProductRequests.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/backend/requests/ProductRequests.vue ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ProductRequests_vue_vue_type_template_id_4d19874e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProductRequests.vue?vue&type=template&id=4d19874e& */ "./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e&");
+/* harmony import */ var _ProductRequests_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProductRequests.vue?vue&type=script&lang=js& */ "./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ProductRequests_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProductRequests_vue_vue_type_template_id_4d19874e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProductRequests_vue_vue_type_template_id_4d19874e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/backend/requests/ProductRequests.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProductRequests_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProductRequests.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProductRequests_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e& ***!
+  \*****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProductRequests_vue_vue_type_template_id_4d19874e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProductRequests.vue?vue&type=template&id=4d19874e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/backend/requests/ProductRequests.vue?vue&type=template&id=4d19874e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProductRequests_vue_vue_type_template_id_4d19874e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProductRequests_vue_vue_type_template_id_4d19874e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

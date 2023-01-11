@@ -1,8 +1,808 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-28"],{"./resources/js/components/public/includes/footer.vue":
-/*!************************************************************************!*\
-  !*** ./resources/js/components/public/includes/footer.vue + 4 modules ***!
-  \************************************************************************/
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-28"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/constants/locales.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c("div", [\n    _c(\n      "section",\n      {\n        staticClass: "footer pl-0 pt-5 pb-3 position-relative w-100",\n        attrs: { id: "footer" }\n      },\n      [\n        _c(\n          "div",\n          {\n            staticClass:\n              "container container-fluid-sm col-xl-7 col-lg-11 col-11 pt-5 px-0"\n          },\n          [\n            _c(\n              "div",\n              {\n                staticClass:\n                  "row d-xs-block d-xlarge-flex justify-content-between"\n              },\n              [\n                _c(\n                  "div",\n                  {\n                    staticClass:\n                      "col-xl-3 col-12 text-xs-center text-xlarge-left footer-one footer-col"\n                  },\n                  [\n                    _c(\n                      "div",\n                      { staticClass: "footer-logo" },\n                      [\n                        _c(\n                          "router-link",\n                          {\n                            attrs: {\n                              to: {\n                                name: "Home",\n                                params: { locale: _vm.$route.params.locale }\n                              }\n                            }\n                          },\n                          [\n                            _c("img", {\n                              directives: [\n                                {\n                                  name: "lazy",\n                                  rawName: "v-lazy",\n                                  value:\n                                    "/assets/components/header/solix_logo_small2.svg",\n                                  expression:\n                                    "\'/assets/components/header/solix_logo_small2.svg\'"\n                                }\n                              ],\n                              attrs: { alt: "Solix Solar Panels" }\n                            })\n                          ]\n                        )\n                      ],\n                      1\n                    )\n                  ]\n                ),\n                _vm._v(" "),\n                _c(\n                  "div",\n                  {\n                    staticClass:\n                      "col-xl-2 col-12 text-center text-xlarge-left footer-two footer-col"\n                  },\n                  [\n                    _c(\n                      "ul",\n                      { class: ["list-unstyled p-0", "d-block"] },\n                      _vm._l(_vm.$t("footer.pages"), function(page) {\n                        return _c(\n                          "li",\n                          [\n                            _c(\n                              "router-link",\n                              {\n                                attrs: {\n                                  to: {\n                                    name: page.link,\n                                    params: { locale: _vm.$route.params.locale }\n                                  }\n                                }\n                              },\n                              [_vm._v(_vm._s(page.text))]\n                            )\n                          ],\n                          1\n                        )\n                      }),\n                      0\n                    )\n                  ]\n                ),\n                _vm._v(" "),\n                _c(\n                  "div",\n                  {\n                    staticClass:\n                      "col-xl-2 col-12 text-center text-xlarge-left footer-four footer-col"\n                  },\n                  [\n                    _c(\n                      "ul",\n                      { class: ["list-unstyled p-0", "d-block"] },\n                      _vm._l(_vm.$t("footer.solix"), function(page) {\n                        return _c(\n                          "li",\n                          [\n                            _c(\n                              "router-link",\n                              {\n                                attrs: {\n                                  to: {\n                                    name: page.link,\n                                    params: { locale: _vm.$route.params.locale }\n                                  }\n                                }\n                              },\n                              [_vm._v(_vm._s(page.text))]\n                            )\n                          ],\n                          1\n                        )\n                      }),\n                      0\n                    )\n                  ]\n                ),\n                _vm._v(" "),\n                _c("div", {\n                  staticClass:\n                    "col-xl-2 col-12 text-center text-xlarge-left footer-three footer-col"\n                }),\n                _vm._v(" "),\n                _c(\n                  "div",\n                  {\n                    staticClass:\n                      "col-xl-3 col-12 text-center text-xlarge-left footer-five footer-col",\n                    class: _vm.compare ? "border-top" : ""\n                  },\n                  [\n                    !_vm.largeCompare\n                      ? _c("h5", [\n                          _vm._v(_vm._s(_vm.$t("footer.contact.title")))\n                        ])\n                      : _c(\n                          "h5",\n                          [\n                            _c(\n                              "router-link",\n                              {\n                                attrs: {\n                                  to: {\n                                    name: "contacts",\n                                    params: {\n                                      locale:\n                                        _vm.$router.currentRoute.params.locale\n                                    }\n                                  }\n                                }\n                              },\n                              [_vm._v(_vm._s(_vm.$t("footer.contact.title")))]\n                            )\n                          ],\n                          1\n                        ),\n                    _vm._v(" "),\n                    _c("ul", { staticClass: "list-unstyled p-0" }, [\n                      _c("li", [\n                        _c(\n                          "a",\n                          {\n                            attrs: { href: "" },\n                            on: {\n                              click: function($event) {\n                                $event.preventDefault()\n                              }\n                            }\n                          },\n                          [\n                            _c("img", {\n                              directives: [\n                                {\n                                  name: "lazy",\n                                  rawName: "v-lazy",\n                                  value: "/assets/icons/phone.svg",\n                                  expression: "\'/assets/icons/phone.svg\'"\n                                }\n                              ]\n                            }),\n                            _vm._v("+373 79 876 545")\n                          ]\n                        )\n                      ]),\n                      _vm._v(" "),\n                      _c("li", [\n                        _c("a", { attrs: { href: "mailto:info@solix.md" } }, [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/assets/icons/mailbox.png",\n                                expression: "\'/assets/icons/mailbox.png\'"\n                              }\n                            ]\n                          }),\n                          _vm._v("info@solix.md")\n                        ])\n                      ]),\n                      _vm._v(" "),\n                      _c("li", [\n                        _c(\n                          "a",\n                          {\n                            attrs: { href: "" },\n                            on: {\n                              click: function($event) {\n                                $event.preventDefault()\n                              }\n                            }\n                          },\n                          [\n                            _c("img", {\n                              directives: [\n                                {\n                                  name: "lazy",\n                                  rawName: "v-lazy",\n                                  value: "/assets/icons/location.png",\n                                  expression: "\'/assets/icons/location.png\'"\n                                }\n                              ]\n                            }),\n                            _vm._v(_vm._s(_vm.$t("footer.contact.address")))\n                          ]\n                        )\n                      ])\n                    ]),\n                    _vm._v(" "),\n                    _c("div", { staticClass: "social-icons" }, [\n                      _c(\n                        "a",\n                        {\n                          staticClass: "social-icon",\n                          attrs: {\n                            target: "_blank",\n                            href: "https://www.facebook.com/Solix.md"\n                          }\n                        },\n                        [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/assets/icons/facebook.png",\n                                expression: "\'/assets/icons/facebook.png\'"\n                              }\n                            ]\n                          })\n                        ]\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "a",\n                        {\n                          staticClass: "social-icon",\n                          attrs: {\n                            target: "_blank",\n                            href: "https://www.instagram.com/solix.md/"\n                          }\n                        },\n                        [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/assets/icons/instagram.png",\n                                expression: "\'/assets/icons/instagram.png\'"\n                              }\n                            ]\n                          })\n                        ]\n                      ),\n                      _vm._v(" "),\n                      _c(\n                        "a",\n                        {\n                          staticClass: "social-icon",\n                          attrs: {\n                            target: "_blank",\n                            href:\n                              "https://www.youtube.com/channel/UC3RN2vRU9Uob1bMprQchTgg"\n                          }\n                        },\n                        [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/assets/icons/youtube.png",\n                                expression: "\'/assets/icons/youtube.png\'"\n                              }\n                            ]\n                          })\n                        ]\n                      )\n                    ])\n                  ]\n                )\n              ]\n            )\n          ]\n        ),\n        _vm._v(" "),\n        _c(\n          "div",\n          {\n            staticClass:\n              "container col-11 col-xl-7 col-lg-11 border-top footer-info"\n          },\n          [\n            _c(\n              "div",\n              {\n                staticClass:\n                  "row d-xs-block d-xlarge-flex justify-content-center "\n              },\n              [\n                _vm._m(0),\n                _vm._v(" "),\n                _c(\n                  "div",\n                  {\n                    staticClass:\n                      "col-12 col-xl-4 mx-auto mt-2 mt-lg-0 text-center text-xlarge-center"\n                  },\n                  [\n                    _c(\n                      "a",\n                      { attrs: { target: "_blank", href: "http://gbmf.tech" } },\n                      [\n                        _c("span", [_vm._v("Created by")]),\n                        _vm._v(" "),\n                        _c("img", {\n                          directives: [\n                            {\n                              name: "lazy",\n                              rawName: "v-lazy",\n                              value: "/assets/components/footer/gbmf.svg",\n                              expression: "\'/assets/components/footer/gbmf.svg\'"\n                            }\n                          ],\n                          staticClass: "create-by-logo"\n                        })\n                      ]\n                    )\n                  ]\n                ),\n                _vm._v(" "),\n                _c(\n                  "div",\n                  {\n                    staticClass:\n                      "col-12 col-xl-4 mx-auto mt-2 mt-lg-0 text-center text-xlarge-right"\n                  },\n                  [\n                    _c(\n                      "router-link",\n                      {\n                        staticClass: "footer-link",\n                        attrs: {\n                          to: {\n                            name: "privacy",\n                            params: { locale: _vm.$route.params.locale }\n                          },\n                          target: "_blank"\n                        }\n                      },\n                      [_vm._v(_vm._s(_vm.$t("footer.policy")))]\n                    )\n                  ],\n                  1\n                )\n              ]\n            )\n          ]\n        ),\n        _vm._v(" "),\n        _vm.largeCompare\n          ? _c(\n              "div",\n              { staticClass: "d-flex header-langs" },\n              [\n                _c(\n                  "router-link",\n                  {\n                    staticClass: "list-group-item border-0",\n                    class: { active: _vm.isActiveLanguage(2) },\n                    attrs: { to: { name: this.$route.name } },\n                    nativeOn: {\n                      click: function($event) {\n                        return _vm.setActive(2)\n                      }\n                    }\n                  },\n                  [_vm._v("RO\\n            ")]\n                ),\n                _vm._v(" "),\n                _c(\n                  "router-link",\n                  {\n                    staticClass: "list-group-item border-0",\n                    class: { active: _vm.isActiveLanguage(3) },\n                    attrs: {\n                      to: { name: this.$route.name, params: { locale: "ru" } }\n                    },\n                    nativeOn: {\n                      click: function($event) {\n                        return _vm.setActive(3)\n                      }\n                    }\n                  },\n                  [_vm._v("RUS\\n            ")]\n                ),\n                _vm._v(" "),\n                _c(\n                  "router-link",\n                  {\n                    staticClass: "list-group-item border-0",\n                    class: { active: _vm.isActiveLanguage(1) },\n                    attrs: {\n                      to: { name: this.$route.name, params: { locale: "en" } }\n                    },\n                    nativeOn: {\n                      click: function($event) {\n                        return _vm.setActive(1)\n                      }\n                    }\n                  },\n                  [_vm._v("ENG\\n            ")]\n                )\n              ],\n              1\n            )\n          : _vm._e()\n      ]\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      "div",\n      {\n        staticClass:\n          "col-12 col-xl-4 mx-auto mt-2 mt-lg-0 text-xlarge-left text-center"\n      },\n      [_c("p", [_vm._v("© 2021 Solix | All Rights Reserved")])]\n    )\n  }\n]\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true&\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__("./resources/js/width.js");\n\n// EXTERNAL MODULE: ./resources/js/constants/locales.js\nvar locales = __webpack_require__("./resources/js/constants/locales.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n\n/* harmony default export */ var footervue_type_script_lang_js_ = ({\n  props: [\'id\', \'lang\'],\n\n  data() {\n    return {\n      services: [],\n      dropdown: false,\n      footerItem: \'mobile\',\n      locales: locales["SUPPORTED_LOCALES"],\n      language: this.currentLang\n    };\n  },\n\n  computed: {\n    currentLang() {\n      return this.$route.params.locale === \'en\' ? 1 : this.$route.params.locale === \'ru\' ? 3 : 2;\n    },\n\n    windowWidth() {\n      return width["default"].data.innerWidth;\n    },\n\n    windowCompare() {\n      return width["default"].data.compare;\n    },\n\n    small() {\n      return width["default"].data.small;\n    },\n\n    xsmall() {\n      return width["default"].data.xsmall;\n    },\n\n    medium() {\n      return width["default"].data.medium;\n    },\n\n    large() {\n      return width["default"].data.large;\n    },\n\n    compare() {\n      return width["default"].data.windowCompare;\n    },\n\n    largeCompare() {\n      return width["default"].data.largeCompare;\n    }\n\n  },\n  watch: {\n    windowWidth(newWidth, oldWidth) {\n      this.dropdown = newWidth < 1025;\n    }\n\n  },\n\n  mounted() {\n    this.dropdown = this.windowWidth < 1025;\n  },\n\n  created() {},\n\n  methods: {\n    isActiveLanguage(id) {\n      let language = this.currentLang;\n\n      if (language === id) {\n        if (id === 1) {\n          return true;\n        } else if (id === 2) {\n          return true;\n        } else {\n          return true;\n        }\n      }\n\n      return this.language === id;\n    },\n\n    setLocale(id) {\n      this.$root.$i18n.locale = id;\n      this.$store.dispatch(\'setPublicLanguage\', this.locales.find(item => item.code === id));\n    },\n\n    setActive(id) {\n      if (id === 1) {\n        this.setLocale(\'en\');\n      } else if (id === 2) {\n        this.setLocale(\'ro\');\n      } else {\n        this.setLocale(\'ru\');\n      }\n\n      this.language = id;\n    },\n\n    setServices() {\n      let items = [];\n      this.$store.dispatch(\'services\', {\n        lang_id: this.language,\n        limit: 3,\n        offset: 0\n      }).then(() => {\n        if (items = this.$store.getters.getServices) {\n          items.map(item => {\n            if (item.items.length > 3) {\n              items = item.items;\n              return true;\n            } else {\n              item.items.map(service => items.push(service));\n              if (items.length > 3) return true;\n            }\n          });\n          this.services = items;\n        }\n      });\n    },\n\n    onResize() {},\n\n    openList(event) {\n      let item = $(event.target).attr(\'data-id\');\n\n      if (this.footerItem === item) {\n        this.footerItem = \'\';\n        return false;\n      }\n\n      this.footerItem = item;\n    },\n\n    isActive(item) {\n      return this.footerItem !== item;\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_footervue_type_script_lang_js_ = (footervue_type_script_lang_js_); \n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/footer.vue\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  includes_footervue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  "91bf2178",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/footer.vue"\n/* harmony default export */ var footer = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/footer.vue_+_4_modules?')}}]);
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _width__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../width */ "./resources/js/width.js");
+/* harmony import */ var _constants_locales__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../constants/locales */ "./resources/js/constants/locales.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['id', 'lang'],
+  data: function data() {
+    return {
+      services: [],
+      dropdown: false,
+      footerItem: 'mobile',
+      locales: _constants_locales__WEBPACK_IMPORTED_MODULE_1__["SUPPORTED_LOCALES"],
+      language: this.currentLang
+    };
+  },
+  computed: {
+    currentLang: function currentLang() {
+      return this.$route.params.locale === 'en' ? 1 : this.$route.params.locale === 'ru' ? 3 : 2;
+    },
+    windowWidth: function windowWidth() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.innerWidth;
+    },
+    windowCompare: function windowCompare() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.compare;
+    },
+    small: function small() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.small;
+    },
+    xsmall: function xsmall() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.xsmall;
+    },
+    medium: function medium() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.medium;
+    },
+    large: function large() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.large;
+    },
+    compare: function compare() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.windowCompare;
+    },
+    largeCompare: function largeCompare() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.largeCompare;
+    }
+  },
+  watch: {
+    windowWidth: function windowWidth(newWidth, oldWidth) {
+      this.dropdown = newWidth < 1025;
+    }
+  },
+  mounted: function mounted() {
+    this.dropdown = this.windowWidth < 1025;
+  },
+  created: function created() {},
+  methods: {
+    isActiveLanguage: function isActiveLanguage(id) {
+      var language = this.currentLang;
+
+      if (language === id) {
+        if (id === 1) {
+          return true;
+        } else if (id === 2) {
+          return true;
+        } else {
+          return true;
+        }
+      }
+
+      return this.language === id;
+    },
+    setLocale: function setLocale(id) {
+      this.$root.$i18n.locale = id;
+      this.$store.dispatch('setPublicLanguage', this.locales.find(function (item) {
+        return item.code === id;
+      }));
+    },
+    setActive: function setActive(id) {
+      if (id === 1) {
+        this.setLocale('en');
+      } else if (id === 2) {
+        this.setLocale('ro');
+      } else {
+        this.setLocale('ru');
+      }
+
+      this.language = id;
+    },
+    setServices: function setServices() {
+      var _this = this;
+
+      var items = [];
+      this.$store.dispatch('services', {
+        lang_id: this.language,
+        limit: 3,
+        offset: 0
+      }).then(function () {
+        if (items = _this.$store.getters.getServices) {
+          items.map(function (item) {
+            if (item.items.length > 3) {
+              items = item.items;
+              return true;
+            } else {
+              item.items.map(function (service) {
+                return items.push(service);
+              });
+              if (items.length > 3) return true;
+            }
+          });
+          _this.services = items;
+        }
+      });
+    },
+    onResize: function onResize() {},
+    openList: function openList(event) {
+      var item = $(event.target).attr('data-id');
+
+      if (this.footerItem === item) {
+        this.footerItem = '';
+        return false;
+      }
+
+      this.footerItem = item;
+    },
+    isActive: function isActive(item) {
+      return this.footerItem !== item;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c(
+      "section",
+      {
+        staticClass: "footer pl-0 pt-5 pb-3 position-relative w-100",
+        attrs: { id: "footer" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "container container-fluid-sm col-xl-7 col-lg-11 col-11 pt-5 px-0"
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "row d-xs-block d-xlarge-flex justify-content-between"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-xl-3 col-12 text-xs-center text-xlarge-left footer-one footer-col"
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "footer-logo" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            attrs: {
+                              to: {
+                                name: "Home",
+                                params: { locale: _vm.$route.params.locale }
+                              }
+                            }
+                          },
+                          [
+                            _c("img", {
+                              directives: [
+                                {
+                                  name: "lazy",
+                                  rawName: "v-lazy",
+                                  value:
+                                    "/assets/components/header/solix_logo_small2.svg",
+                                  expression:
+                                    "'/assets/components/header/solix_logo_small2.svg'"
+                                }
+                              ],
+                              attrs: { alt: "Solix Solar Panels" }
+                            })
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-xl-2 col-12 text-center text-xlarge-left footer-two footer-col"
+                  },
+                  [
+                    _c(
+                      "ul",
+                      { class: ["list-unstyled p-0", "d-block"] },
+                      _vm._l(_vm.$t("footer.pages"), function(page) {
+                        return _c(
+                          "li",
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                attrs: {
+                                  to: {
+                                    name: page.link,
+                                    params: { locale: _vm.$route.params.locale }
+                                  }
+                                }
+                              },
+                              [_vm._v(_vm._s(page.text))]
+                            )
+                          ],
+                          1
+                        )
+                      }),
+                      0
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-xl-2 col-12 text-center text-xlarge-left footer-four footer-col"
+                  },
+                  [
+                    _c(
+                      "ul",
+                      { class: ["list-unstyled p-0", "d-block"] },
+                      _vm._l(_vm.$t("footer.solix"), function(page) {
+                        return _c(
+                          "li",
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                attrs: {
+                                  to: {
+                                    name: page.link,
+                                    params: { locale: _vm.$route.params.locale }
+                                  }
+                                }
+                              },
+                              [_vm._v(_vm._s(page.text))]
+                            )
+                          ],
+                          1
+                        )
+                      }),
+                      0
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", {
+                  staticClass:
+                    "col-xl-2 col-12 text-center text-xlarge-left footer-three footer-col"
+                }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-xl-3 col-12 text-center text-xlarge-left footer-five footer-col",
+                    class: _vm.compare ? "border-top" : ""
+                  },
+                  [
+                    !_vm.largeCompare
+                      ? _c("h5", [
+                          _vm._v(_vm._s(_vm.$t("footer.contact.title")))
+                        ])
+                      : _c(
+                          "h5",
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                attrs: {
+                                  to: {
+                                    name: "contacts",
+                                    params: {
+                                      locale:
+                                        _vm.$router.currentRoute.params.locale
+                                    }
+                                  }
+                                }
+                              },
+                              [_vm._v(_vm._s(_vm.$t("footer.contact.title")))]
+                            )
+                          ],
+                          1
+                        ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "list-unstyled p-0" }, [
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            attrs: { href: "" },
+                            on: {
+                              click: function($event) {
+                                $event.preventDefault()
+                              }
+                            }
+                          },
+                          [
+                            _c("img", {
+                              directives: [
+                                {
+                                  name: "lazy",
+                                  rawName: "v-lazy",
+                                  value: "/assets/icons/phone.svg",
+                                  expression: "'/assets/icons/phone.svg'"
+                                }
+                              ]
+                            }),
+                            _vm._v("+373 79 876 545")
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("a", { attrs: { href: "mailto:info@solix.md" } }, [
+                          _c("img", {
+                            directives: [
+                              {
+                                name: "lazy",
+                                rawName: "v-lazy",
+                                value: "/assets/icons/mailbox.png",
+                                expression: "'/assets/icons/mailbox.png'"
+                              }
+                            ]
+                          }),
+                          _vm._v("info@solix.md")
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            attrs: { href: "" },
+                            on: {
+                              click: function($event) {
+                                $event.preventDefault()
+                              }
+                            }
+                          },
+                          [
+                            _c("img", {
+                              directives: [
+                                {
+                                  name: "lazy",
+                                  rawName: "v-lazy",
+                                  value: "/assets/icons/location.png",
+                                  expression: "'/assets/icons/location.png'"
+                                }
+                              ]
+                            }),
+                            _vm._v(_vm._s(_vm.$t("footer.contact.address")))
+                          ]
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "social-icons" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "social-icon",
+                          attrs: {
+                            target: "_blank",
+                            href: "https://www.facebook.com/Solix.md"
+                          }
+                        },
+                        [
+                          _c("img", {
+                            directives: [
+                              {
+                                name: "lazy",
+                                rawName: "v-lazy",
+                                value: "/assets/icons/facebook.png",
+                                expression: "'/assets/icons/facebook.png'"
+                              }
+                            ]
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "social-icon",
+                          attrs: {
+                            target: "_blank",
+                            href: "https://www.instagram.com/solix.md/"
+                          }
+                        },
+                        [
+                          _c("img", {
+                            directives: [
+                              {
+                                name: "lazy",
+                                rawName: "v-lazy",
+                                value: "/assets/icons/instagram.png",
+                                expression: "'/assets/icons/instagram.png'"
+                              }
+                            ]
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "social-icon",
+                          attrs: {
+                            target: "_blank",
+                            href:
+                              "https://www.youtube.com/channel/UC3RN2vRU9Uob1bMprQchTgg"
+                          }
+                        },
+                        [
+                          _c("img", {
+                            directives: [
+                              {
+                                name: "lazy",
+                                rawName: "v-lazy",
+                                value: "/assets/icons/youtube.png",
+                                expression: "'/assets/icons/youtube.png'"
+                              }
+                            ]
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                )
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "container col-11 col-xl-7 col-lg-11 border-top footer-info"
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "row d-xs-block d-xlarge-flex justify-content-center "
+              },
+              [
+                _vm._m(0),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-12 col-xl-4 mx-auto mt-2 mt-lg-0 text-center text-xlarge-center"
+                  },
+                  [
+                    _c(
+                      "a",
+                      { attrs: { target: "_blank", href: "http://gbmf.tech" } },
+                      [
+                        _c("span", [_vm._v("Created by")]),
+                        _vm._v(" "),
+                        _c("img", {
+                          directives: [
+                            {
+                              name: "lazy",
+                              rawName: "v-lazy",
+                              value: "/assets/components/footer/gbmf.svg",
+                              expression: "'/assets/components/footer/gbmf.svg'"
+                            }
+                          ],
+                          staticClass: "create-by-logo"
+                        })
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-12 col-xl-4 mx-auto mt-2 mt-lg-0 text-center text-xlarge-right"
+                  },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "footer-link",
+                        attrs: {
+                          to: {
+                            name: "privacy",
+                            params: { locale: _vm.$route.params.locale }
+                          },
+                          target: "_blank"
+                        }
+                      },
+                      [_vm._v(_vm._s(_vm.$t("footer.policy")))]
+                    )
+                  ],
+                  1
+                )
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _vm.largeCompare
+          ? _c(
+              "div",
+              { staticClass: "d-flex header-langs" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "list-group-item border-0",
+                    class: { active: _vm.isActiveLanguage(2) },
+                    attrs: { to: { name: this.$route.name } },
+                    nativeOn: {
+                      click: function($event) {
+                        return _vm.setActive(2)
+                      }
+                    }
+                  },
+                  [_vm._v("RO\n            ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "list-group-item border-0",
+                    class: { active: _vm.isActiveLanguage(3) },
+                    attrs: {
+                      to: { name: this.$route.name, params: { locale: "ru" } }
+                    },
+                    nativeOn: {
+                      click: function($event) {
+                        return _vm.setActive(3)
+                      }
+                    }
+                  },
+                  [_vm._v("RUS\n            ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "list-group-item border-0",
+                    class: { active: _vm.isActiveLanguage(1) },
+                    attrs: {
+                      to: { name: this.$route.name, params: { locale: "en" } }
+                    },
+                    nativeOn: {
+                      click: function($event) {
+                        return _vm.setActive(1)
+                      }
+                    }
+                  },
+                  [_vm._v("ENG\n            ")]
+                )
+              ],
+              1
+            )
+          : _vm._e()
+      ]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "col-12 col-xl-4 mx-auto mt-2 mt-lg-0 text-xlarge-left text-center"
+      },
+      [_c("p", [_vm._v("© 2021 Solix | All Rights Reserved")])]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/footer.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/public/includes/footer.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _footer_vue_vue_type_template_id_91bf2178_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.vue?vue&type=template&id=91bf2178&scoped=true& */ "./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true&");
+/* harmony import */ var _footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.vue?vue&type=script&lang=js& */ "./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _footer_vue_vue_type_template_id_91bf2178_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _footer_vue_vue_type_template_id_91bf2178_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "91bf2178",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/public/includes/footer.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/footer.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true& ***!
+  \*******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_91bf2178_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=template&id=91bf2178&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/footer.vue?vue&type=template&id=91bf2178&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_91bf2178_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_91bf2178_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

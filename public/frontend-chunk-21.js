@@ -1,9 +1,461 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-21"],{"./resources/js/components/public/includes/breadcrumbs.vue":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/components/public/includes/breadcrumbs.vue + 4 modules ***!
-  \*****************************************************************************/
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-21"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VBreadcrumbs/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify-loader/lib/runtime/installComponents.js (<- Module is not an ECMAScript module) */function(module,__webpack_exports__,__webpack_require__){"use strict";eval("// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm.stack.length > 0\n    ? _c(\"v-breadcrumbs\", {\n        class: _vm.color,\n        attrs: { items: _vm.stack },\n        scopedSlots: _vm._u(\n          [\n            {\n              key: \"item\",\n              fn: function(ref) {\n                var item = ref.item\n                return [\n                  item.class === \"crumbs__item--current\"\n                    ? _c(\n                        \"v-breadcrumbs-item\",\n                        {\n                          class: [\"active\", _vm.color],\n                          attrs: { disabled: \"\" }\n                        },\n                        [\n                          _c(\n                            \"router-link\",\n                            {\n                              class: [\"crumbs__link\", _vm.color],\n                              attrs: {\n                                to: {\n                                  name: item.name,\n                                  params: { locale: _vm.$route.params.locale }\n                                }\n                              }\n                            },\n                            [\n                              _vm._v(\n                                \"\\n                \" +\n                                  _vm._s(item.label) +\n                                  \"\\n            \"\n                              )\n                            ]\n                          )\n                        ],\n                        1\n                      )\n                    : _c(\n                        \"v-breadcrumbs-item\",\n                        { class: [_vm.color] },\n                        [\n                          _c(\n                            \"router-link\",\n                            {\n                              class: [\"crumbs__link\", _vm.color],\n                              attrs: {\n                                to: {\n                                  name: item.name,\n                                  params: { locale: _vm.$route.params.locale }\n                                }\n                              }\n                            },\n                            [\n                              _vm._v(\n                                \"\\n                \" +\n                                  _vm._s(item.label) +\n                                  \"\\n            \"\n                              )\n                            ]\n                          )\n                        ],\n                        1\n                      )\n                ]\n              }\n            }\n          ],\n          null,\n          false,\n          380517005\n        )\n      })\n    : _vm._e()\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177&\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__(\"./resources/js/width.js\");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nconst store = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ../../../store/store */ \"./resources/js/store/store.js\"));\n\n\n/* harmony default export */ var breadcrumbsvue_type_script_lang_js_ = ({\n  name: 'Crumbs',\n  props: ['color', 'items'],\n\n  data() {\n    return {\n      stack: [],\n      home: '',\n      language: this.$route.params.locale === 'en' ? 1 : this.$route.params.locale === 'ru' ? 3 : 2\n    };\n  },\n\n  mounted() {\n    this.buildStack();\n  },\n\n  methods: {\n    buildStack() {\n      this.stack = [{\n        class: \"crumbs__item--parent\",\n        label: this.language === 1 ? 'Home' : this.language === 2 ? 'Acasă' : 'Главная',\n        name: \"Home\"\n      }];\n      this.addPage(this.$router.currentRoute);\n    },\n\n    addPage(route, first) {\n      if (!this.items) {\n        let categoryUrl = '';\n\n        if (this.$route.params.category) {\n          if (route.meta.breadcrumb.parent) {\n            first = true;\n            if (!this.$route.params.id && this.$route.params.category) first = undefined;\n\n            if (this.stack.findIndex(item => item.name === this.$store.state.categoryByUrl) < 0) {\n              this.$store.dispatch('categoryByUrl', {\n                lang_id: this.language,\n                url: this.$route.params.category\n              }).then(() => {\n                categoryUrl = this.$store.getters.getCategoryByUrl.data.name;\n\n                if (this.stack.findIndex(item => item.label === categoryUrl) < 0) {\n                  var _route$meta, _route$meta$breadcrumb;\n\n                  this.stack.push({\n                    name: 'productsCategory',\n                    label: ((_route$meta = route.meta) === null || _route$meta === void 0 ? void 0 : (_route$meta$breadcrumb = _route$meta.breadcrumb) === null || _route$meta$breadcrumb === void 0 ? void 0 : _route$meta$breadcrumb.label) || categoryUrl.replace('.', ' '),\n                    class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')\n                  });\n\n                  if (this.$route.params.id && this.$route.params.category) {\n                    this.stack[this.stack.length - 1].class = 'crumbs__item--current';\n                  }\n                }\n              });\n            }\n          }\n        }\n\n        if (route.meta.breadcrumb.parent) {\n          const parent = this.getRoute(route.meta.breadcrumb.parent);\n\n          if (this.stack.findIndex(item => item.name === parent.name)) {\n            this.addPage(parent, true);\n          }\n        } else {\n          if (!this.$route.params.id && this.$route.params.category) first = true;\n\n          if (this.stack.findIndex(item => item.name === route.name) < 0) {\n            let routeName = '';\n\n            switch (this.$route.name) {\n              case 'productsCategory':\n                routeName = 'products';\n                break;\n\n              case 'products':\n                routeName = 'products';\n                break;\n\n              case 'product':\n                routeName = 'products';\n                break;\n\n              case 'services':\n                routeName = 'services';\n                break;\n\n              case 'service':\n                routeName = 'services';\n                break;\n\n              case 'projects':\n                routeName = 'projects';\n                break;\n\n              case 'project':\n                routeName = 'projects';\n                break;\n\n              case 'about':\n                routeName = 'about';\n                break;\n\n              case 'news':\n                routeName = 'news';\n                break;\n\n              case 'contacts':\n                routeName = 'contacts';\n                break;\n            }\n\n            let label = this.$t(routeName + '.title');\n            this.stack.push({\n              name: route.name,\n              label: label,\n              class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')\n            });\n          }\n        }\n      } else {\n        this.items.forEach((item, index) => {\n          if (item.project_id) {\n            this.$store.dispatch('singleProject', {\n              id: item.project_id,\n              lang: this.language\n            }).then(() => {\n              let project = this.$store.getters.getSingleProject;\n              this.stack.push({\n                name: project.projects.name,\n                label: route.label || project.projects.name.replace('.', ' '),\n                class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')\n              });\n            });\n          } else {\n            if (!item.service_id && !item.news_id && !item.career_id) {\n              if (this.items.length - 1 === index) first = 'undefined';\n              this.stack.push({\n                name: item.name,\n                label: item.label || item.name.replace('.', ' '),\n                class: 'crumbs__item--parent'\n              });\n            } else {\n              this.stack[this.stack.length - 1].class = 'crumbs__item--current';\n            }\n          }\n        });\n      }\n\n      if (this.items) {\n        /*    if (this.items.findIndex(index => index.news_id) >= 0) {\n                first = undefined;\n                let data = this.items.find(index => index.news_id)\n                this.$store.dispatch('singleNews', {id: data.news_id, lang: this.language})\n                    .then(() => {\n                        let news = this.$store.getters.getSingleNews;\n                        this.stack.pop();\n                        this.stack.push({\n                            name: news.translates.name,\n                            label: route.label || news.translates.name.replace('.', ' '),\n                            class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')\n                        })\n                    })\n            }*/\n        if (this.items.findIndex(index => index.career_id) >= 0) {\n          first = undefined;\n          let data = this.items.find(index => index.career_id);\n          this.$store.dispatch('singleCareer', {\n            id: data.career_id,\n            lang_id: this.language\n          }).then(() => {\n            let career = this.$store.getters.getSingleCareer; //this.stack.pop();\n\n            this.stack.push({\n              name: career.translates.name,\n              label: route.label || career.translates.name.replace('.', ' '),\n              class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')\n            });\n          });\n        }\n        /*  if (this.items.findIndex(index => index.service_id) >= 0) {\n              first = undefined;\n              let data = this.items.find(index => index.service_id)\n              this.$store.dispatch('service', {id: data.service_id, lang_id: this.language})\n                  .then(() => {\n                      let service = this.$store.getters.getService;\n                      this.stack.pop();\n                      this.stack.push({\n                          name: service.data.name,\n                          label: route.label || service.data.name.replace('.', ' '),\n                          class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')\n                      })\n                  })\n          }*/\n\n      }\n    },\n\n    getRoute(name) {\n      if (this.$router.options.routes.find(route => route.name === name.capitalize).children.find(item => item.name === name)) {\n        return this.$router.options.routes.find(route => route.name === name.capitalize).children.find(item => item.name === name);\n      }\n\n      return this.$router.options.routes.find(route => route.name === name.capitalize);\n    }\n\n  },\n  computed: {\n    small() {\n      return width[\"default\"].data.small;\n    }\n\n  },\n\n  created() {},\n\n  watch: {\n    $route(to) {\n      this.buildStack();\n    },\n\n    language() {\n      this.buildStack();\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_breadcrumbsvue_type_script_lang_js_ = (breadcrumbsvue_type_script_lang_js_); \n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__(\"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n// EXTERNAL MODULE: ./node_modules/vuetify-loader/lib/runtime/installComponents.js\nvar installComponents = __webpack_require__(\"./node_modules/vuetify-loader/lib/runtime/installComponents.js\");\nvar installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBreadcrumbs/index.js + 4 modules\nvar VBreadcrumbs = __webpack_require__(\"./node_modules/vuetify/lib/components/VBreadcrumbs/index.js\");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/breadcrumbs.vue\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer[\"default\"])(\n  includes_breadcrumbsvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* vuetify-loader */\n\n\n\ninstallComponents_default()(component, {VBreadcrumbs: VBreadcrumbs[\"VBreadcrumbs\"],VBreadcrumbsItem: VBreadcrumbs[\"VBreadcrumbsItem\"]})\n\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/js/components/public/includes/breadcrumbs.vue\"\n/* harmony default export */ var breadcrumbs = __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/breadcrumbs.vue_+_4_modules?")}}]);
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _width__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../width */ "./resources/js/width.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var store = function store() {
+  return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ../../../store/store */ "./resources/js/store/store.js"));
+};
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'Crumbs',
+  props: ['color', 'items'],
+  data: function data() {
+    return {
+      stack: [],
+      home: '',
+      language: this.$route.params.locale === 'en' ? 1 : this.$route.params.locale === 'ru' ? 3 : 2
+    };
+  },
+  mounted: function mounted() {
+    this.buildStack();
+  },
+  methods: {
+    buildStack: function buildStack() {
+      this.stack = [{
+        "class": "crumbs__item--parent",
+        label: this.language === 1 ? 'Home' : this.language === 2 ? 'Acasă' : 'Главная',
+        name: "Home"
+      }];
+      this.addPage(this.$router.currentRoute);
+    },
+    addPage: function addPage(route, first) {
+      var _this = this;
+
+      if (!this.items) {
+        var categoryUrl = '';
+
+        if (this.$route.params.category) {
+          if (route.meta.breadcrumb.parent) {
+            first = true;
+            if (!this.$route.params.id && this.$route.params.category) first = undefined;
+
+            if (this.stack.findIndex(function (item) {
+              return item.name === _this.$store.state.categoryByUrl;
+            }) < 0) {
+              this.$store.dispatch('categoryByUrl', {
+                lang_id: this.language,
+                url: this.$route.params.category
+              }).then(function () {
+                categoryUrl = _this.$store.getters.getCategoryByUrl.data.name;
+
+                if (_this.stack.findIndex(function (item) {
+                  return item.label === categoryUrl;
+                }) < 0) {
+                  var _route$meta, _route$meta$breadcrumb;
+
+                  _this.stack.push({
+                    name: 'productsCategory',
+                    label: ((_route$meta = route.meta) === null || _route$meta === void 0 ? void 0 : (_route$meta$breadcrumb = _route$meta.breadcrumb) === null || _route$meta$breadcrumb === void 0 ? void 0 : _route$meta$breadcrumb.label) || categoryUrl.replace('.', ' '),
+                    "class": 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')
+                  });
+
+                  if (_this.$route.params.id && _this.$route.params.category) {
+                    _this.stack[_this.stack.length - 1]["class"] = 'crumbs__item--current';
+                  }
+                }
+              });
+            }
+          }
+        }
+
+        if (route.meta.breadcrumb.parent) {
+          var parent = this.getRoute(route.meta.breadcrumb.parent);
+
+          if (this.stack.findIndex(function (item) {
+            return item.name === parent.name;
+          })) {
+            this.addPage(parent, true);
+          }
+        } else {
+          if (!this.$route.params.id && this.$route.params.category) first = true;
+
+          if (this.stack.findIndex(function (item) {
+            return item.name === route.name;
+          }) < 0) {
+            var routeName = '';
+
+            switch (this.$route.name) {
+              case 'productsCategory':
+                routeName = 'products';
+                break;
+
+              case 'products':
+                routeName = 'products';
+                break;
+
+              case 'product':
+                routeName = 'products';
+                break;
+
+              case 'services':
+                routeName = 'services';
+                break;
+
+              case 'service':
+                routeName = 'services';
+                break;
+
+              case 'projects':
+                routeName = 'projects';
+                break;
+
+              case 'project':
+                routeName = 'projects';
+                break;
+
+              case 'about':
+                routeName = 'about';
+                break;
+
+              case 'news':
+                routeName = 'news';
+                break;
+
+              case 'contacts':
+                routeName = 'contacts';
+                break;
+            }
+
+            var label = this.$t(routeName + '.title');
+            this.stack.push({
+              name: route.name,
+              label: label,
+              "class": 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')
+            });
+          }
+        }
+      } else {
+        this.items.forEach(function (item, index) {
+          if (item.project_id) {
+            _this.$store.dispatch('singleProject', {
+              id: item.project_id,
+              lang: _this.language
+            }).then(function () {
+              var project = _this.$store.getters.getSingleProject;
+
+              _this.stack.push({
+                name: project.projects.name,
+                label: route.label || project.projects.name.replace('.', ' '),
+                "class": 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')
+              });
+            });
+          } else {
+            if (!item.service_id && !item.news_id && !item.career_id) {
+              if (_this.items.length - 1 === index) first = 'undefined';
+
+              _this.stack.push({
+                name: item.name,
+                label: item.label || item.name.replace('.', ' '),
+                "class": 'crumbs__item--parent'
+              });
+            } else {
+              _this.stack[_this.stack.length - 1]["class"] = 'crumbs__item--current';
+            }
+          }
+        });
+      }
+
+      if (this.items) {
+        /*    if (this.items.findIndex(index => index.news_id) >= 0) {
+                first = undefined;
+                let data = this.items.find(index => index.news_id)
+                this.$store.dispatch('singleNews', {id: data.news_id, lang: this.language})
+                    .then(() => {
+                        let news = this.$store.getters.getSingleNews;
+                        this.stack.pop();
+                        this.stack.push({
+                            name: news.translates.name,
+                            label: route.label || news.translates.name.replace('.', ' '),
+                            class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')
+                        })
+                    })
+            }*/
+        if (this.items.findIndex(function (index) {
+          return index.career_id;
+        }) >= 0) {
+          first = undefined;
+          var data = this.items.find(function (index) {
+            return index.career_id;
+          });
+          this.$store.dispatch('singleCareer', {
+            id: data.career_id,
+            lang_id: this.language
+          }).then(function () {
+            var career = _this.$store.getters.getSingleCareer; //this.stack.pop();
+
+            _this.stack.push({
+              name: career.translates.name,
+              label: route.label || career.translates.name.replace('.', ' '),
+              "class": 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')
+            });
+          });
+        }
+        /*  if (this.items.findIndex(index => index.service_id) >= 0) {
+              first = undefined;
+              let data = this.items.find(index => index.service_id)
+              this.$store.dispatch('service', {id: data.service_id, lang_id: this.language})
+                  .then(() => {
+                      let service = this.$store.getters.getService;
+                      this.stack.pop();
+                      this.stack.push({
+                          name: service.data.name,
+                          label: route.label || service.data.name.replace('.', ' '),
+                          class: 'crumbs__item--' + (typeof first === 'undefined' ? 'current' : 'parent')
+                      })
+                  })
+          }*/
+
+      }
+    },
+    getRoute: function getRoute(name) {
+      if (this.$router.options.routes.find(function (route) {
+        return route.name === name.capitalize;
+      }).children.find(function (item) {
+        return item.name === name;
+      })) {
+        return this.$router.options.routes.find(function (route) {
+          return route.name === name.capitalize;
+        }).children.find(function (item) {
+          return item.name === name;
+        });
+      }
+
+      return this.$router.options.routes.find(function (route) {
+        return route.name === name.capitalize;
+      });
+    }
+  },
+  computed: {
+    small: function small() {
+      return _width__WEBPACK_IMPORTED_MODULE_0__["default"].data.small;
+    }
+  },
+  created: function created() {},
+  watch: {
+    $route: function $route(to) {
+      this.buildStack();
+    },
+    language: function language() {
+      this.buildStack();
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm.stack.length > 0
+    ? _c("v-breadcrumbs", {
+        class: _vm.color,
+        attrs: { items: _vm.stack },
+        scopedSlots: _vm._u(
+          [
+            {
+              key: "item",
+              fn: function(ref) {
+                var item = ref.item
+                return [
+                  item.class === "crumbs__item--current"
+                    ? _c(
+                        "v-breadcrumbs-item",
+                        {
+                          class: ["active", _vm.color],
+                          attrs: { disabled: "" }
+                        },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              class: ["crumbs__link", _vm.color],
+                              attrs: {
+                                to: {
+                                  name: item.name,
+                                  params: { locale: _vm.$route.params.locale }
+                                }
+                              }
+                            },
+                            [
+                              _vm._v(
+                                "\n                " +
+                                  _vm._s(item.label) +
+                                  "\n            "
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    : _c(
+                        "v-breadcrumbs-item",
+                        { class: [_vm.color] },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              class: ["crumbs__link", _vm.color],
+                              attrs: {
+                                to: {
+                                  name: item.name,
+                                  params: { locale: _vm.$route.params.locale }
+                                }
+                              }
+                            },
+                            [
+                              _vm._v(
+                                "\n                " +
+                                  _vm._s(item.label) +
+                                  "\n            "
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                ]
+              }
+            }
+          ],
+          null,
+          false,
+          380517005
+        )
+      })
+    : _vm._e()
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/breadcrumbs.vue":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/public/includes/breadcrumbs.vue ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _breadcrumbs_vue_vue_type_template_id_64e98177___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./breadcrumbs.vue?vue&type=template&id=64e98177& */ "./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177&");
+/* harmony import */ var _breadcrumbs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breadcrumbs.vue?vue&type=script&lang=js& */ "./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _breadcrumbs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _breadcrumbs_vue_vue_type_template_id_64e98177___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _breadcrumbs_vue_vue_type_template_id_64e98177___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/public/includes/breadcrumbs.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_breadcrumbs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./breadcrumbs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_breadcrumbs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_breadcrumbs_vue_vue_type_template_id_64e98177___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./breadcrumbs.vue?vue&type=template&id=64e98177& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/breadcrumbs.vue?vue&type=template&id=64e98177&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_breadcrumbs_vue_vue_type_template_id_64e98177___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_breadcrumbs_vue_vue_type_template_id_64e98177___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

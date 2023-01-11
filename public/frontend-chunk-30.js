@@ -1,9 +1,370 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-30"],{"./resources/js/components/public/includes/modules.vue":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/public/includes/modules.vue + 6 modules ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify/lib/components/VTabs/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vuetify-loader/lib/runtime/installComponents.js (<- Module is not an ECMAScript module) */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/modules.vue?vue&type=template&id=b031f7a4&scoped=true&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c("div", { class: _vm.subTab, attrs: { id: "modules" } }, [\n    _c("div", { staticClass: "modules-inner" }, [\n      _c("div", { staticClass: "col-lg-5 col col-11 ml-auto" }, [\n        _c(\n          "div",\n          { staticClass: "sidebar-modules" },\n          [\n            _c("h2", { staticClass: "text-white" }, [\n              _vm._v(_vm._s(_vm.$t(_vm.page + ".modules.title")))\n            ]),\n            _vm._v(" "),\n            _c(\n              "v-tabs",\n              {\n                attrs: { "slider-size": "1" },\n                model: {\n                  value: _vm.tab,\n                  callback: function($$v) {\n                    _vm.tab = $$v\n                  },\n                  expression: "tab"\n                }\n              },\n              [\n                [\n                  _vm.xsmall\n                    ? _c(\n                        "div",\n                        {\n                          staticClass:\n                            "nav flex-column nav-pills me-3 col-lg-2 col-11 px-0 flex-md-row flex-lg-column",\n                          attrs: {\n                            id: "v-pills-tab",\n                            role: "tablist",\n                            "aria-orientation": "vertical"\n                          }\n                        },\n                        [\n                          _c("ul", [\n                            _c("li", { staticClass: "nav-item dropdown" }, [\n                              _c(\n                                "a",\n                                {\n                                  staticClass: "nav-link dropdown-toggle",\n                                  attrs: {\n                                    id: "trigger3",\n                                    "data-toggle": "dropdown",\n                                    href: "#",\n                                    role: "button",\n                                    "aria-haspopup": "true",\n                                    "aria-expanded": "false"\n                                  }\n                                },\n                                [\n                                  _vm._v(\n                                    _vm._s(\n                                      _vm.text\n                                        ? _vm.text\n                                        : _vm.$t(_vm.page + ".modules.tabs")[0]\n                                            .title\n                                    )\n                                  )\n                                ]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    : _vm._l(_vm.$t(_vm.page + ".modules.tabs"), function(\n                        tabItem,\n                        index\n                      ) {\n                        return _c("v-tab", { key: "tab-" + index }, [\n                          _c("h5", { staticClass: "no-after" }, [\n                            _vm._v(_vm._s(tabItem.title))\n                          ])\n                        ])\n                      })\n                ],\n                _vm._v(" "),\n                !_vm.xsmall\n                  ? [\n                      _vm.page === "b2c" || _vm.page === "b2b"\n                        ? _c(\n                            "v-tabs-items",\n                            {\n                              model: {\n                                value: _vm.tab,\n                                callback: function($$v) {\n                                  _vm.tab = $$v\n                                },\n                                expression: "tab"\n                              }\n                            },\n                            _vm._l(_vm.$t(_vm.page + ".modules.tabs"), function(\n                              tabItem,\n                              ind\n                            ) {\n                              return _c(\n                                "v-tab-item",\n                                { key: "tab-item-" + ind },\n                                [\n                                  _c("div", [\n                                    _c(\n                                      "ul",\n                                      {\n                                        staticClass: "d-flex modules-features"\n                                      },\n                                      _vm._l(tabItem.features, function(\n                                        feature,\n                                        i\n                                      ) {\n                                        return _c(\n                                          "li",\n                                          { key: "feature-" + i },\n                                          [\n                                            _c("p", { staticClass: "roboto" }, [\n                                              _vm._v(_vm._s(feature.value))\n                                            ]),\n                                            _vm._v(" "),\n                                            _c("p", [\n                                              _vm._v(_vm._s(feature.name))\n                                            ])\n                                          ]\n                                        )\n                                      }),\n                                      0\n                                    )\n                                  ]),\n                                  _vm._v(" "),\n                                  !_vm.tab\n                                    ? _c(\n                                        "v-tabs",\n                                        {\n                                          staticClass: "sides-modules",\n                                          model: {\n                                            value: _vm.subTab,\n                                            callback: function($$v) {\n                                              _vm.subTab = $$v\n                                            },\n                                            expression: "subTab"\n                                          }\n                                        },\n                                        _vm._l(\n                                          _vm.$t(_vm.page + ".modules.subtabs"),\n                                          function(sf, i) {\n                                            return _c(\n                                              "v-tab",\n                                              {\n                                                key: sf.id,\n                                                on: {\n                                                  click: function($event) {\n                                                    return _vm.setImage(sf.id)\n                                                  }\n                                                }\n                                              },\n                                              [\n                                                _c("h5", [\n                                                  _vm._v(_vm._s(sf.title))\n                                                ])\n                                              ]\n                                            )\n                                          }\n                                        ),\n                                        1\n                                      )\n                                    : _vm._e(),\n                                  _vm._v(" "),\n                                  _c("p", { staticClass: "card-text" }, [\n                                    _vm._v(_vm._s(tabItem.text))\n                                  ])\n                                ],\n                                1\n                              )\n                            }),\n                            1\n                          )\n                        : _c(\n                            "v-tabs-items",\n                            {\n                              model: {\n                                value: _vm.tab,\n                                callback: function($$v) {\n                                  _vm.tab = $$v\n                                },\n                                expression: "tab"\n                              }\n                            },\n                            _vm._l(_vm.$t(_vm.page + ".modules.tabs"), function(\n                              tab,\n                              ind\n                            ) {\n                              return _c(\n                                "v-tab-item",\n                                { key: "tab-item-" + ind },\n                                [\n                                  _c("p", { staticClass: "card-text" }, [\n                                    _vm._v(_vm._s(tab.text))\n                                  ]),\n                                  _vm._v(" "),\n                                  _c("div", [\n                                    _c(\n                                      "ul",\n                                      {\n                                        staticClass: "d-flex modules-features"\n                                      },\n                                      _vm._l(tab.features, function(\n                                        feature,\n                                        i\n                                      ) {\n                                        return _c(\n                                          "li",\n                                          { key: "feature-" + i },\n                                          [\n                                            _c("p", { staticClass: "roboto" }, [\n                                              _vm._v(_vm._s(feature.value))\n                                            ]),\n                                            _vm._v(" "),\n                                            _c("p", [\n                                              _vm._v(_vm._s(feature.name))\n                                            ])\n                                          ]\n                                        )\n                                      }),\n                                      0\n                                    )\n                                  ])\n                                ]\n                              )\n                            }),\n                            1\n                          )\n                    ]\n                  : _vm._e()\n              ],\n              2\n            ),\n            _vm._v(" "),\n            _vm.xsmall\n              ? _c(\n                  "div",\n                  {\n                    staticClass: "tab-content col-lg-10 col-12 pr-0",\n                    attrs: { id: "v-pills-tabContent" }\n                  },\n                  _vm._l(_vm.$t(_vm.page + ".modules.tabs"), function(item, i) {\n                    return _c(\n                      "div",\n                      {\n                        key: "tab-" + i,\n                        class: [\n                          "tab-pane",\n                          "fade",\n                          item.title === _vm.active ? "show active" : ""\n                        ],\n                        attrs: {\n                          id: item.title,\n                          role: "tabpanel",\n                          "aria-labelledby": "v-pills-home-tab"\n                        }\n                      },\n                      [\n                        _vm.xsmall\n                          ? _c("div", [\n                              _c(\n                                "ul",\n                                {\n                                  staticClass:\n                                    "d-flex flex-column modules-features"\n                                },\n                                _vm._l(item.features, function(feature, i) {\n                                  return _c("li", { key: "feature-" + i }, [\n                                    _c("p", { staticClass: "roboto" }, [\n                                      _vm._v(_vm._s(feature.value))\n                                    ]),\n                                    _vm._v(" "),\n                                    _c("p", [_vm._v(_vm._s(feature.name))])\n                                  ])\n                                }),\n                                0\n                              )\n                            ])\n                          : _vm._e(),\n                        _vm._v(" "),\n                        !_vm.tabIndex &&\n                        (_vm.page === "b2c" || _vm.page === "b2b")\n                          ? _c(\n                              "v-tabs",\n                              {\n                                staticClass: "sides-modules",\n                                model: {\n                                  value: _vm.subTab,\n                                  callback: function($$v) {\n                                    _vm.subTab = $$v\n                                  },\n                                  expression: "subTab"\n                                }\n                              },\n                              _vm._l(\n                                _vm.$t(_vm.page + ".modules.subtabs"),\n                                function(sf, i) {\n                                  return _c(\n                                    "v-tab",\n                                    {\n                                      key: sf.id,\n                                      on: {\n                                        click: function($event) {\n                                          return _vm.setImage(sf.id)\n                                        }\n                                      }\n                                    },\n                                    [_c("h5", [_vm._v(_vm._s(sf.title))])]\n                                  )\n                                }\n                              ),\n                              1\n                            )\n                          : _vm._e(),\n                        _vm._v(" "),\n                        _c("p", { staticClass: "card-text" }, [\n                          _vm._v(_vm._s(item.text))\n                        ]),\n                        _vm._v(" "),\n                        _vm.small\n                          ? _c("div", [\n                              _c(\n                                "ul",\n                                { staticClass: "d-flex modules-features" },\n                                _vm._l(item.features, function(feature, i) {\n                                  return _c("li", { key: "feature-" + i }, [\n                                    _c("p", { staticClass: "roboto" }, [\n                                      _vm._v(_vm._s(feature.value))\n                                    ]),\n                                    _vm._v(" "),\n                                    _c("p", [_vm._v(_vm._s(feature.name))])\n                                  ])\n                                }),\n                                0\n                              )\n                            ])\n                          : _vm._e()\n                      ],\n                      1\n                    )\n                  }),\n                  0\n                )\n              : _vm._e()\n          ],\n          1\n        )\n      ])\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/modules.vue?vue&type=template&id=b031f7a4&scoped=true&\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__("./resources/js/width.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/modules.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ var modulesvue_type_script_lang_js_ = ({\n  name: \'modules\',\n  props: [\'page\'],\n\n  data() {\n    return {\n      tab: \'\',\n      active: this.$t(this.page + \'.modules.tabs\')[0].title,\n      text: \'\',\n      subTab: 0,\n      tabIndex: 0\n    };\n  },\n\n  mounted() {\n    this.initialisePicker();\n  },\n\n  computed: {\n    small() {\n      return width["default"].data.small;\n    },\n\n    xsmall() {\n      return width["default"].data.xsmall;\n    },\n\n    medium() {\n      return width["default"].data.medium;\n    },\n\n    large() {\n      return width["default"].data.large;\n    }\n\n  },\n  methods: {\n    screenSizeClass(node) {\n      if (width["default"].data.small) {\n        node.removeClass(\'mh-xs mh-md mh-lg\').addClass(\'mh-sm\');\n      } else if (width["default"].data.xsmall) {\n        node.removeClass(\'mh-sm mh-md mh-lg\').addClass(\'mh-xs\');\n      } else if (width["default"].data.medium) {\n        node.removeClass(\'mh-sm mh-xs mh-lg\').addClass(\'mh-md\');\n      } else {\n        node.removeClass(\'mh-sm mh-xs mh-md\').addClass(\'mh-lg\');\n      }\n    },\n\n    setImage(tab) {\n      let modules_node = $(\'#modules\');\n\n      if (tab === \'one\') {\n        modules_node.removeClass(\'bilateral\');\n      } else if (tab === \'two\') {\n        modules_node.addClass(\'bilateral\');\n      }\n\n      this.screenSizeClass(modules_node);\n    },\n\n    fetchList(list) {\n      let array = [];\n\n      for (let i in list) {\n        if (list[i].title) array.push({\n          id: i,\n          value: list[i].title\n        });\n      }\n\n      return array;\n    },\n\n    getTab(item) {\n      let list = this.$t(this.page + \'.modules.tabs\');\n\n      for (let i in list) {\n        if (list[i].title === item.value) {\n          return list[i].title;\n        }\n      }\n    },\n\n    initialisePicker() {\n      this.changeBackground();\n      setTimeout(() => {\n        let trigger = document.querySelector(\'#trigger3\');\n\n        if (trigger) {\n          let _this = this;\n\n          let vm = this;\n          var mobileSelect1 = new MobileSelect({\n            trigger: "#trigger3",\n            title: "",\n            wheels: [{\n              data: this.fetchList(this.$t(this.page + \'.modules.tabs\'))\n            }],\n            cancelBtnText: this.$t(\'cancel\'),\n            ensureBtnText: this.$t(\'select\'),\n            jsonType: true,\n            position: [0],\n            transitionEnd: function (indexArr, data) {},\n            onShow: e => {},\n            callback: function (indexArr, data) {\n              let s = data[0];\n              vm.active = _this.getTab(s);\n              vm.text = s.value;\n              vm.tabIndex = indexArr[0];\n            }\n          });\n        }\n      }, 1500);\n    },\n\n    setTab(tab) {\n      this.text = tab.title;\n    },\n\n    changeBackground(n, o) {\n      if (this.page === \'b2c\' || this.page === \'b2b\') {\n        let modules_node = $(\'#modules\');\n        this.screenSizeClass(modules_node);\n\n        if (n) {\n          modules_node.removeClass(\'bilateral\').addClass(\'thin\');\n        } else {\n          modules_node.removeClass(\'thin\');\n\n          if (!this.subTab) {\n            modules_node.removeClass(\'bilateral\');\n          } else if (this.subTab) {\n            modules_node.addClass(\'bilateral\');\n          }\n        }\n      }\n    }\n\n  },\n  watch: {\n    xsmall(n, o) {\n      this.changeBackground(this.tab, o);\n\n      if (n !== o) {\n        if (n) {\n          this.initialisePicker();\n        }\n      }\n    },\n\n    small(n, o) {\n      this.changeBackground(this.tab, false);\n    },\n\n    medium(n, o) {\n      this.changeBackground(this.tab, false);\n    },\n\n    large() {\n      this.changeBackground(this.tab, false);\n    },\n\n    tab(n, o) {\n      this.changeBackground(n, o);\n    },\n\n    tabIndex(n, o) {\n      this.changeBackground(n, o);\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/modules.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_modulesvue_type_script_lang_js_ = (modulesvue_type_script_lang_js_); \n// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/modules.vue?vue&type=style&index=0&id=b031f7a4&scoped=true&lang=scss&\n// extracted by mini-css-extract-plugin\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/modules.vue?vue&type=style&index=0&id=b031f7a4&scoped=true&lang=scss&\n\n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// EXTERNAL MODULE: ./node_modules/vuetify-loader/lib/runtime/installComponents.js\nvar installComponents = __webpack_require__("./node_modules/vuetify-loader/lib/runtime/installComponents.js");\nvar installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);\n\n// EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VTabs/index.js + 7 modules\nvar VTabs = __webpack_require__("./node_modules/vuetify/lib/components/VTabs/index.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/modules.vue\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  includes_modulesvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  "b031f7a4",\n  null\n  \n)\n\n/* vuetify-loader */\n\n\n\n\n\ninstallComponents_default()(component, {VTab: VTabs["VTab"],VTabItem: VTabs["VTabItem"],VTabs: VTabs["VTabs"],VTabsItems: VTabs["VTabsItems"]})\n\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/modules.vue"\n/* harmony default export */ var modules = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/modules.vue_+_6_modules?')}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-30"],{
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && typeof btoa !== 'undefined') {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ })
+
+}]);

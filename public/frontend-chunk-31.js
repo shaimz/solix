@@ -1,7 +1,370 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-31"],{"./resources/js/components/public/includes/moreItems.vue":
-/*!***************************************************************************!*\
-  !*** ./resources/js/components/public/includes/moreItems.vue + 6 modules ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/moreItems.vue?vue&type=template&id=fcd0a75c&scoped=true&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm.render\n    ? _c(\n        "div",\n        { staticClass: "padding-125 my-5", attrs: { id: "moreItems" } },\n        [\n          _c("div", { staticClass: "col-xl-7 col-12 m-auto" }, [\n            _vm.type === "projects"\n              ? _c("h2", { staticClass: "mb-4 text-dark" }, [\n                  _vm._v(_vm._s(_vm.$t("moreTitle")))\n                ])\n              : _vm.type === "products"\n              ? _c("h2", { staticClass: "mb-4 text-dark" }, [\n                  _vm._v(_vm._s(_vm.$t("products.moreTitle")))\n                ])\n              : _vm.type === "news"\n              ? _c("h2", { staticClass: "mb-4 text-dark" }, [\n                  _vm._v(_vm._s(_vm.$t("news.moreTitle")))\n                ])\n              : _vm._e(),\n            _vm._v(" "),\n            _c(\n              "div",\n              {\n                staticClass:\n                  "justify-content-start flex-wrap row mb-6 more-container",\n                class:\n                  _vm.type === "products"\n                    ? "d-grid container-" + _vm.type\n                    : "d-flex"\n              },\n              [\n                _vm._l(_vm.items, function(card, i) {\n                  return _vm.type === "projects" && card.projects\n                    ? _c(\n                        "router-link",\n                        {\n                          key: i,\n                          class: [\n                            "card p-0",\n                            i ? "col-xs-12 col-lg-6 ml-8" : "col-xs-12 col-lg-5"\n                          ],\n                          attrs: {\n                            to: {\n                              name: "project",\n                              params: {\n                                locale: _vm.$route.params.locale,\n                                id: card.id\n                              }\n                            },\n                            id: "more-projects"\n                          }\n                        },\n                        [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/" + card.image,\n                                expression: "\'/\'+card.image"\n                              }\n                            ],\n                            staticClass: "card-img-top",\n                            attrs: { alt: "" }\n                          }),\n                          _vm._v(" "),\n                          _c("div", { staticClass: "card-body" }, [\n                            _c("h4", { staticClass: "before-border" }, [\n                              _vm._v(_vm._s(card.projects.name))\n                            ]),\n                            _vm._v(" "),\n                            _c("p", { staticClass: "project-description" }, [\n                              _vm._v(_vm._s(card.projects.description))\n                            ]),\n                            _vm._v(" "),\n                            _c(\n                              "div",\n                              {\n                                staticClass: "card-project-features d-md-flex"\n                              },\n                              [\n                                _c("div", { staticClass: "mr-5" }, [\n                                  _c("i", { staticClass: "margin-icon" }, [\n                                    _c("img", {\n                                      directives: [\n                                        {\n                                          name: "lazy",\n                                          rawName: "v-lazy",\n                                          value:\n                                            "/assets/icons/location-grey.png",\n                                          expression:\n                                            "\'/assets/icons/location-grey.png\'"\n                                        }\n                                      ]\n                                    })\n                                  ]),\n                                  _vm._v(\n                                    _vm._s(card.projects.location) +\n                                      "\\n                        "\n                                  )\n                                ]),\n                                _vm._v(" "),\n                                _c(\n                                  "div",\n                                  { staticClass: "font-number project-power" },\n                                  [\n                                    _c("i", { staticClass: "margin-icon" }, [\n                                      _c("img", {\n                                        directives: [\n                                          {\n                                            name: "lazy",\n                                            rawName: "v-lazy",\n                                            value:\n                                              "/assets/icons/light-grey.png",\n                                            expression:\n                                              "\'/assets/icons/light-grey.png\'"\n                                          }\n                                        ]\n                                      })\n                                    ]),\n                                    _vm._v(\n                                      _vm._s(card.power) +\n                                        " " +\n                                        _vm._s(_vm.$t("power")) +\n                                        "\\n                        "\n                                    )\n                                  ]\n                                )\n                              ]\n                            )\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "router-link",\n                            {\n                              staticClass:\n                                "btn-secondary more align-self-start d-flex justify-content-evenly",\n                              attrs: {\n                                to: { name: "project", params: { id: card.id } }\n                              }\n                            },\n                            [\n                              _c("span", [_vm._v(_vm._s(_vm.$t("more")))]),\n                              _c("i", { staticClass: "arrow right ml-2" })\n                            ]\n                          )\n                        ],\n                        1\n                      )\n                    : _vm._e()\n                }),\n                _vm._v(" "),\n                _vm._l(_vm.items, function(card, i) {\n                  return _vm.type === "products" &&\n                    card.translates &&\n                    card.category_id &&\n                    i < 3\n                    ? _c(\n                        "router-link",\n                        {\n                          key: i,\n                          class: ["card p-0"],\n                          attrs: {\n                            to: {\n                              name: "product",\n                              params: {\n                                locale: _vm.$route.params.locale,\n                                id: card.id,\n                                category: card.category.url\n                              }\n                            },\n                            id: "more-products"\n                          }\n                        },\n                        [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: card.image\n                                  ? card.image\n                                  : "/private/images/products/no-image.png",\n                                expression:\n                                  "(card.image ? card.image : \'/private/images/products/no-image.png\')"\n                              }\n                            ],\n                            staticClass: "card-img-top",\n                            attrs: { alt: "" }\n                          }),\n                          _vm._v(" "),\n                          _c(\n                            "div",\n                            { staticClass: "card-body border-bottom" },\n                            [\n                              _c(\n                                "div",\n                                {\n                                  staticClass:\n                                    "d-flex justify-content-between align-items-center"\n                                },\n                                [\n                                  _c(\n                                    "div",\n                                    { staticClass: "card-body-title" },\n                                    [\n                                      _c("p", { staticClass: "text-dark" }, [\n                                        _vm._v(_vm._s(card.translates.name))\n                                      ]),\n                                      _vm._v(" "),\n                                      _c(\n                                        "p",\n                                        {\n                                          staticClass:\n                                            "product-brand d-flex align-items-center"\n                                        },\n                                        [\n                                          _c("img", {\n                                            staticClass: "mr-2",\n                                            attrs: {\n                                              alt: "star",\n                                              src: "/assets/icons/star-grey.png"\n                                            }\n                                          }),\n                                          _vm._v(\n                                            _vm._s(card.brand) +\n                                              "\\n                            "\n                                          )\n                                        ]\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(" "),\n                                  !_vm.largeCompare\n                                    ? _c(\n                                        "div",\n                                        {\n                                          staticClass:\n                                            "card-product-brand-logo d-flex"\n                                        },\n                                        [\n                                          _c("img", {\n                                            directives: [\n                                              {\n                                                name: "lazy",\n                                                rawName: "v-lazy",\n                                                value: card.brand_logo,\n                                                expression: "card.brand_logo"\n                                              }\n                                            ],\n                                            attrs: { alt: card.brand }\n                                          })\n                                        ]\n                                      )\n                                    : _vm._e()\n                                ]\n                              ),\n                              _vm._v(" "),\n                              _c(\n                                "div",\n                                {\n                                  staticClass: "card-price",\n                                  class: [\n                                    _vm.largeCompare ? "card-price-mobile" : ""\n                                  ]\n                                },\n                                [\n                                  _c("h4", { staticClass: "roboto" }, [\n                                    _vm._v(_vm._s(card.price) + " EUR")\n                                  ]),\n                                  _vm._v(" "),\n                                  _vm.largeCompare\n                                    ? _c(\n                                        "div",\n                                        {\n                                          staticClass:\n                                            "card-product-brand-logo d-flex"\n                                        },\n                                        [\n                                          _c("img", {\n                                            directives: [\n                                              {\n                                                name: "lazy",\n                                                rawName: "v-lazy",\n                                                value: card.brand_logo,\n                                                expression: "card.brand_logo"\n                                              }\n                                            ],\n                                            attrs: { alt: card.brand }\n                                          })\n                                        ]\n                                      )\n                                    : _vm._e()\n                                ]\n                              )\n                            ]\n                          ),\n                          _vm._v(" "),\n                          _c(\n                            "router-link",\n                            {\n                              staticClass:\n                                "btn-product more align-self-start d-flex",\n                              attrs: {\n                                to: {\n                                  name: "product",\n                                  params: {\n                                    id: card.id,\n                                    category: card.category.url\n                                  }\n                                }\n                              }\n                            },\n                            [\n                              _c("span", [_vm._v(_vm._s(_vm.$t("goto")))]),\n                              _c("i", { staticClass: "arrow right ml-2" })\n                            ]\n                          )\n                        ],\n                        1\n                      )\n                    : _vm._e()\n                }),\n                _vm._v(" "),\n                _vm._l(_vm.items, function(card, i) {\n                  return _vm.type === "news" && card.translates && i < 2\n                    ? _c(\n                        "router-link",\n                        {\n                          key: i,\n                          class: [\n                            "card p-0 mb-4 news",\n                            i ? "col-xs-12 col-lg-6 ml-8" : "col-xs-12 col-lg-5"\n                          ],\n                          attrs: {\n                            to: {\n                              name: "singleNews",\n                              params: {\n                                locale: _vm.$route.params.locale,\n                                id: card.id\n                              }\n                            },\n                            id: "more-news"\n                          }\n                        },\n                        [\n                          _c("img", {\n                            directives: [\n                              {\n                                name: "lazy",\n                                rawName: "v-lazy",\n                                value: "/" + (card.image ? card.image : ""),\n                                expression: "\'/\'+(card.image ? card.image : \'\')"\n                              }\n                            ],\n                            staticClass: "card-img-top",\n                            attrs: { alt: "" }\n                          }),\n                          _vm._v(" "),\n                          _c("div", { staticClass: "card-body" }, [\n                            _c("div", { staticClass: "card-body-title" }, [\n                              _c("p", [\n                                _c("span", { staticClass: "mr-2" }, [\n                                  _c("img", {\n                                    directives: [\n                                      {\n                                        name: "lazy",\n                                        rawName: "v-lazy",\n                                        value: "/assets/icons/calendar.png",\n                                        expression:\n                                          "\'/assets/icons/calendar.png\'"\n                                      }\n                                    ]\n                                  })\n                                ]),\n                                _vm._v(\n                                  _vm._s(_vm.getDate(card.created_at)) +\n                                    "\\n                        "\n                                )\n                              ]),\n                              _vm._v(" "),\n                              _c("h5", { staticClass: "border-left-title" }, [\n                                _vm._v(_vm._s(card.translates.name))\n                              ])\n                            ])\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "router-link",\n                            {\n                              staticClass:\n                                "btn-secondary more align-self-start d-flex",\n                              attrs: {\n                                to: {\n                                  name: "singleNews",\n                                  params: {\n                                    id: card.id,\n                                    locale: _vm.$route.params.locale\n                                  }\n                                }\n                              }\n                            },\n                            [\n                              _c("span", [_vm._v(_vm._s(_vm.$t("more")))]),\n                              _c("i", { staticClass: "arrow right ml-2" })\n                            ]\n                          )\n                        ],\n                        1\n                      )\n                    : _vm._e()\n                })\n              ],\n              2\n            )\n          ])\n        ]\n      )\n    : _vm._e()\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/moreItems.vue?vue&type=template&id=fcd0a75c&scoped=true&\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__("./resources/js/width.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/moreItems.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ var moreItemsvue_type_script_lang_js_ = ({\n  name: \'moreItems\',\n  props: [\'type\', \'show\'],\n\n  data() {\n    return {\n      items: [],\n      render: false,\n      language: this.$route.params.locale === \'en\' ? 1 : this.$route.params.locale === \'ru\' ? 3 : 2\n    };\n  },\n\n  mounted() {\n    switch (this.type) {\n      case \'projects\':\n        this.$store.dispatch(\'projectsByLanguage\', {\n          lang: this.language,\n          limit: this.show,\n          id: this.$route.params.id\n        }).then(() => {\n          this.items = this.$store.getters.getProjectsByLanguage;\n          this.render = true;\n        });\n        break;\n\n      case \'products\':\n        this.$store.dispatch(\'productsByLanguage\', {\n          lang: this.language,\n          limit: this.show,\n          id: this.$route.params.id\n        }).then(() => {\n          this.items = this.$store.getters.getProductsByLanguage;\n          this.render = true;\n        });\n        break;\n\n      case \'news\':\n        this.$store.dispatch(\'newsByLanguage\', {\n          lang: this.language,\n          length: this.show,\n          id: this.$route.params.id\n        }).then(() => {\n          this.items = this.$store.getters.getNewsByLanguage;\n          this.render = true;\n        });\n        break;\n    }\n  },\n\n  computed: {\n    largeCompare() {\n      return width["default"].data.largeCompare;\n    },\n\n    small() {\n      return width["default"].data.small;\n    }\n\n  },\n  methods: {\n    getDate(date) {\n      let data = new Date(Date.parse(date));\n      const options = {\n        year: \'numeric\',\n        month: \'long\',\n        day: \'numeric\'\n      };\n      let locale = this.$route.params.locale === \'en\' ? \'en-EN\' : this.$route.params.locale === \'ru\' ? \'ru-RU\' : \'ro-RO\';\n      return data.toLocaleDateString(locale, options);\n    }\n\n  },\n  watch: {\n    lang(newVal, oldVal) {\n      if (newVal !== oldVal) this.$emit(\'languageChanged\', newVal);\n    },\n\n    $route(to) {\n      switch (this.type) {\n        case \'projects\':\n          this.$store.dispatch(\'projectsByLanguage\', {\n            lang: this.language,\n            limit: this.show,\n            id: to.params.id\n          }).then(() => {\n            this.items = this.$store.getters.getProjectsByLanguage;\n            this.render = true;\n          });\n          break;\n\n        case \'products\':\n          this.$store.dispatch(\'productsByLanguage\', {\n            lang: this.language,\n            limit: this.show,\n            id: to.params.id\n          }).then(() => {\n            this.items = this.$store.getters.getProductsByLanguage;\n            this.render = true;\n          });\n          break;\n\n        case \'news\':\n          this.$store.dispatch(\'newsByLanguage\', {\n            lang: this.language,\n            length: this.show,\n            id: to.params.id\n          }).then(() => {\n            this.items = this.$store.getters.getNewsByLanguage;\n            this.render = true;\n          });\n          break;\n      }\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/moreItems.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_moreItemsvue_type_script_lang_js_ = (moreItemsvue_type_script_lang_js_); \n// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/moreItems.vue?vue&type=style&index=0&id=fcd0a75c&scoped=true&lang=css&\n// extracted by mini-css-extract-plugin\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/moreItems.vue?vue&type=style&index=0&id=fcd0a75c&scoped=true&lang=css&\n\n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/moreItems.vue\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  includes_moreItemsvue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  "fcd0a75c",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/moreItems.vue"\n/* harmony default export */ var moreItems = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/moreItems.vue_+_6_modules?')}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-31"],{
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && typeof btoa !== 'undefined') {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ })
+
+}]);

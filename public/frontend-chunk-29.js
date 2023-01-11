@@ -1,9 +1,1749 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["frontend-chunk-29"],{"./resources/js/components/public/includes/header.vue":
-/*!************************************************************************!*\
-  !*** ./resources/js/components/public/includes/header.vue + 4 modules ***!
-  \************************************************************************/
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["frontend-chunk-29"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/header.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/header.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/constants/locales.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/event/eventbus.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./resources/js/width.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994&\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    "div",\n    { staticClass: "w-100 position-relative", attrs: { id: "nav-top" } },\n    [\n      _c("header", {}, [\n        _c(\n          "div",\n          {\n            staticClass:\n              "container-fluid px-4 d-xlarge-flex justify-content-between"\n          },\n          [\n            _c(\n              "div",\n              { staticClass: "d-flex header-pages" },\n              _vm._l(_vm.$t("header"), function(item, index) {\n                return _c(\n                  "router-link",\n                  {\n                    key: index,\n                    staticClass: "list-group-item border-0",\n                    attrs: {\n                      to: {\n                        name: item.link,\n                        params: { locale: _vm.$route.params.locale }\n                      }\n                    }\n                  },\n                  [\n                    _vm._v(\n                      "\\n                    " +\n                        _vm._s(item.text) +\n                        "\\n                "\n                    )\n                  ]\n                )\n              }),\n              1\n            ),\n            _vm._v(" "),\n            _c(\n              "div",\n              { staticClass: "d-flex header-langs" },\n              [\n                _c(\n                  "router-link",\n                  {\n                    staticClass: "list-group-item border-0",\n                    class: { active: _vm.isActive(2) },\n                    attrs: { to: { name: this.$route.name } },\n                    nativeOn: {\n                      click: function($event) {\n                        return _vm.setActive(2)\n                      }\n                    }\n                  },\n                  [_vm._v("RO\\n                ")]\n                ),\n                _vm._v(" "),\n                _c(\n                  "router-link",\n                  {\n                    staticClass: "list-group-item border-0",\n                    class: { active: _vm.isActive(3) },\n                    attrs: {\n                      to: { name: this.$route.name, params: { locale: "ru" } }\n                    },\n                    nativeOn: {\n                      click: function($event) {\n                        return _vm.setActive(3)\n                      }\n                    }\n                  },\n                  [_vm._v("RUS\\n                ")]\n                ),\n                _vm._v(" "),\n                _c(\n                  "router-link",\n                  {\n                    staticClass: "list-group-item border-0",\n                    class: { active: _vm.isActive(1) },\n                    attrs: {\n                      to: { name: this.$route.name, params: { locale: "en" } }\n                    },\n                    nativeOn: {\n                      click: function($event) {\n                        return _vm.setActive(1)\n                      }\n                    }\n                  },\n                  [_vm._v("ENG\\n                ")]\n                )\n              ],\n              1\n            )\n          ]\n        )\n      ]),\n      _vm._v(" "),\n      _vm.theme === "dark"\n        ? _c(\n            "nav",\n            {\n              staticClass: "navbar navbar-dark navbar-expand-xl",\n              class: [\n                "position-" + _vm.pos,\n                _vm.navbar ? "position-fixed" : "",\n                _vm.isSticky ? "sticky-navbar" : ""\n              ]\n            },\n            [\n              _c(\n                "div",\n                { staticClass: "container-fluid px-5 py-0" },\n                [\n                  _vm.small || _vm.medium || _vm.large\n                    ? _c(\n                        "router-link",\n                        {\n                          staticClass: "navbar-brand mr-5",\n                          attrs: {\n                            to: {\n                              name: "Home",\n                              params: { locale: _vm.$route.params.locale }\n                            }\n                          }\n                        },\n                        [\n                          _c("img", {\n                            attrs: { src: "/assets/components/header/logo.png" }\n                          })\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  !_vm.xsmall && _vm.large\n                    ? _c(\n                        "div",\n                        {\n                          staticClass:\n                            "collapse navbar-collapse slide d-xlarge-flex",\n                          class: { show: _vm.navbar },\n                          attrs: { id: "navbar-open" }\n                        },\n                        [\n                          _c(\n                            "ul",\n                            {\n                              staticClass: "navbar-nav m-auto mb-2 mb-xlarge-0"\n                            },\n                            _vm._l(_vm.$t("nav.pages"), function(page) {\n                              return _c(\n                                "li",\n                                { staticClass: "nav-item" },\n                                [\n                                  _c(\n                                    "router-link",\n                                    {\n                                      staticClass: "nav-link",\n                                      attrs: {\n                                        "aria-current": "page",\n                                        to: {\n                                          name: page.link,\n                                          params: {\n                                            locale: _vm.$route.params.locale\n                                          }\n                                        }\n                                      }\n                                    },\n                                    [\n                                      _vm._v(\n                                        _vm._s(page.text) +\n                                          "\\n                        "\n                                      )\n                                    ]\n                                  )\n                                ],\n                                1\n                              )\n                            }),\n                            0\n                          ),\n                          _vm._v(" "),\n                          _vm.isSticky && !_vm.small\n                            ? _c(\n                                "div",\n                                { staticClass: "d-flex header-langs" },\n                                [\n                                  _c(\n                                    "router-link",\n                                    {\n                                      staticClass: "list-group-item border-0",\n                                      class: { active: _vm.isActive(2) },\n                                      attrs: { to: { name: this.$route.name } },\n                                      nativeOn: {\n                                        click: function($event) {\n                                          return _vm.setActive(2)\n                                        }\n                                      }\n                                    },\n                                    [\n                                      _vm._v(\n                                        "\\n                        RO\\n                    "\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(" "),\n                                  _c(\n                                    "router-link",\n                                    {\n                                      staticClass: "list-group-item border-0",\n                                      class: { active: _vm.isActive(3) },\n                                      attrs: {\n                                        to: {\n                                          name: this.$route.name,\n                                          params: { locale: "ru" }\n                                        }\n                                      },\n                                      nativeOn: {\n                                        click: function($event) {\n                                          return _vm.setActive(3)\n                                        }\n                                      }\n                                    },\n                                    [\n                                      _vm._v(\n                                        "\\n                        RUS\\n                    "\n                                      )\n                                    ]\n                                  ),\n                                  _vm._v(" "),\n                                  _c(\n                                    "router-link",\n                                    {\n                                      staticClass: "list-group-item border-0",\n                                      class: { active: _vm.isActive(1) },\n                                      attrs: {\n                                        to: {\n                                          name: this.$route.name,\n                                          params: { locale: "en" }\n                                        }\n                                      },\n                                      nativeOn: {\n                                        click: function($event) {\n                                          return _vm.setActive(1)\n                                        }\n                                      }\n                                    },\n                                    [\n                                      _vm._v(\n                                        "\\n                        ENG\\n                    "\n                                      )\n                                    ]\n                                  )\n                                ],\n                                1\n                              )\n                            : _vm._e(),\n                          _vm._v(" "),\n                          !_vm.xsmall\n                            ? _c(\n                                "form",\n                                {\n                                  staticClass:\n                                    "d-flex col-lg-3 col-xl-3 col-md-3 justify-content-around align-items-center form-navbar"\n                                },\n                                [\n                                  _c("div", { staticClass: "text-right" }, [\n                                    _c(\n                                      "p",\n                                      { staticClass: "nav-call text-white" },\n                                      [_vm._v("+373 78 972 603")]\n                                    ),\n                                    _vm._v(" "),\n                                    _c("p", { staticClass: "nav-order-call" }, [\n                                      _c(\n                                        "a",\n                                        {\n                                          staticClass:\n                                            "text-white text-underline",\n                                          attrs: { href: "#" },\n                                          on: {\n                                            click: function($event) {\n                                              $event.preventDefault()\n                                              return _vm.toggleModal(\n                                                true,\n                                                "call"\n                                              )\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(_vm._s(_vm.$t("nav.call")))]\n                                      )\n                                    ])\n                                  ]),\n                                  _vm._v(" "),\n                                  _c(\n                                    "button",\n                                    {\n                                      staticClass:\n                                        "btn btn-outline-light rounded-circle border-opacity-3 button-50",\n                                      attrs: { type: "submit" },\n                                      on: {\n                                        click: function($event) {\n                                          $event.preventDefault()\n                                          return _vm.toggleModal(true, "call")\n                                        }\n                                      }\n                                    },\n                                    [\n                                      _c("i", [\n                                        _c("img", {\n                                          attrs: {\n                                            src: "/assets/icons/phone.svg"\n                                          }\n                                        })\n                                      ])\n                                    ]\n                                  )\n                                ]\n                              )\n                            : _vm._e(),\n                          _vm._v(" "),\n                          _c("span", {\n                            staticClass: "close-navbar",\n                            on: { click: _vm.closeNavbar }\n                          })\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  _vm.medium || _vm.small\n                    ? _c(\n                        "form",\n                        {\n                          staticClass:\n                            "d-flex ml-auto mobile-contact mr-4 pr-4 col-xl-4 col-lg-4 col-6 justify-content-around align-items-center form-navbar",\n                          class: [_vm.navbar ? "navbar-open-form" : ""]\n                        },\n                        [\n                          _c("div", { staticClass: "text-right" }, [\n                            _c("p", { staticClass: "nav-call text-white" }, [\n                              _vm._v("+373 78 972 603")\n                            ]),\n                            _vm._v(" "),\n                            _c("p", { staticClass: "nav-order-call" }, [\n                              _c(\n                                "a",\n                                {\n                                  staticClass: "text-white text-underline",\n                                  attrs: { href: "#" },\n                                  on: {\n                                    click: function($event) {\n                                      $event.preventDefault()\n                                      return _vm.toggleModal(true, "call")\n                                    }\n                                  }\n                                },\n                                [_vm._v(_vm._s(_vm.$t("nav.call")))]\n                              )\n                            ])\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "button",\n                            {\n                              staticClass:\n                                "btn btn-outline-dark rounded-circle border-opacity-3 button-50 d-flex justify-content-center align-items-center",\n                              attrs: { type: "submit" },\n                              on: {\n                                click: function($event) {\n                                  $event.preventDefault()\n                                  return _vm.toggleModal(true, "call")\n                                }\n                              }\n                            },\n                            [\n                              _c("i", [\n                                _c("img", {\n                                  attrs: { src: "/assets/icons/phone.svg" }\n                                })\n                              ])\n                            ]\n                          )\n                        ]\n                      )\n                    : _vm.xsmall\n                    ? _c(\n                        "form",\n                        {\n                          staticClass:\n                            "d-flex mobile-contact m-0 p-0 col-md-2 col-1 align-items-center form-navbar"\n                        },\n                        [\n                          _c(\n                            "button",\n                            {\n                              staticClass:\n                                "btn rounded-circle border-opacity-3 m-0 button-50 d-flex justify-content-center align-items-center",\n                              class: [\n                                _vm.navbar\n                                  ? "btn-outline-dark border-dark mobile-contacts"\n                                  : "btn-outline-light border-light"\n                              ],\n                              attrs: { type: "submit" },\n                              on: {\n                                click: function($event) {\n                                  $event.preventDefault()\n                                  return _vm.toggleModal(true, "call")\n                                }\n                              }\n                            },\n                            [\n                              _c("i", [\n                                _vm.navbar\n                                  ? _c("img", {\n                                      attrs: {\n                                        src: "/assets/icons/phone-white.png"\n                                      }\n                                    })\n                                  : _c("img", {\n                                      attrs: { src: "/assets/icons/phone.svg" }\n                                    })\n                              ])\n                            ]\n                          )\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  _vm.xsmall\n                    ? _c(\n                        "router-link",\n                        {\n                          staticClass: "navbar-brand m-auto",\n                          attrs: {\n                            to: {\n                              name: "Home",\n                              params: { locale: _vm.$route.params.locale }\n                            }\n                          }\n                        },\n                        [\n                          !_vm.xsmall\n                            ? _c("img", {\n                                attrs: {\n                                  src:\n                                    "/assets/components/header/logo-vector.png"\n                                }\n                              })\n                            : _c("img", {\n                                attrs: {\n                                  src:\n                                    "/assets/components/header/logo-white.svg"\n                                }\n                              })\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  _c(\n                    "button",\n                    {\n                      staticClass: "navbar-toggler collapsed",\n                      class: [_vm.navbar ? "toggler-mobile" : ""],\n                      attrs: {\n                        type: "button",\n                        "data-toggle": "collapse",\n                        "data-target": "#navbar-open",\n                        "aria-controls": "navbar-open",\n                        "aria-expanded": "false",\n                        "aria-label": "Toggle navigation"\n                      },\n                      on: {\n                        click: function($event) {\n                          $event.stopPropagation()\n                          return _vm.openNavbar($event)\n                        }\n                      }\n                    },\n                    [\n                      _c("span", { staticClass: "navbar-toggler-icon" }),\n                      _vm._v(" "),\n                      _c("span", { staticClass: "navbar-mobile-toggler-icon" }),\n                      _vm._v(" "),\n                      _c("span", { staticClass: "navbar-mobile-toggler-icon" })\n                    ]\n                  ),\n                  _vm._v(" "),\n                  _vm.xsmall || _vm.small || _vm.medium\n                    ? _c(\n                        "div",\n                        {\n                          staticClass: "navbar-collapse collapse",\n                          class: { show: _vm.navbar },\n                          attrs: { id: "navbar-open" }\n                        },\n                        [_c("Footer")],\n                        1\n                      )\n                    : _vm._e()\n                ],\n                1\n              )\n            ]\n          )\n        : _c(\n            "nav",\n            {\n              key: _vm.navbar,\n              staticClass: "navbar navbar-expand-xl navbar-light",\n              class: [\n                "position-" + _vm.pos,\n                _vm.navbar ? "position-fixed" : "",\n                _vm.isSticky ? "sticky-navbar" : "",\n                _vm.$router.currentRoute.path.includes("products") &&\n                _vm.isSticky\n                  ? "loading"\n                  : ""\n              ]\n            },\n            [\n              _c(\n                "div",\n                { staticClass: "container-fluid px-5 py-0" },\n                [\n                  _vm.small || _vm.medium || _vm.large\n                    ? _c(\n                        "router-link",\n                        {\n                          staticClass: "navbar-brand mr-5",\n                          attrs: {\n                            to: {\n                              name: "Home",\n                              params: { locale: _vm.$route.params.locale }\n                            }\n                          }\n                        },\n                        [\n                          _c("img", {\n                            staticClass: "header-logo",\n                            attrs: {\n                              src:\n                                "/assets/components/header/solix_logo_small2.svg"\n                            }\n                          })\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  !_vm.xsmall && _vm.large\n                    ? _c(\n                        "div",\n                        {\n                          staticClass:\n                            "collapse navbar-collapse slide d-xlarge-flex",\n                          class: { show: _vm.navbar },\n                          attrs: { id: "navbar-open" }\n                        },\n                        [\n                          _c(\n                            "ul",\n                            {\n                              key: _vm.isSticky,\n                              staticClass: "navbar-nav m-auto mb-2 mb-xlarge-0",\n                              attrs: { id: [_vm.isSticky ? "main" : ""] }\n                            },\n                            [\n                              _vm._l(_vm.$t("nav.pages"), function(page) {\n                                return _c(\n                                  "li",\n                                  { staticClass: "nav-item" },\n                                  [\n                                    _c(\n                                      "router-link",\n                                      {\n                                        staticClass: "nav-link",\n                                        class:\n                                          _vm.$route.name === page.link\n                                            ? "active"\n                                            : "",\n                                        attrs: {\n                                          "aria-current": "page",\n                                          to: {\n                                            name: page.link,\n                                            params: {\n                                              locale: _vm.$route.params.locale\n                                            }\n                                          }\n                                        }\n                                      },\n                                      [\n                                        _vm._v(\n                                          _vm._s(page.text) +\n                                            "\\n                        "\n                                        )\n                                      ]\n                                    )\n                                  ],\n                                  1\n                                )\n                              }),\n                              _vm._v(" "),\n                              _vm.isSticky\n                                ? _c(\n                                    "li",\n                                    {\n                                      staticClass: "more hidden",\n                                      attrs: { "data-width": "80" }\n                                    },\n                                    [\n                                      _c(\n                                        "a",\n                                        {\n                                          attrs: { href: "" },\n                                          on: {\n                                            click: function($event) {\n                                              $event.preventDefault()\n                                            }\n                                          }\n                                        },\n                                        [\n                                          _c("span", {\n                                            staticClass: "meat-circle"\n                                          }),\n                                          _vm._v(" "),\n                                          _c("span", {\n                                            staticClass: "meat-circle"\n                                          }),\n                                          _vm._v(" "),\n                                          _c("span", {\n                                            staticClass: "meat-circle"\n                                          })\n                                        ]\n                                      ),\n                                      _vm._v(" "),\n                                      _c("ul")\n                                    ]\n                                  )\n                                : _vm._e()\n                            ],\n                            2\n                          ),\n                          _vm._v(" "),\n                          _vm.isSticky && !_vm.small\n                            ? _c(\n                                "div",\n                                {\n                                  staticClass:\n                                    "d-flex header-langs dropdown show"\n                                },\n                                [\n                                  _c(\n                                    "a",\n                                    {\n                                      staticClass: "dropdown-toggle",\n                                      attrs: {\n                                        id: "dropdownLanguage",\n                                        "data-toggle": "dropdown",\n                                        "aria-haspopup": "true",\n                                        "aria-expanded": "false"\n                                      }\n                                    },\n                                    [_vm._v(_vm._s(_vm.dropLanguage))]\n                                  ),\n                                  _vm._v(" "),\n                                  _c(\n                                    "div",\n                                    {\n                                      staticClass: "dropdown-menu",\n                                      attrs: {\n                                        "aria-labelledby": "dropdownLanguage"\n                                      }\n                                    },\n                                    [\n                                      _c(\n                                        "router-link",\n                                        {\n                                          staticClass:\n                                            "list-group-item border-0 dropdown-item",\n                                          class: { active: _vm.isActive(2) },\n                                          attrs: {\n                                            to: { name: this.$route.name }\n                                          },\n                                          nativeOn: {\n                                            click: function($event) {\n                                              return _vm.setActive(2)\n                                            }\n                                          }\n                                        },\n                                        [_vm._v("RO\\n                        ")]\n                                      ),\n                                      _vm._v(" "),\n                                      _c(\n                                        "router-link",\n                                        {\n                                          staticClass:\n                                            "list-group-item border-0 dropdown-item",\n                                          class: { active: _vm.isActive(3) },\n                                          attrs: {\n                                            to: {\n                                              name: this.$route.name,\n                                              params: { locale: "ru" }\n                                            }\n                                          },\n                                          nativeOn: {\n                                            click: function($event) {\n                                              return _vm.setActive(3)\n                                            }\n                                          }\n                                        },\n                                        [\n                                          _vm._v(\n                                            "\\n                            RUS\\n                        "\n                                          )\n                                        ]\n                                      ),\n                                      _vm._v(" "),\n                                      _c(\n                                        "router-link",\n                                        {\n                                          staticClass:\n                                            "list-group-item border-0 dropdown-item",\n                                          class: { active: _vm.isActive(1) },\n                                          attrs: {\n                                            to: {\n                                              name: this.$route.name,\n                                              params: { locale: "en" }\n                                            }\n                                          },\n                                          nativeOn: {\n                                            click: function($event) {\n                                              return _vm.setActive(1)\n                                            }\n                                          }\n                                        },\n                                        [\n                                          _vm._v(\n                                            "\\n                            ENG\\n                        "\n                                          )\n                                        ]\n                                      )\n                                    ],\n                                    1\n                                  )\n                                ]\n                              )\n                            : _vm._e(),\n                          _vm._v(" "),\n                          !_vm.xsmall\n                            ? _c(\n                                "form",\n                                {\n                                  staticClass:\n                                    "d-flex col-lg-3 col-xl-3 col-md-3 justify-content-around align-items-center form-navbar"\n                                },\n                                [\n                                  _c("div", { staticClass: "text-right" }, [\n                                    _c(\n                                      "p",\n                                      { staticClass: "nav-call text-dark" },\n                                      [_vm._v("+373 78 972 603")]\n                                    ),\n                                    _vm._v(" "),\n                                    _c("p", { staticClass: "nav-order-call" }, [\n                                      _c(\n                                        "a",\n                                        {\n                                          staticClass:\n                                            "text-dark text-underline",\n                                          attrs: { href: "#" },\n                                          on: {\n                                            click: function($event) {\n                                              $event.preventDefault()\n                                              return _vm.toggleModal(\n                                                true,\n                                                "call"\n                                              )\n                                            }\n                                          }\n                                        },\n                                        [_vm._v(_vm._s(_vm.$t("nav.call")))]\n                                      )\n                                    ])\n                                  ]),\n                                  _vm._v(" "),\n                                  _c(\n                                    "button",\n                                    {\n                                      staticClass:\n                                        "btn btn-outline-dark rounded-circle border-dark border-opacity-3 button-50",\n                                      attrs: { type: "submit" },\n                                      on: {\n                                        click: function($event) {\n                                          $event.preventDefault()\n                                          return _vm.toggleModal(true, "call")\n                                        }\n                                      }\n                                    },\n                                    [\n                                      _c("i", [\n                                        _c("img", {\n                                          attrs: {\n                                            src: "/assets/icons/phone.svg"\n                                          }\n                                        })\n                                      ])\n                                    ]\n                                  )\n                                ]\n                              )\n                            : _vm._e(),\n                          _vm._v(" "),\n                          _c("span", {\n                            staticClass: "close-navbar",\n                            on: { click: _vm.closeNavbar }\n                          })\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  _vm.medium || _vm.small\n                    ? _c(\n                        "form",\n                        {\n                          staticClass:\n                            "d-flex ml-auto mobile-contact mr-4 pr-4 col-xl-4 col-lg-4 col-6 justify-content-around align-items-center form-navbar",\n                          class: [_vm.navbar ? "navbar-open-form" : ""]\n                        },\n                        [\n                          _c("div", { staticClass: "text-right" }, [\n                            _c("p", { staticClass: "nav-call text-dark" }, [\n                              _vm._v("+373 78 972 603")\n                            ]),\n                            _vm._v(" "),\n                            _c("p", { staticClass: "nav-order-call" }, [\n                              _c(\n                                "a",\n                                {\n                                  staticClass: "text-dark text-underline",\n                                  attrs: { href: "#" }\n                                },\n                                [_vm._v(_vm._s(_vm.$t("nav.call")))]\n                              )\n                            ])\n                          ]),\n                          _vm._v(" "),\n                          _c(\n                            "button",\n                            {\n                              staticClass:\n                                "btn btn-outline-dark rounded-circle border-dark border-opacity-3 button-50 d-flex justify-content-center align-items-center",\n                              attrs: { type: "submit" },\n                              on: {\n                                click: function($event) {\n                                  $event.preventDefault()\n                                  return _vm.toggleModal(true, "call")\n                                }\n                              }\n                            },\n                            [\n                              _c("i", [\n                                _c("img", {\n                                  attrs: { src: "/assets/icons/phone.svg" }\n                                })\n                              ])\n                            ]\n                          )\n                        ]\n                      )\n                    : _vm.xsmall\n                    ? _c(\n                        "form",\n                        {\n                          staticClass:\n                            "d-flex mobile-contact m-0 p-0 col-md-2 col-1 align-items-center form-navbar"\n                        },\n                        [\n                          _c(\n                            "button",\n                            {\n                              staticClass:\n                                "btn btn-outline-dark rounded-circle border-dark border-opacity-3 m-0 button-50 d-flex justify-content-center align-items-center",\n                              class: [\n                                _vm.navbar\n                                  ? "btn-outline-dark border-dark mobile-contacts"\n                                  : "btn-outline-dark border-dark"\n                              ],\n                              attrs: { type: "submit" },\n                              on: {\n                                click: function($event) {\n                                  $event.preventDefault()\n                                  return _vm.toggleModal(true, "call")\n                                }\n                              }\n                            },\n                            [\n                              _vm.navbar\n                                ? _c("img", {\n                                    attrs: { src: "/assets/icons/phone.svg" }\n                                  })\n                                : _c("i", [\n                                    _c("img", {\n                                      attrs: { src: "/assets/icons/phone.svg" }\n                                    })\n                                  ])\n                            ]\n                          )\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  _vm.xsmall\n                    ? _c(\n                        "router-link",\n                        {\n                          staticClass: "navbar-brand m-auto",\n                          attrs: {\n                            to: {\n                              name: "Home",\n                              params: { locale: _vm.$route.params.locale }\n                            }\n                          }\n                        },\n                        [\n                          _c("img", {\n                            attrs: {\n                              src:\n                                "/assets/components/header/logo-vector-yellow.png"\n                            }\n                          })\n                        ]\n                      )\n                    : _vm._e(),\n                  _vm._v(" "),\n                  _c(\n                    "button",\n                    {\n                      staticClass: "navbar-toggler bg-dark collapsed",\n                      class: [_vm.navbar ? "toggler-mobile" : ""],\n                      attrs: {\n                        type: "button",\n                        "data-toggle": "collapse",\n                        "data-target": "#navbar-open",\n                        "aria-controls": "navbar-open",\n                        "aria-expanded": "false",\n                        "aria-label": "Toggle navigation"\n                      },\n                      on: {\n                        click: function($event) {\n                          $event.stopPropagation()\n                          return _vm.openNavbar($event)\n                        }\n                      }\n                    },\n                    [\n                      _c("span", { staticClass: "navbar-toggler-icon" }),\n                      _vm._v(" "),\n                      _c("span", {\n                        staticClass: "navbar-mobile-toggler-icon bg-white"\n                      }),\n                      _vm._v(" "),\n                      _c("span", {\n                        staticClass: "navbar-mobile-toggler-icon bg-white"\n                      })\n                    ]\n                  ),\n                  _vm._v(" "),\n                  _vm.xsmall || _vm.small || _vm.medium\n                    ? _c(\n                        "div",\n                        {\n                          staticClass: "navbar-collapse collapse",\n                          class: { show: _vm.navbar },\n                          attrs: { id: "navbar-open" }\n                        },\n                        [_c("Footer")],\n                        1\n                      )\n                    : _vm._e()\n                ],\n                1\n              )\n            ]\n          )\n    ]\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994&\n\n// EXTERNAL MODULE: ./resources/js/constants/locales.js\nvar locales = __webpack_require__("./resources/js/constants/locales.js");\n\n// EXTERNAL MODULE: ./resources/js/event/eventbus.js\nvar eventbus = __webpack_require__("./resources/js/event/eventbus.js");\n\n// EXTERNAL MODULE: ./resources/js/width.js\nvar width = __webpack_require__("./resources/js/width.js");\n\n// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vuetify-loader/lib/loader.js??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/header.vue?vue&type=script&lang=js&\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nconst store = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ../../../store/store */ "./resources/js/store/store.js"));\n\n\n\nconst Footer = () => __webpack_require__.e(/*! import() */ "frontend-chunk-28").then(__webpack_require__.bind(null, /*! ./footer */ "./resources/js/components/public/includes/footer.vue"));\n\n\n\n/* harmony default export */ var headervue_type_script_lang_js_ = ({\n  components: {\n    Footer\n  },\n  props: {\n    lang: Number,\n    color: String,\n    position: String,\n    sticky: Boolean\n  },\n\n  data() {\n    return {\n      language: this.currentLang,\n      dropLanguage: \'\',\n      path: \'/\',\n      locales: locales["SUPPORTED_LOCALES"],\n      page: \'\',\n      navbar: false,\n      isSticky: false,\n      stickyClass: \'is_sticky\',\n      scrollPosition: 0,\n      exactColor: \'\',\n      exactPosition: \'\'\n    };\n  },\n\n  computed: {\n    theme() {\n      return this.color;\n    },\n\n    pos() {\n      return this.position;\n    },\n\n    currentLang() {\n      return this.$route.params.locale === \'en\' ? 1 : this.$route.params.locale === \'ru\' ? 3 : 2;\n    },\n\n    windowWidth() {\n      return width["default"].data.innerWidth;\n    },\n\n    windowCompare() {\n      return width["default"].data.compare;\n    },\n\n    small() {\n      return width["default"].data.small;\n    },\n\n    xsmall() {\n      return width["default"].data.xsmall;\n    },\n\n    large() {\n      return width["default"].data.large;\n    },\n\n    largeCompare() {\n      return width["default"].data.largeCompare;\n    },\n\n    mediumCompare() {\n      return width["default"].data.mediumCompare;\n    },\n\n    smallCompare() {\n      return width["default"].data.smallCompare;\n    },\n\n    medium() {\n      return width["default"].data.medium;\n    },\n\n    locale() {\n      return this.$store.getters.getPublicLanguage;\n    },\n\n    compare() {\n      return width["default"].data.windowCompare;\n    }\n\n  },\n\n  created() {\n    $(\'html\').css("overflow", \'hidden\');\n    window.addEventListener(\'scroll\', this.handleScroll);\n  },\n\n  destroyed() {\n    window.removeEventListener(\'scroll\', this.handleScroll);\n  },\n\n  methods: {\n    hideBrand() {\n      let elem = $("#navbar-open #footer");\n\n      if (elem.scrollTop()) {\n        $(\'.navbar-brand\').hide();\n      } else {\n        $(\'.navbar-brand\').show();\n      }\n    },\n\n    hideForm() {\n      let elem = $("#navbar-open #footer");\n\n      if (elem.scrollTop()) {\n        $(\'.form-navbar\').hide();\n      } else {\n        $(\'.form-navbar\').show();\n      }\n    },\n\n    openModal() {\n      this.open = true;\n    },\n\n    linkCreator: async function (locale) {\n      const route = this.$router.currentRoute;\n      let result = \'/\' + locale + \'/\';\n\n      if (route === \'Home\') {\n        return result;\n      } else {\n        let str = route.toLowerCase();\n        result += str;\n        return result;\n      }\n    },\n\n    toggleModal(val) {\n      eventbus["bus"].$emit(\'openModal\', {\n        value: val,\n        type: \'call\'\n      });\n    },\n\n    isActive(id) {\n      let language = this.currentLang;\n\n      if (language === id) {\n        if (id === 1) {\n          this.dropLanguage = \'EN\';\n        } else if (id === 2) {\n          this.dropLanguage = \'RO\';\n        } else {\n          this.dropLanguage = \'RU\';\n        }\n      }\n\n      return this.language === id;\n    },\n\n    setActive(id) {\n      if (id === 1) {\n        this.setLocale(\'en\');\n      } else if (id === 2) {\n        this.setLocale(\'ro\');\n      } else {\n        this.setLocale(\'ru\');\n      }\n\n      this.language = id;\n      this.dropLanguage = id === 3 ? \'RU\' : id === 2 ? \'RO\' : \'EN\';\n      setTimeout(() => {\n        $(document).find(\'html\').css(\'overflow\', \'initial\');\n      }, 200);\n    },\n\n    setLocale(id) {\n      this.$root.$i18n.locale = id;\n      this.$store.dispatch(\'setPublicLanguage\', this.locales.find(item => item.code === id));\n    },\n\n    closeNavbar() {\n      this.navbar = false;\n      $(\'body\').find(\'.navbar-collapse\').removeClass(\'show\');\n    },\n\n    openNavbar() {\n      this.navbar = !this.navbar;\n\n      if (this.navbar === true) {\n        eventbus["bus"].$emit(\'theme\', \'light\');\n        $(\'body\').find(\'.navbar-collapse\').removeClass(\'show\');\n        $(document).find(\'html\').css(\'overflow\', \'hidden\');\n      } else {\n        setTimeout(() => {\n          $(document).find(\'html\').css(\'overflow\', \'initial\');\n        }, 200);\n      }\n    },\n\n    handleScroll(event) {\n      this.scrollPosition = window.scrollY;\n      this.isSticky = this.scrollPosition >= 100;\n    },\n\n    calcWidth() {\n      var navwidth = 0;\n      var morewidth = $(\'#main .more\').outerWidth(true);\n      $(\'#main > li:not(.more)\').each(function () {\n        navwidth += $(this).outerWidth(true);\n      });\n      var availablespace = $(\'nav\').outerWidth(true) - 600 - morewidth;\n\n      if (navwidth > availablespace) {\n        var lastItem = $(\'#main > li:not(.more)\').last();\n        lastItem.attr(\'data-width\', lastItem.outerWidth(true));\n        lastItem.prependTo($(\'#main .more ul\'));\n        this.calcWidth();\n      } else {\n        var firstMoreElement = $(\'#main li.more li\').first();\n\n        if (navwidth + firstMoreElement.data(\'width\') < availablespace) {\n          firstMoreElement.insertBefore($(\'#main .more\'));\n        }\n      }\n\n      $(\'.more\').ontouchstart = () => {\n        $(\'.more ul\').toggle(\'slide\');\n      };\n\n      if ($(\'.more li\').length > 0) {\n        $(\'.more\').css(\'display\', \'inline-block\');\n      } else {\n        $(\'.more\').css(\'display\', \'none\');\n      }\n    }\n\n  },\n\n  beforeRouteEnter(to, from, next) {\n    this.open = false;\n    this.isLoading = true;\n    eventbus["bus"].$emit(\'openModal\', {\n      value: false\n    }).then(() => {\n      to.params.locale = this.locale.code;\n      next();\n    });\n  },\n\n  mounted() {\n    setTimeout(() => {\n      this.exactPosition = this.pos;\n      this.exactColor = this.theme;\n\n      if (this.navbar) {\n        this.exactColor = this.theme === \'dark\' ? \'light\' : \'dark\';\n      }\n    }, 100);\n    setTimeout(() => {\n      if (this.isSticky && this.compare) {\n        this.calcWidth();\n      }\n    }, 50);\n\n    if (this.$router.currentRoute.path.includes(\'products\') && this.compare && !this.$router.currentRoute.params.id) {\n      this.isSticky = this.sticky;\n    } else {\n      this.isSticky = false;\n    }\n\n    if (this.isSticky) {\n      if (this.exactPosition === \'relative\') {\n        $(\'body\').css(\'padding-top\', \'70px\');\n      }\n    } else {\n      $(\'body\').css(\'padding-top\', \'0\');\n    }\n\n    setTimeout(() => {\n      $(document).find(\'html\').css(\'overflow\', \'initial\');\n    }, 300);\n  },\n\n  watch: {\n    open(val) {\n      this.open = val;\n    },\n\n    lang: function (newVal, oldVal) {\n      if (oldVal !== newVal) this.$emit(\'langUpdate\', newVal);\n    },\n    language: function (newVal, oldVal) {\n      if (oldVal !== newVal) this.$emit(\'languageUpdated\', newVal);\n    },\n    color: function (newVal, oldVal) {},\n\n    smallCompare(n, o) {\n      if (n !== o) {\n        if (this.mediumCompare && !n) {\n          if (document.querySelector(\'#navbar-open #footer\')) {\n            setTimeout(() => {\n              document.querySelector(\'#navbar-open #footer\').addEventListener(\'scroll\', this.hideForm);\n            }, 200);\n          }\n        } else if (n) {\n          if (document.querySelector(\'#navbar-open #footer\')) {\n            setTimeout(() => {\n              document.querySelector(\'#navbar-open #footer\').addEventListener(\'scroll\', this.hideBrand);\n            }, 200);\n          }\n        }\n      }\n    },\n\n    position(newVal, oldVal) {},\n\n    compare(n, o) {},\n\n    windowWidth(n, o) {\n      if (n > 1024) {\n        if (this.isSticky) {\n          this.calcWidth();\n        }\n      }\n    },\n\n    sticky(newVal, oldVal) {\n      this.isSticky = newVal;\n    },\n\n    isSticky(newVal, oldVal) {\n      if (newVal) {\n        eventbus["bus"].$emit(\'position\', \'fixed\');\n        eventbus["bus"].$emit(\'theme\', \'light\');\n\n        if (this.compare) {\n          setTimeout(() => {\n            this.calcWidth();\n          }, 50);\n        }\n\n        if (this.exactPosition === \'relative\') {\n          $(\'body\').css(\'padding-top\', \'70px\');\n        } else {\n          $(\'body\').css(\'padding-top\', \'0\');\n        }\n      } else {\n        if (!this.$route.path.includes(\'products\')) {\n          eventbus["bus"].$emit(\'theme\', this.exactColor);\n\n          if (this.$route.path.includes(\'contacts\')) {\n            eventbus["bus"].$emit(\'theme\', \'light\');\n          }\n\n          eventbus["bus"].$emit(\'position\', this.exactPosition);\n        } else {\n          eventbus["bus"].$emit(\'position\', \'relative\');\n          eventbus["bus"].$emit(\'theme\', \'light\');\n        }\n\n        $(\'body\').css(\'padding-top\', \'0\');\n      }\n    },\n\n    navbar(newVal, oldVal) {\n      if (newVal) {\n        if (this.isSticky) {\n          eventbus["bus"].$emit(\'theme\', \'light\');\n        }\n\n        if (this.mediumCompare && !this.smallCompare) {\n          if (document.querySelector(\'#navbar-open #footer\')) {\n            setTimeout(() => {\n              document.querySelector(\'#navbar-open #footer\').addEventListener(\'scroll\', this.hideForm);\n            }, 200);\n          }\n        } else if (this.smallCompare) {\n          if (document.querySelector(\'#navbar-open #footer\')) {\n            setTimeout(() => {\n              document.querySelector(\'#navbar-open #footer\').addEventListener(\'scroll\', this.hideBrand);\n            }, 200);\n          }\n        }\n      } else {\n        setTimeout(() => {\n          document.querySelector(\'#navbar-open #footer\').removeEventListener(\'scroll\', this.hideBrand);\n          document.querySelector(\'#navbar-open #footer\').removeEventListener(\'scroll\', this.hideForm);\n        }, 200);\n\n        if (this.isSticky) {\n          eventbus["bus"].$emit(\'theme\', \'light\');\n        } else {\n          eventbus["bus"].$emit(\'theme\', this.exactColor);\n        }\n      }\n    },\n\n    largeCompare(newVal, oldVal) {\n      if (!newVal) {\n        this.navbar = false;\n        setTimeout(() => {\n          $(document).find(\'html\').css(\'overflow\', \'initial\');\n        }, 200);\n      }\n    },\n\n    $route(to) {\n      if (!to.path.includes(\'products\')) {\n        this.isSticky = false;\n      } else {}\n\n      this.page = to.name;\n      this.path = this.page ? to.path.substring(this.locale.base.length) : to.path;\n      this.navbar = false;\n\n      if (this.isSticky) {\n        eventbus["bus"].$emit(\'position\', this.exactPosition);\n        eventbus["bus"].$emit(\'theme\', this.exactColor);\n      } else {\n        eventbus["bus"].$emit(\'theme\', this.exactColor);\n\n        if (to.path.includes(\'contacts\')) {\n          eventbus["bus"].$emit(\'theme\', \'light\');\n        }\n\n        eventbus["bus"].$emit(\'position\', this.exactPosition);\n      }\n\n      $(\'body\').find(\'.navbar-collapse\').removeClass(\'show\');\n      $(document).find(\'html\').css(\'overflow\', \'initial\');\n    }\n\n  }\n});\n// CONCATENATED MODULE: ./resources/js/components/public/includes/header.vue?vue&type=script&lang=js&\n /* harmony default export */ var includes_headervue_type_script_lang_js_ = (headervue_type_script_lang_js_); \n// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js\nvar componentNormalizer = __webpack_require__("./node_modules/vue-loader/lib/runtime/componentNormalizer.js");\n\n// CONCATENATED MODULE: ./resources/js/components/public/includes/header.vue\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(componentNormalizer["default"])(\n  includes_headervue_type_script_lang_js_,\n  render,\n  staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = "resources/js/components/public/includes/header.vue"\n/* harmony default export */ var header = __webpack_exports__["default"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/js/components/public/includes/header.vue_+_4_modules?')}}]);
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _constants_locales__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../constants/locales */ "./resources/js/constants/locales.js");
+/* harmony import */ var _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../event/eventbus.js */ "./resources/js/event/eventbus.js");
+/* harmony import */ var _width__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../width */ "./resources/js/width.js");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var store = function store() {
+  return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ../../../store/store */ "./resources/js/store/store.js"));
+};
+
+
+
+var Footer = function Footer() {
+  return __webpack_require__.e(/*! import() */ "frontend-chunk-28").then(__webpack_require__.bind(null, /*! ./footer */ "./resources/js/components/public/includes/footer.vue"));
+};
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Footer: Footer
+  },
+  props: {
+    lang: Number,
+    color: String,
+    position: String,
+    sticky: Boolean
+  },
+  data: function data() {
+    return {
+      language: this.currentLang,
+      dropLanguage: '',
+      path: '/',
+      locales: _constants_locales__WEBPACK_IMPORTED_MODULE_1__["SUPPORTED_LOCALES"],
+      page: '',
+      navbar: false,
+      isSticky: false,
+      stickyClass: 'is_sticky',
+      scrollPosition: 0,
+      exactColor: '',
+      exactPosition: ''
+    };
+  },
+  computed: {
+    theme: function theme() {
+      return this.color;
+    },
+    pos: function pos() {
+      return this.position;
+    },
+    currentLang: function currentLang() {
+      return this.$route.params.locale === 'en' ? 1 : this.$route.params.locale === 'ru' ? 3 : 2;
+    },
+    windowWidth: function windowWidth() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.innerWidth;
+    },
+    windowCompare: function windowCompare() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.compare;
+    },
+    small: function small() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.small;
+    },
+    xsmall: function xsmall() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.xsmall;
+    },
+    large: function large() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.large;
+    },
+    largeCompare: function largeCompare() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.largeCompare;
+    },
+    mediumCompare: function mediumCompare() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.mediumCompare;
+    },
+    smallCompare: function smallCompare() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.smallCompare;
+    },
+    medium: function medium() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.medium;
+    },
+    locale: function locale() {
+      return this.$store.getters.getPublicLanguage;
+    },
+    compare: function compare() {
+      return _width__WEBPACK_IMPORTED_MODULE_3__["default"].data.windowCompare;
+    }
+  },
+  created: function created() {
+    $('html').css("overflow", 'hidden');
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed: function destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    hideBrand: function hideBrand() {
+      var elem = $("#navbar-open #footer");
+
+      if (elem.scrollTop()) {
+        $('.navbar-brand').hide();
+      } else {
+        $('.navbar-brand').show();
+      }
+    },
+    hideForm: function hideForm() {
+      var elem = $("#navbar-open #footer");
+
+      if (elem.scrollTop()) {
+        $('.form-navbar').hide();
+      } else {
+        $('.form-navbar').show();
+      }
+    },
+    openModal: function openModal() {
+      this.open = true;
+    },
+    linkCreator: function () {
+      var _linkCreator = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(locale) {
+        var route, result, str;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                route = this.$router.currentRoute;
+                result = '/' + locale + '/';
+
+                if (!(route === 'Home')) {
+                  _context.next = 6;
+                  break;
+                }
+
+                return _context.abrupt("return", result);
+
+              case 6:
+                str = route.toLowerCase();
+                result += str;
+                return _context.abrupt("return", result);
+
+              case 9:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function linkCreator(_x) {
+        return _linkCreator.apply(this, arguments);
+      }
+
+      return linkCreator;
+    }(),
+    toggleModal: function toggleModal(val) {
+      _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('openModal', {
+        value: val,
+        type: 'call'
+      });
+    },
+    isActive: function isActive(id) {
+      var language = this.currentLang;
+
+      if (language === id) {
+        if (id === 1) {
+          this.dropLanguage = 'EN';
+        } else if (id === 2) {
+          this.dropLanguage = 'RO';
+        } else {
+          this.dropLanguage = 'RU';
+        }
+      }
+
+      return this.language === id;
+    },
+    setActive: function setActive(id) {
+      if (id === 1) {
+        this.setLocale('en');
+      } else if (id === 2) {
+        this.setLocale('ro');
+      } else {
+        this.setLocale('ru');
+      }
+
+      this.language = id;
+      this.dropLanguage = id === 3 ? 'RU' : id === 2 ? 'RO' : 'EN';
+      setTimeout(function () {
+        $(document).find('html').css('overflow', 'initial');
+      }, 200);
+    },
+    setLocale: function setLocale(id) {
+      this.$root.$i18n.locale = id;
+      this.$store.dispatch('setPublicLanguage', this.locales.find(function (item) {
+        return item.code === id;
+      }));
+    },
+    closeNavbar: function closeNavbar() {
+      this.navbar = false;
+      $('body').find('.navbar-collapse').removeClass('show');
+    },
+    openNavbar: function openNavbar() {
+      this.navbar = !this.navbar;
+
+      if (this.navbar === true) {
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+        $('body').find('.navbar-collapse').removeClass('show');
+        $(document).find('html').css('overflow', 'hidden');
+      } else {
+        setTimeout(function () {
+          $(document).find('html').css('overflow', 'initial');
+        }, 200);
+      }
+    },
+    handleScroll: function handleScroll(event) {
+      this.scrollPosition = window.scrollY;
+      this.isSticky = this.scrollPosition >= 100;
+    },
+    calcWidth: function calcWidth() {
+      var navwidth = 0;
+      var morewidth = $('#main .more').outerWidth(true);
+      $('#main > li:not(.more)').each(function () {
+        navwidth += $(this).outerWidth(true);
+      });
+      var availablespace = $('nav').outerWidth(true) - 600 - morewidth;
+
+      if (navwidth > availablespace) {
+        var lastItem = $('#main > li:not(.more)').last();
+        lastItem.attr('data-width', lastItem.outerWidth(true));
+        lastItem.prependTo($('#main .more ul'));
+        this.calcWidth();
+      } else {
+        var firstMoreElement = $('#main li.more li').first();
+
+        if (navwidth + firstMoreElement.data('width') < availablespace) {
+          firstMoreElement.insertBefore($('#main .more'));
+        }
+      }
+
+      $('.more').ontouchstart = function () {
+        $('.more ul').toggle('slide');
+      };
+
+      if ($('.more li').length > 0) {
+        $('.more').css('display', 'inline-block');
+      } else {
+        $('.more').css('display', 'none');
+      }
+    }
+  },
+  beforeRouteEnter: function beforeRouteEnter(to, from, next) {
+    var _this = this;
+
+    this.open = false;
+    this.isLoading = true;
+    _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('openModal', {
+      value: false
+    }).then(function () {
+      to.params.locale = _this.locale.code;
+      next();
+    });
+  },
+  mounted: function mounted() {
+    var _this2 = this;
+
+    setTimeout(function () {
+      _this2.exactPosition = _this2.pos;
+      _this2.exactColor = _this2.theme;
+
+      if (_this2.navbar) {
+        _this2.exactColor = _this2.theme === 'dark' ? 'light' : 'dark';
+      }
+    }, 100);
+    setTimeout(function () {
+      if (_this2.isSticky && _this2.compare) {
+        _this2.calcWidth();
+      }
+    }, 50);
+
+    if (this.$router.currentRoute.path.includes('products') && this.compare && !this.$router.currentRoute.params.id) {
+      this.isSticky = this.sticky;
+    } else {
+      this.isSticky = false;
+    }
+
+    if (this.isSticky) {
+      if (this.exactPosition === 'relative') {
+        $('body').css('padding-top', '70px');
+      }
+    } else {
+      $('body').css('padding-top', '0');
+    }
+
+    setTimeout(function () {
+      $(document).find('html').css('overflow', 'initial');
+    }, 300);
+  },
+  watch: {
+    open: function open(val) {
+      this.open = val;
+    },
+    lang: function lang(newVal, oldVal) {
+      if (oldVal !== newVal) this.$emit('langUpdate', newVal);
+    },
+    language: function language(newVal, oldVal) {
+      if (oldVal !== newVal) this.$emit('languageUpdated', newVal);
+    },
+    color: function color(newVal, oldVal) {},
+    smallCompare: function smallCompare(n, o) {
+      var _this3 = this;
+
+      if (n !== o) {
+        if (this.mediumCompare && !n) {
+          if (document.querySelector('#navbar-open #footer')) {
+            setTimeout(function () {
+              document.querySelector('#navbar-open #footer').addEventListener('scroll', _this3.hideForm);
+            }, 200);
+          }
+        } else if (n) {
+          if (document.querySelector('#navbar-open #footer')) {
+            setTimeout(function () {
+              document.querySelector('#navbar-open #footer').addEventListener('scroll', _this3.hideBrand);
+            }, 200);
+          }
+        }
+      }
+    },
+    position: function position(newVal, oldVal) {},
+    compare: function compare(n, o) {},
+    windowWidth: function windowWidth(n, o) {
+      if (n > 1024) {
+        if (this.isSticky) {
+          this.calcWidth();
+        }
+      }
+    },
+    sticky: function sticky(newVal, oldVal) {
+      this.isSticky = newVal;
+    },
+    isSticky: function isSticky(newVal, oldVal) {
+      var _this4 = this;
+
+      if (newVal) {
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('position', 'fixed');
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+
+        if (this.compare) {
+          setTimeout(function () {
+            _this4.calcWidth();
+          }, 50);
+        }
+
+        if (this.exactPosition === 'relative') {
+          $('body').css('padding-top', '70px');
+        } else {
+          $('body').css('padding-top', '0');
+        }
+      } else {
+        if (!this.$route.path.includes('products')) {
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', this.exactColor);
+
+          if (this.$route.path.includes('contacts')) {
+            _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+          }
+
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('position', this.exactPosition);
+        } else {
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('position', 'relative');
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+        }
+
+        $('body').css('padding-top', '0');
+      }
+    },
+    navbar: function navbar(newVal, oldVal) {
+      var _this5 = this;
+
+      if (newVal) {
+        if (this.isSticky) {
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+        }
+
+        if (this.mediumCompare && !this.smallCompare) {
+          if (document.querySelector('#navbar-open #footer')) {
+            setTimeout(function () {
+              document.querySelector('#navbar-open #footer').addEventListener('scroll', _this5.hideForm);
+            }, 200);
+          }
+        } else if (this.smallCompare) {
+          if (document.querySelector('#navbar-open #footer')) {
+            setTimeout(function () {
+              document.querySelector('#navbar-open #footer').addEventListener('scroll', _this5.hideBrand);
+            }, 200);
+          }
+        }
+      } else {
+        setTimeout(function () {
+          document.querySelector('#navbar-open #footer').removeEventListener('scroll', _this5.hideBrand);
+          document.querySelector('#navbar-open #footer').removeEventListener('scroll', _this5.hideForm);
+        }, 200);
+
+        if (this.isSticky) {
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+        } else {
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', this.exactColor);
+        }
+      }
+    },
+    largeCompare: function largeCompare(newVal, oldVal) {
+      if (!newVal) {
+        this.navbar = false;
+        setTimeout(function () {
+          $(document).find('html').css('overflow', 'initial');
+        }, 200);
+      }
+    },
+    $route: function $route(to) {
+      if (!to.path.includes('products')) {
+        this.isSticky = false;
+      } else {}
+
+      this.page = to.name;
+      this.path = this.page ? to.path.substring(this.locale.base.length) : to.path;
+      this.navbar = false;
+
+      if (this.isSticky) {
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('position', this.exactPosition);
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', this.exactColor);
+      } else {
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', this.exactColor);
+
+        if (to.path.includes('contacts')) {
+          _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('theme', 'light');
+        }
+
+        _event_eventbus_js__WEBPACK_IMPORTED_MODULE_2__["bus"].$emit('position', this.exactPosition);
+      }
+
+      $('body').find('.navbar-collapse').removeClass('show');
+      $(document).find('html').css('overflow', 'initial');
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "w-100 position-relative", attrs: { id: "nav-top" } },
+    [
+      _c("header", {}, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "container-fluid px-4 d-xlarge-flex justify-content-between"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "d-flex header-pages" },
+              _vm._l(_vm.$t("header"), function(item, index) {
+                return _c(
+                  "router-link",
+                  {
+                    key: index,
+                    staticClass: "list-group-item border-0",
+                    attrs: {
+                      to: {
+                        name: item.link,
+                        params: { locale: _vm.$route.params.locale }
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(item.text) +
+                        "\n                "
+                    )
+                  ]
+                )
+              }),
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "d-flex header-langs" },
+              [
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "list-group-item border-0",
+                    class: { active: _vm.isActive(2) },
+                    attrs: { to: { name: this.$route.name } },
+                    nativeOn: {
+                      click: function($event) {
+                        return _vm.setActive(2)
+                      }
+                    }
+                  },
+                  [_vm._v("RO\n                ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "list-group-item border-0",
+                    class: { active: _vm.isActive(3) },
+                    attrs: {
+                      to: { name: this.$route.name, params: { locale: "ru" } }
+                    },
+                    nativeOn: {
+                      click: function($event) {
+                        return _vm.setActive(3)
+                      }
+                    }
+                  },
+                  [_vm._v("RUS\n                ")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "router-link",
+                  {
+                    staticClass: "list-group-item border-0",
+                    class: { active: _vm.isActive(1) },
+                    attrs: {
+                      to: { name: this.$route.name, params: { locale: "en" } }
+                    },
+                    nativeOn: {
+                      click: function($event) {
+                        return _vm.setActive(1)
+                      }
+                    }
+                  },
+                  [_vm._v("ENG\n                ")]
+                )
+              ],
+              1
+            )
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _vm.theme === "dark"
+        ? _c(
+            "nav",
+            {
+              staticClass: "navbar navbar-dark navbar-expand-xl",
+              class: [
+                "position-" + _vm.pos,
+                _vm.navbar ? "position-fixed" : "",
+                _vm.isSticky ? "sticky-navbar" : ""
+              ]
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "container-fluid px-5 py-0" },
+                [
+                  _vm.small || _vm.medium || _vm.large
+                    ? _c(
+                        "router-link",
+                        {
+                          staticClass: "navbar-brand mr-5",
+                          attrs: {
+                            to: {
+                              name: "Home",
+                              params: { locale: _vm.$route.params.locale }
+                            }
+                          }
+                        },
+                        [
+                          _c("img", {
+                            attrs: { src: "/assets/components/header/logo.png" }
+                          })
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  !_vm.xsmall && _vm.large
+                    ? _c(
+                        "div",
+                        {
+                          staticClass:
+                            "collapse navbar-collapse slide d-xlarge-flex",
+                          class: { show: _vm.navbar },
+                          attrs: { id: "navbar-open" }
+                        },
+                        [
+                          _c(
+                            "ul",
+                            {
+                              staticClass: "navbar-nav m-auto mb-2 mb-xlarge-0"
+                            },
+                            _vm._l(_vm.$t("nav.pages"), function(page) {
+                              return _c(
+                                "li",
+                                { staticClass: "nav-item" },
+                                [
+                                  _c(
+                                    "router-link",
+                                    {
+                                      staticClass: "nav-link",
+                                      attrs: {
+                                        "aria-current": "page",
+                                        to: {
+                                          name: page.link,
+                                          params: {
+                                            locale: _vm.$route.params.locale
+                                          }
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        _vm._s(page.text) +
+                                          "\n                        "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            }),
+                            0
+                          ),
+                          _vm._v(" "),
+                          _vm.isSticky && !_vm.small
+                            ? _c(
+                                "div",
+                                { staticClass: "d-flex header-langs" },
+                                [
+                                  _c(
+                                    "router-link",
+                                    {
+                                      staticClass: "list-group-item border-0",
+                                      class: { active: _vm.isActive(2) },
+                                      attrs: { to: { name: this.$route.name } },
+                                      nativeOn: {
+                                        click: function($event) {
+                                          return _vm.setActive(2)
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                        RO\n                    "
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "router-link",
+                                    {
+                                      staticClass: "list-group-item border-0",
+                                      class: { active: _vm.isActive(3) },
+                                      attrs: {
+                                        to: {
+                                          name: this.$route.name,
+                                          params: { locale: "ru" }
+                                        }
+                                      },
+                                      nativeOn: {
+                                        click: function($event) {
+                                          return _vm.setActive(3)
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                        RUS\n                    "
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "router-link",
+                                    {
+                                      staticClass: "list-group-item border-0",
+                                      class: { active: _vm.isActive(1) },
+                                      attrs: {
+                                        to: {
+                                          name: this.$route.name,
+                                          params: { locale: "en" }
+                                        }
+                                      },
+                                      nativeOn: {
+                                        click: function($event) {
+                                          return _vm.setActive(1)
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n                        ENG\n                    "
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            : _vm._e(),
+                          _vm._v(" "),
+                          !_vm.xsmall
+                            ? _c(
+                                "form",
+                                {
+                                  staticClass:
+                                    "d-flex col-lg-3 col-xl-3 col-md-3 justify-content-around align-items-center form-navbar"
+                                },
+                                [
+                                  _c("div", { staticClass: "text-right" }, [
+                                    _c(
+                                      "p",
+                                      { staticClass: "nav-call text-white" },
+                                      [_vm._v("+373 78 972 603")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("p", { staticClass: "nav-order-call" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "text-white text-underline",
+                                          attrs: { href: "#" },
+                                          on: {
+                                            click: function($event) {
+                                              $event.preventDefault()
+                                              return _vm.toggleModal(
+                                                true,
+                                                "call"
+                                              )
+                                            }
+                                          }
+                                        },
+                                        [_vm._v(_vm._s(_vm.$t("nav.call")))]
+                                      )
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "button",
+                                    {
+                                      staticClass:
+                                        "btn btn-outline-light rounded-circle border-opacity-3 button-50",
+                                      attrs: { type: "submit" },
+                                      on: {
+                                        click: function($event) {
+                                          $event.preventDefault()
+                                          return _vm.toggleModal(true, "call")
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("i", [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "/assets/icons/phone.svg"
+                                          }
+                                        })
+                                      ])
+                                    ]
+                                  )
+                                ]
+                              )
+                            : _vm._e(),
+                          _vm._v(" "),
+                          _c("span", {
+                            staticClass: "close-navbar",
+                            on: { click: _vm.closeNavbar }
+                          })
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _vm.medium || _vm.small
+                    ? _c(
+                        "form",
+                        {
+                          staticClass:
+                            "d-flex ml-auto mobile-contact mr-4 pr-4 col-xl-4 col-lg-4 col-6 justify-content-around align-items-center form-navbar",
+                          class: [_vm.navbar ? "navbar-open-form" : ""]
+                        },
+                        [
+                          _c("div", { staticClass: "text-right" }, [
+                            _c("p", { staticClass: "nav-call text-white" }, [
+                              _vm._v("+373 78 972 603")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "nav-order-call" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-white text-underline",
+                                  attrs: { href: "#" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.toggleModal(true, "call")
+                                    }
+                                  }
+                                },
+                                [_vm._v(_vm._s(_vm.$t("nav.call")))]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "button",
+                            {
+                              staticClass:
+                                "btn btn-outline-dark rounded-circle border-opacity-3 button-50 d-flex justify-content-center align-items-center",
+                              attrs: { type: "submit" },
+                              on: {
+                                click: function($event) {
+                                  $event.preventDefault()
+                                  return _vm.toggleModal(true, "call")
+                                }
+                              }
+                            },
+                            [
+                              _c("i", [
+                                _c("img", {
+                                  attrs: { src: "/assets/icons/phone.svg" }
+                                })
+                              ])
+                            ]
+                          )
+                        ]
+                      )
+                    : _vm.xsmall
+                    ? _c(
+                        "form",
+                        {
+                          staticClass:
+                            "d-flex mobile-contact m-0 p-0 col-md-2 col-1 align-items-center form-navbar"
+                        },
+                        [
+                          _c(
+                            "button",
+                            {
+                              staticClass:
+                                "btn rounded-circle border-opacity-3 m-0 button-50 d-flex justify-content-center align-items-center",
+                              class: [
+                                _vm.navbar
+                                  ? "btn-outline-dark border-dark mobile-contacts"
+                                  : "btn-outline-light border-light"
+                              ],
+                              attrs: { type: "submit" },
+                              on: {
+                                click: function($event) {
+                                  $event.preventDefault()
+                                  return _vm.toggleModal(true, "call")
+                                }
+                              }
+                            },
+                            [
+                              _c("i", [
+                                _vm.navbar
+                                  ? _c("img", {
+                                      attrs: {
+                                        src: "/assets/icons/phone-white.png"
+                                      }
+                                    })
+                                  : _c("img", {
+                                      attrs: { src: "/assets/icons/phone.svg" }
+                                    })
+                              ])
+                            ]
+                          )
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _vm.xsmall
+                    ? _c(
+                        "router-link",
+                        {
+                          staticClass: "navbar-brand m-auto",
+                          attrs: {
+                            to: {
+                              name: "Home",
+                              params: { locale: _vm.$route.params.locale }
+                            }
+                          }
+                        },
+                        [
+                          !_vm.xsmall
+                            ? _c("img", {
+                                attrs: {
+                                  src:
+                                    "/assets/components/header/logo-vector.png"
+                                }
+                              })
+                            : _c("img", {
+                                attrs: {
+                                  src:
+                                    "/assets/components/header/logo-white.svg"
+                                }
+                              })
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "navbar-toggler collapsed",
+                      class: [_vm.navbar ? "toggler-mobile" : ""],
+                      attrs: {
+                        type: "button",
+                        "data-toggle": "collapse",
+                        "data-target": "#navbar-open",
+                        "aria-controls": "navbar-open",
+                        "aria-expanded": "false",
+                        "aria-label": "Toggle navigation"
+                      },
+                      on: {
+                        click: function($event) {
+                          $event.stopPropagation()
+                          return _vm.openNavbar($event)
+                        }
+                      }
+                    },
+                    [
+                      _c("span", { staticClass: "navbar-toggler-icon" }),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "navbar-mobile-toggler-icon" }),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "navbar-mobile-toggler-icon" })
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm.xsmall || _vm.small || _vm.medium
+                    ? _c(
+                        "div",
+                        {
+                          staticClass: "navbar-collapse collapse",
+                          class: { show: _vm.navbar },
+                          attrs: { id: "navbar-open" }
+                        },
+                        [_c("Footer")],
+                        1
+                      )
+                    : _vm._e()
+                ],
+                1
+              )
+            ]
+          )
+        : _c(
+            "nav",
+            {
+              key: _vm.navbar,
+              staticClass: "navbar navbar-expand-xl navbar-light",
+              class: [
+                "position-" + _vm.pos,
+                _vm.navbar ? "position-fixed" : "",
+                _vm.isSticky ? "sticky-navbar" : "",
+                _vm.$router.currentRoute.path.includes("products") &&
+                _vm.isSticky
+                  ? "loading"
+                  : ""
+              ]
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "container-fluid px-5 py-0" },
+                [
+                  _vm.small || _vm.medium || _vm.large
+                    ? _c(
+                        "router-link",
+                        {
+                          staticClass: "navbar-brand mr-5",
+                          attrs: {
+                            to: {
+                              name: "Home",
+                              params: { locale: _vm.$route.params.locale }
+                            }
+                          }
+                        },
+                        [
+                          _c("img", {
+                            staticClass: "header-logo",
+                            attrs: {
+                              src:
+                                "/assets/components/header/solix_logo_small2.svg"
+                            }
+                          })
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  !_vm.xsmall && _vm.large
+                    ? _c(
+                        "div",
+                        {
+                          staticClass:
+                            "collapse navbar-collapse slide d-xlarge-flex",
+                          class: { show: _vm.navbar },
+                          attrs: { id: "navbar-open" }
+                        },
+                        [
+                          _c(
+                            "ul",
+                            {
+                              key: _vm.isSticky,
+                              staticClass: "navbar-nav m-auto mb-2 mb-xlarge-0",
+                              attrs: { id: [_vm.isSticky ? "main" : ""] }
+                            },
+                            [
+                              _vm._l(_vm.$t("nav.pages"), function(page) {
+                                return _c(
+                                  "li",
+                                  { staticClass: "nav-item" },
+                                  [
+                                    _c(
+                                      "router-link",
+                                      {
+                                        staticClass: "nav-link",
+                                        class:
+                                          _vm.$route.name === page.link
+                                            ? "active"
+                                            : "",
+                                        attrs: {
+                                          "aria-current": "page",
+                                          to: {
+                                            name: page.link,
+                                            params: {
+                                              locale: _vm.$route.params.locale
+                                            }
+                                          }
+                                        }
+                                      },
+                                      [
+                                        _vm._v(
+                                          _vm._s(page.text) +
+                                            "\n                        "
+                                        )
+                                      ]
+                                    )
+                                  ],
+                                  1
+                                )
+                              }),
+                              _vm._v(" "),
+                              _vm.isSticky
+                                ? _c(
+                                    "li",
+                                    {
+                                      staticClass: "more hidden",
+                                      attrs: { "data-width": "80" }
+                                    },
+                                    [
+                                      _c(
+                                        "a",
+                                        {
+                                          attrs: { href: "" },
+                                          on: {
+                                            click: function($event) {
+                                              $event.preventDefault()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _c("span", {
+                                            staticClass: "meat-circle"
+                                          }),
+                                          _vm._v(" "),
+                                          _c("span", {
+                                            staticClass: "meat-circle"
+                                          }),
+                                          _vm._v(" "),
+                                          _c("span", {
+                                            staticClass: "meat-circle"
+                                          })
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c("ul")
+                                    ]
+                                  )
+                                : _vm._e()
+                            ],
+                            2
+                          ),
+                          _vm._v(" "),
+                          _vm.isSticky && !_vm.small
+                            ? _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "d-flex header-langs dropdown show"
+                                },
+                                [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "dropdown-toggle",
+                                      attrs: {
+                                        id: "dropdownLanguage",
+                                        "data-toggle": "dropdown",
+                                        "aria-haspopup": "true",
+                                        "aria-expanded": "false"
+                                      }
+                                    },
+                                    [_vm._v(_vm._s(_vm.dropLanguage))]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "dropdown-menu",
+                                      attrs: {
+                                        "aria-labelledby": "dropdownLanguage"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass:
+                                            "list-group-item border-0 dropdown-item",
+                                          class: { active: _vm.isActive(2) },
+                                          attrs: {
+                                            to: { name: this.$route.name }
+                                          },
+                                          nativeOn: {
+                                            click: function($event) {
+                                              return _vm.setActive(2)
+                                            }
+                                          }
+                                        },
+                                        [_vm._v("RO\n                        ")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass:
+                                            "list-group-item border-0 dropdown-item",
+                                          class: { active: _vm.isActive(3) },
+                                          attrs: {
+                                            to: {
+                                              name: this.$route.name,
+                                              params: { locale: "ru" }
+                                            }
+                                          },
+                                          nativeOn: {
+                                            click: function($event) {
+                                              return _vm.setActive(3)
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n                            RUS\n                        "
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass:
+                                            "list-group-item border-0 dropdown-item",
+                                          class: { active: _vm.isActive(1) },
+                                          attrs: {
+                                            to: {
+                                              name: this.$route.name,
+                                              params: { locale: "en" }
+                                            }
+                                          },
+                                          nativeOn: {
+                                            click: function($event) {
+                                              return _vm.setActive(1)
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n                            ENG\n                        "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ]
+                              )
+                            : _vm._e(),
+                          _vm._v(" "),
+                          !_vm.xsmall
+                            ? _c(
+                                "form",
+                                {
+                                  staticClass:
+                                    "d-flex col-lg-3 col-xl-3 col-md-3 justify-content-around align-items-center form-navbar"
+                                },
+                                [
+                                  _c("div", { staticClass: "text-right" }, [
+                                    _c(
+                                      "p",
+                                      { staticClass: "nav-call text-dark" },
+                                      [_vm._v("+373 78 972 603")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("p", { staticClass: "nav-order-call" }, [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "text-dark text-underline",
+                                          attrs: { href: "#" },
+                                          on: {
+                                            click: function($event) {
+                                              $event.preventDefault()
+                                              return _vm.toggleModal(
+                                                true,
+                                                "call"
+                                              )
+                                            }
+                                          }
+                                        },
+                                        [_vm._v(_vm._s(_vm.$t("nav.call")))]
+                                      )
+                                    ])
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "button",
+                                    {
+                                      staticClass:
+                                        "btn btn-outline-dark rounded-circle border-dark border-opacity-3 button-50",
+                                      attrs: { type: "submit" },
+                                      on: {
+                                        click: function($event) {
+                                          $event.preventDefault()
+                                          return _vm.toggleModal(true, "call")
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("i", [
+                                        _c("img", {
+                                          attrs: {
+                                            src: "/assets/icons/phone.svg"
+                                          }
+                                        })
+                                      ])
+                                    ]
+                                  )
+                                ]
+                              )
+                            : _vm._e(),
+                          _vm._v(" "),
+                          _c("span", {
+                            staticClass: "close-navbar",
+                            on: { click: _vm.closeNavbar }
+                          })
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _vm.medium || _vm.small
+                    ? _c(
+                        "form",
+                        {
+                          staticClass:
+                            "d-flex ml-auto mobile-contact mr-4 pr-4 col-xl-4 col-lg-4 col-6 justify-content-around align-items-center form-navbar",
+                          class: [_vm.navbar ? "navbar-open-form" : ""]
+                        },
+                        [
+                          _c("div", { staticClass: "text-right" }, [
+                            _c("p", { staticClass: "nav-call text-dark" }, [
+                              _vm._v("+373 78 972 603")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "nav-order-call" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-dark text-underline",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v(_vm._s(_vm.$t("nav.call")))]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "button",
+                            {
+                              staticClass:
+                                "btn btn-outline-dark rounded-circle border-dark border-opacity-3 button-50 d-flex justify-content-center align-items-center",
+                              attrs: { type: "submit" },
+                              on: {
+                                click: function($event) {
+                                  $event.preventDefault()
+                                  return _vm.toggleModal(true, "call")
+                                }
+                              }
+                            },
+                            [
+                              _c("i", [
+                                _c("img", {
+                                  attrs: { src: "/assets/icons/phone.svg" }
+                                })
+                              ])
+                            ]
+                          )
+                        ]
+                      )
+                    : _vm.xsmall
+                    ? _c(
+                        "form",
+                        {
+                          staticClass:
+                            "d-flex mobile-contact m-0 p-0 col-md-2 col-1 align-items-center form-navbar"
+                        },
+                        [
+                          _c(
+                            "button",
+                            {
+                              staticClass:
+                                "btn btn-outline-dark rounded-circle border-dark border-opacity-3 m-0 button-50 d-flex justify-content-center align-items-center",
+                              class: [
+                                _vm.navbar
+                                  ? "btn-outline-dark border-dark mobile-contacts"
+                                  : "btn-outline-dark border-dark"
+                              ],
+                              attrs: { type: "submit" },
+                              on: {
+                                click: function($event) {
+                                  $event.preventDefault()
+                                  return _vm.toggleModal(true, "call")
+                                }
+                              }
+                            },
+                            [
+                              _vm.navbar
+                                ? _c("img", {
+                                    attrs: { src: "/assets/icons/phone.svg" }
+                                  })
+                                : _c("i", [
+                                    _c("img", {
+                                      attrs: { src: "/assets/icons/phone.svg" }
+                                    })
+                                  ])
+                            ]
+                          )
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _vm.xsmall
+                    ? _c(
+                        "router-link",
+                        {
+                          staticClass: "navbar-brand m-auto",
+                          attrs: {
+                            to: {
+                              name: "Home",
+                              params: { locale: _vm.$route.params.locale }
+                            }
+                          }
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src:
+                                "/assets/components/header/logo-vector-yellow.png"
+                            }
+                          })
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "navbar-toggler bg-dark collapsed",
+                      class: [_vm.navbar ? "toggler-mobile" : ""],
+                      attrs: {
+                        type: "button",
+                        "data-toggle": "collapse",
+                        "data-target": "#navbar-open",
+                        "aria-controls": "navbar-open",
+                        "aria-expanded": "false",
+                        "aria-label": "Toggle navigation"
+                      },
+                      on: {
+                        click: function($event) {
+                          $event.stopPropagation()
+                          return _vm.openNavbar($event)
+                        }
+                      }
+                    },
+                    [
+                      _c("span", { staticClass: "navbar-toggler-icon" }),
+                      _vm._v(" "),
+                      _c("span", {
+                        staticClass: "navbar-mobile-toggler-icon bg-white"
+                      }),
+                      _vm._v(" "),
+                      _c("span", {
+                        staticClass: "navbar-mobile-toggler-icon bg-white"
+                      })
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm.xsmall || _vm.small || _vm.medium
+                    ? _c(
+                        "div",
+                        {
+                          staticClass: "navbar-collapse collapse",
+                          class: { show: _vm.navbar },
+                          attrs: { id: "navbar-open" }
+                        },
+                        [_c("Footer")],
+                        1
+                      )
+                    : _vm._e()
+                ],
+                1
+              )
+            ]
+          )
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/header.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/public/includes/header.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _header_vue_vue_type_template_id_4f5a5994___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header.vue?vue&type=template&id=4f5a5994& */ "./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994&");
+/* harmony import */ var _header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.vue?vue&type=script&lang=js& */ "./resources/js/components/public/includes/header.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _header_vue_vue_type_template_id_4f5a5994___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _header_vue_vue_type_template_id_4f5a5994___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/public/includes/header.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/header.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/header.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./header.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/header.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_template_id_4f5a5994___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./header.vue?vue&type=template&id=4f5a5994& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/public/includes/header.vue?vue&type=template&id=4f5a5994&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_template_id_4f5a5994___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_template_id_4f5a5994___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ })
+
+}]);

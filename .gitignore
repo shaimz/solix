@@ -21,3 +21,4 @@ yarn-error.log
 /node_modules/
 /public/components/
 /public/js
+/storage/*.key

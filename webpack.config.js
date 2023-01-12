@@ -14,7 +14,9 @@ module.exports = {
         main: "./resources/js/app.js",
     },
     output: {
-        publicPath: './',
+        publicPath: process.env.NODE_ENV === "production"
+        ? "http://solixapp.herokuapp.com/"
+        : "/",
         path: path.resolve(__dirname, "public"),
     },
     plugins: [

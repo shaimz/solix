@@ -1,0 +1,61 @@
+
+#connections[data-v-3cf2437c] {
+    background-color: #F3F5F6;
+}
+.connections-text[data-v-3cf2437c] {
+    max-width: 360px;
+    margin-right: 35px;
+}
+#connections .v-tabs .v-tabs-bar[data-v-3cf2437c] {
+    background-color: transparent !important;
+}
+#connections .theme--light.v-tabs-items[data-v-3cf2437c] {
+    background-color: transparent !important;
+}
+.v-tab[data-v-3cf2437c] {
+    padding: 0 30px 0 0;
+    border-bottom: 1px solid #DEDEDE;
+    font-weight: 600;
+    width: 100%;
+}
+.v-tab.v-tab--active[data-v-3cf2437c] {
+    color: #1f1f1f;
+}
+.connections-grid[data-v-3cf2437c] {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 360px));
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+.content-card[data-v-3cf2437c] {
+    background-color: white;
+}
+.content-card .card-title[data-v-3cf2437c] {
+    padding: 00px 40px 0 40px;
+    font-weight: 600;
+}
+.content-card img[data-v-3cf2437c] {
+    padding: 30px 40px 10px 40px;
+}
+.content-card .card-text[data-v-3cf2437c] {
+    padding: 0 40px 40px 40px;
+}
+.content-card .body h5[data-v-3cf2437c] {
+    position: relative;
+}
+.content-card .body h5[data-v-3cf2437c]:before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    background-color: #FFE454;
+    left: 0;
+}
+.v-tabs[data-v-3cf2437c] {
+    margin-bottom: 30px;
+}
+.v-tabs-items[data-v-3cf2437c] {
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+

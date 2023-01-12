@@ -1,0 +1,100 @@
+
+.steps-grid[data-v-912810e4]{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,240px));
+    grid-column-gap: 40px;
+    margin:40px 0;
+}
+.steps-description[data-v-912810e4]{
+    max-width: 860px;
+}
+.steps-grid .step-title[data-v-912810e4]{
+    align-items: center;
+    position: relative;
+}
+.steps-grid .step-title .roboto[data-v-912810e4]{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.steps-grid .step-title span[data-v-912810e4]:nth-child(2){
+    font-weight: 700;
+    font-size: 16px;
+}
+.steps-grid .step-text[data-v-912810e4]{
+    margin-top:15px;
+}
+.v-tab[data-v-912810e4]{
+    border-bottom: 1px solid #DEDEDE;
+}
+.steps-grid .step-title[data-v-912810e4]:before{
+    content:'';
+    position: absolute;
+    left:0;
+    width: 2px;
+    height: 46px;
+    background-color: #FFE454;
+}
+.v-tab.v-tab--active[data-v-912810e4]{
+    color:#1f1f1f;
+}
+.schema[data-v-912810e4]{
+    background-color: #F3F5F6;
+    border-radius: 10px;
+    padding:40px;
+}
+.schema .schema-title[data-v-912810e4]{
+    margin-bottom:50px;
+}
+.schema > .row > .col-md-2 > h5[data-v-912810e4]{
+    text-transform: uppercase;
+}
+.schema > .row > .col-md-2 > p[data-v-912810e4]{
+    font-weight: 400;
+}
+.schema-visualisation p[data-v-912810e4]:nth-child(1){
+    border-bottom: 2px dashed #79C25A;
+    padding-bottom: 40px;
+    margin-bottom: 40px !important;
+}
+.schema-visualisation p[data-v-912810e4]:nth-child(2){
+    border-top: 2px dashed #DEDEDE;
+    padding-top: 40px;
+}
+.schema-visualisation p[data-v-912810e4]:nth-child(1):after{
+    content: '';
+    position: absolute;
+    left: 0;
+    display: flex;
+    margin-top: 37px;
+
+    border: solid #79C25A;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.schema-visualisation p[data-v-912810e4]:nth-child(2):before{
+    content: '';
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-top: -45px;
+
+    border: solid #DEDEDE;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.arrow[data-v-912810e4]{
+}
+.arrow.right[data-v-912810e4] {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.arrow.left[data-v-912810e4] {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+

@@ -14,7 +14,7 @@ module.exports = {
         main: "./resources/js/app.js",
     },
     output: {
-        publicPath: '',
+        publicPath: path.resolve("/public")   ,
         path: path.resolve(__dirname, "public"),
     },
     plugins: [

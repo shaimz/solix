@@ -1,0 +1,34 @@
+
+.active-dialog[data-v-6fa66cd8] {
+    padding: 40px;
+}
+.v-input[data-v-6fa66cd8] {
+    transition: all .2s ease-in-out;
+}
+.v-text-field__slot[data-v-6fa66cd8] {
+    transition: all .2s ease-in-out;
+}
+.text-danger[data-v-6fa66cd8] {
+    position: absolute;
+    top: -4px;
+    z-index: 999;
+    padding: 0 5px;
+    background: white;
+    border-radius: 6px;
+    left: 10px;
+}
+.message-form[data-v-6fa66cd8] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.message-form img[data-v-6fa66cd8] {
+    max-width: 80px;
+    width: 100%;
+}
+

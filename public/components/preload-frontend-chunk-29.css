@@ -1,0 +1,210 @@
+#modules[data-v-b031f7a4] {
+  background: linear-gradient(to right, #79c25a, #79c25a);
+  background-size: unset !important;
+}
+#modules .modules-inner[data-v-b031f7a4] {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url("/assets/components/b2c/b2c_panel.png");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+#modules.mh-xs .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panel-mobile.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 986px;
+}
+#modules.mh-sm .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panel-tablet.png");
+  background-position: bottom;
+  background-size: 100%;
+  min-height: 1084px;
+}
+#modules.mh-md .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panel-laptop.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  min-height: 782px;
+}
+#modules.mh-lg .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panel.png");
+  min-height: 782px;
+}
+#modules.bilateral.mh-xs .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_3_2sided-mobile.png");
+}
+#modules.bilateral.mh-sm .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_3_2sided-tablet.png");
+}
+#modules.bilateral.mh-md .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_3_2sided-laptop.png");
+}
+#modules.bilateral.mh-lg .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_3_2sided.png");
+}
+#modules.thin.mh-xs .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_2-second-mobile.png");
+  min-height: 863px;
+}
+#modules.thin.mh-sm .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_2-second-tablet.png");
+  min-height: 982px;
+}
+#modules.thin.mh-md .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_2-second-laptop.png");
+  min-height: 702px;
+}
+#modules.thin.mh-lg .modules-inner[data-v-b031f7a4] {
+  background-image: url("/assets/components/b2c/b2c_panels_2-second.png");
+}
+@media (min-width: 1025px) and (max-width: 1213px) {
+#modules.mh-lg:not(.thin):not(.bilateral) .modules-inner[data-v-b031f7a4] {
+    background-size: 730px;
+    background-position-x: -10%;
+}
+}
+@media (min-width: 1600px) {
+#modules.mh-lg .modules-inner[data-v-b031f7a4] {
+    background-position: 20% 100%;
+}
+#modules.mh-lg.thin .modules-inner[data-v-b031f7a4] {
+    background-position-x: 10%;
+}
+}
+@media (min-width: 1025px) and (max-width: 1060px) {
+#modules.mh-lg.bilateral .modules-inner[data-v-b031f7a4] {
+    background-size: 700px;
+    background-position-x: -18%;
+}
+}
+@media (min-width: 1061px) and (max-width: 1199px) {
+#modules.mh-lg.bilateral .modules-inner[data-v-b031f7a4] {
+    background-size: 700px;
+    background-position-x: -10%;
+}
+}
+@media (min-width: 1200px) and (max-width: 1301px) {
+#modules.mh-lg.bilateral .modules-inner[data-v-b031f7a4] {
+    background-size: 750px;
+    background-position-x: -10%;
+}
+}
+@media (min-width: 1025px) and (max-width: 1353px) {
+#modules.mh-lg.thin .modules-inner[data-v-b031f7a4] {
+    background-size: 725px;
+}
+}
+@media (min-width: 850px) and (max-width: 898px) {
+#modules.mh-md:not(.thin):not(.bilateral) .modules-inner[data-v-b031f7a4] {
+    background-size: 520px;
+}
+}
+@media (min-width: 769px) and (max-width: 849px) {
+#modules.mh-md:not(.thin):not(.bilateral) .modules-inner[data-v-b031f7a4] {
+    background-size: 425px;
+}
+}
+@media (min-width: 896px) and (max-width: 945px) {
+#modules.bilateral.mh-md .modules-inner[data-v-b031f7a4] {
+    background-size: 550px;
+}
+}
+@media (min-width: 815px) and (max-width: 895px) {
+#modules.bilateral.mh-md .modules-inner[data-v-b031f7a4] {
+    background-size: 450px;
+}
+}
+@media (min-width: 769px) and (max-width: 814px) {
+#modules.bilateral.mh-md .modules-inner[data-v-b031f7a4] {
+    background-size: 400px;
+}
+}
+@media (max-width: 362px) {
+#modules:not(.thin).mh-xs .modules-inner[data-v-b031f7a4] {
+    min-height: 1055px;
+}
+}
+@media (min-width: 823px) and (max-width: 910px) {
+#modules.mh-md .modules-inner[data-v-b031f7a4] {
+    background-size: 500px;
+}
+}
+@media (min-width: 769px) and (max-width: 822px) {
+#modules.mh-md .modules-inner[data-v-b031f7a4] {
+    background-size: 438px;
+}
+}
+.sidebar-modules[data-v-b031f7a4] {
+  max-width: 460px;
+}
+.sides-modules .v-tab[data-v-b031f7a4] {
+  width: 188px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+}
+.sides-modules .v-tab.v-tab--active[data-v-b031f7a4] {
+  border: 1px solid #fff !important;
+}
+.sides-modules .v-tab h5[data-v-b031f7a4] {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+}
+.sides-modules .v-tab[data-v-b031f7a4]:nth-last-child(1) {
+  margin-left: 20px !important;
+}
+.sides-modules .v-tab--active[data-v-b031f7a4]:after {
+  background-color: transparent !important;
+}
+.v-tab[data-v-b031f7a4] {
+  color: rgba(255, 255, 255, 0.6) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 0 30px 0 0;
+  border-bottom: 1px solid #DEDEDE;
+  font-weight: 600;
+  width: 100%;
+}
+.v-tab.v-tab--active[data-v-b031f7a4] {
+  color: white !important;
+  border-color: #fff;
+}
+.v-item-group[data-v-b031f7a4] {
+  background-color: transparent;
+}
+.v-tabs-items[data-v-b031f7a4] {
+  color: white;
+}
+.roboto[data-v-b031f7a4] {
+  color: white;
+}
+.modules-features[data-v-b031f7a4] {
+  list-style: none;
+}
+.modules-features li p[data-v-b031f7a4] {
+  margin-right: 60px;
+  position: relative;
+  margin-bottom: 15px !important;
+}
+.modules-features li p[data-v-b031f7a4]:nth-child(2) {
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.modules-features li p[data-v-b031f7a4]:nth-child(2):before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: white;
+}
+.card-text[data-v-b031f7a4] {
+  margin-bottom: 50px !important;
+}

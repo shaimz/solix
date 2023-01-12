@@ -130,7 +130,7 @@
 
 <script src="{{asset('vendor.js')}}"></script>
 <script src="{{asset('main.js')}}"></script>
-<script src="{{asset('js/slick.min.js')}}" defer></script>
+<script src="{{asset('slick.min.js')}}" defer></script>
 <script src="{{asset('plugins/priority/dist/javascripts/nav-priority.min.js')}}" defer></script>
 </body>
 </html>

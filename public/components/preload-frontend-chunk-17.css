@@ -1,0 +1,31 @@
+
+.border-left-section[data-v-b2b61464]:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 99.5%;
+    background-color: #DEDEDE;
+    transform: translateY(5px);
+    z-index: 1;
+}
+.nav-pills[data-v-b2b61464] {
+    padding: 0 !important;
+}
+.nav-pills button.nav-link[data-v-b2b61464] {
+    font-size: 20px;
+}
+.project-more span[data-v-b2b61464] {
+    transition: transform .2s ease-in-out;
+}
+.project-more:hover span[data-v-b2b61464] {
+    transform: translateX(-7px);
+}
+.card-project-features > div[data-v-b2b61464]:nth-child(1) {
+    font-weight: 700;
+}
+.project-power[data-v-b2b61464] {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+

@@ -1,0 +1,15 @@
+
+#products .title[data-v-89b10fce]{
+    color:#1f1f1f !important;
+}
+#products .v-slide-group[data-v-89b10fce]{
+    max-width: 360px;
+    width: inherit;
+}
+.pfade-enter-active[data-v-89b10fce], .pfade-leave-active[data-v-89b10fce] {
+    transition: opacity 1s ease;
+}
+.pfade-enter[data-v-89b10fce], .pfade-leave-to[data-v-89b10fce] {
+    opacity: 0;
+}
+

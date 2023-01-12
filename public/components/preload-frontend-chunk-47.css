@@ -1,0 +1,33 @@
+
+#service[data-v-693c9bbb] {
+    background-color: #F3F5F6;
+}
+.top-header[data-v-693c9bbb] {
+    background: linear-gradient(to right, rgba(15, 39, 66, .6), rgba(15, 39, 66, .6)), url('/assets/components/services/alternative-energy-ecological-concept.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-text[data-v-693c9bbb] {
+    max-width: 360px;
+    margin-right: 40px;
+}
+.services-grid[data-v-693c9bbb] {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 360px));
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+}
+.content-card[data-v-693c9bbb] {
+    background-color: white;
+}
+.card-title[data-v-693c9bbb] {
+    position: relative;
+    display: flex;
+    align-items: self-end;
+    padding: 50px 40px 20px 40px;
+}
+.card-text[data-v-693c9bbb] {
+    padding: 0 40px 40px 40px;
+}
+
+

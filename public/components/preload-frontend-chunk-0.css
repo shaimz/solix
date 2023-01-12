@@ -1,0 +1,19 @@
+
+.top-header[data-v-44f58ecc]{
+    background:linear-gradient(0deg,rgba(15,39,66,.6),rgba(15,39,66,.6)),url('/assets/components/b2b/pexels-kelly-lacy-2800832.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.breadcrumb[data-v-44f58ecc]{
+    background-color: transparent !important;
+}
+.header-text[data-v-44f58ecc]{
+    max-width: 760px;
+}
+.header-text p[data-v-44f58ecc]{
+    font-weight: 400;
+}
+.map-body[data-v-44f58ecc]{
+    max-width: 460px;
+}
+

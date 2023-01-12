@@ -1,0 +1,91 @@
+
+#firstPage .top-header[data-v-33efdbd3] {
+    /*background: url('/assets/components/b2g/gos-background-large-min.jpg');*/
+    background: linear-gradient(0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/b2g/gos_uchr-large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-variant[data-v-33efdbd3] {
+    background: url('/assets/components/b2b/photovoltaics-solar-power-station-energy-from-natural-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#questions[data-v-33efdbd3] {
+    background: url('/assets/components/home/questions/mask-light.png');
+    background-repeat: no-repeat;
+    background-position: top 30px left 70px, center;
+}
+#rights[data-v-33efdbd3] {
+    background: linear-gradient(0deg, rgba(15, 39, 66, .6), rgba(15, 39, 66, .6)), url('/assets/components/b2g/photovoltaics-solar-power-station-energy-from-natural-2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+}
+.home-projects-header[data-v-33efdbd3] {
+    margin-bottom: 35px;
+}
+.all-projects[data-v-33efdbd3] {
+    margin-right: 63px;
+}
+.button-all[data-v-33efdbd3] {
+    cursor: pointer;
+}
+#firstPage .top-header[data-v-33efdbd3] {
+}
+#variants[data-v-33efdbd3] {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(300px, 500px));
+    grid-template-columns: 1fr;
+}
+#variants .sidebar-info[data-v-33efdbd3] {
+    max-width: 860px;
+}
+#tarif[data-v-33efdbd3]{
+    background: #F3F5F6;
+}
+#variants .sidebar-info ul[data-v-33efdbd3] {
+    display: flex;
+}
+#variants .sidebar-info ul li[data-v-33efdbd3] {
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+#variants .sidebar-info ul li .roboto[data-v-33efdbd3] {
+    font-size: 64px;
+    color: #1f1f1f;
+    line-height: 56px !important;
+}
+#variants .sidebar-info ul li p[data-v-33efdbd3]:not(.roboto) {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+#variants .sidebar-info ul li p[data-v-33efdbd3]:not(.roboto):before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    background-color: #FFE454;
+    left: 0;
+}
+.v-card__text[data-v-33efdbd3] {
+    padding-left: 0;
+}
+.v-tab.v-tab--active[data-v-33efdbd3] {
+    color: #969696 !important;
+    padding-left: 0;
+    padding-right: 3rem;
+    border-bottom: 1px solid transparent;
+}
+.v-tab.v-tab--active[data-v-33efdbd3] {
+    color: #1f1f1f !important;
+}
+.map-body[data-v-33efdbd3] {
+    max-width: 460px;
+}
+#rights .right-text[data-v-33efdbd3] {
+    max-width: 460px;
+    margin: 30px 0 45px 0 !important;
+}
+

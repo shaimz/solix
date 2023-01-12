@@ -1,0 +1,40 @@
+
+#bgvid[data-v-57c547d4]{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+#firstPage .top-header[data-v-57c547d4] {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#questions[data-v-57c547d4] {
+    background: url('/assets/components/home/questions/mask-light.png'), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 30px left 70px, center;
+}
+.home-projects-header[data-v-57c547d4] {
+    margin-bottom: 35px;
+}
+.all-projects[data-v-57c547d4] {
+    margin-right: 63px;
+}
+.button-all[data-v-57c547d4] {
+    cursor: pointer;
+}
+#firstPage .top-header[data-v-57c547d4] {
+}
+#firstPage .vide-overlay[data-v-57c547d4] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgb(0 0 0 / 40%), rgba(15, 39, 66, 0.4));
+}
+

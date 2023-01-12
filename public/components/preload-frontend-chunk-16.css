@@ -1,0 +1,91 @@
+
+.d-md-flex.position-relative[data-v-f2cc41fc] {
+    justify-content: space-between;
+}
+#partners .card[data-v-f2cc41fc] {
+    justify-content: center
+}
+.card[data-v-f2cc41fc] {
+    background-color: rgba(255, 255, 255, .08);
+    border: unset !important;
+    border-radius: 10px;
+    padding: 30px 50px 20px 50px;
+    transition: all .1s ease-in-out;
+}
+.card[data-v-f2cc41fc]:active, .card[data-v-f2cc41fc]:focus {
+    outline: unset;
+}
+.card[data-v-f2cc41fc]:hover {
+    color: #1f1f1f;
+    background-color: white;
+}
+.card:hover h5[data-v-f2cc41fc]:after {
+    background-color: #79C25A;
+}
+.card:hover .card-img-top[data-v-f2cc41fc] {
+    filter: brightness(1) invert(1);
+}
+.card-body h5[data-v-f2cc41fc] {
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 15px 0;
+}
+.card-body p[data-v-f2cc41fc] {
+    font-weight: 400;
+    padding: 4px 0 0 0;
+    max-width: 195px;
+    margin: auto;
+}
+.card-body h5[data-v-f2cc41fc]:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .2);
+}
+.card-img-top[data-v-f2cc41fc] {
+    max-width: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-control-next[data-v-f2cc41fc] {
+    right: 0;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto 0 auto auto;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+.carousel-control-prev[data-v-f2cc41fc] {
+    right: 0;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, .4) !important;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto 80px auto auto;
+    opacity: 1;
+    transition: all .1s ease-in-out;
+}
+.carousel-control-prev[data-v-f2cc41fc]:hover, .carousel-control-next[data-v-f2cc41fc]:hover {
+    background-color: white;
+}
+.carousel-control-prev:hover .carousel-control-prev-icon[data-v-f2cc41fc], .carousel-control-next:hover .carousel-control-next-icon[data-v-f2cc41fc] {
+    filter: invert(81%) sepia(13%) saturate(1715%) hue-rotate(52deg) brightness(87%) contrast(81%);
+}
+.carousel-control-prev-icon[data-v-f2cc41fc], .carousel-control-next-icon[data-v-f2cc41fc] {
+    width: 10px !important;
+    height: 10px !important;
+}
+

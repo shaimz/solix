@@ -1,0 +1,23 @@
+
+.v-card[data-v-217b3e3d] {
+    padding: 35px 0;
+    box-shadow: unset !important;
+}
+.v-card__title[data-v-217b3e3d] {
+    padding-bottom: 0;
+}
+.v-card__actions[data-v-217b3e3d] {
+    justify-content: flex-start;
+    display: flex;
+}
+.v-card__text .phone[data-v-217b3e3d] {
+    padding-left: 10px !important;
+}
+.v-card__actions > a[data-v-217b3e3d] {
+    margin-left: 20px;
+}
+.v-card__actions p[data-v-217b3e3d] {
+    max-width: 300px;
+    margin-left: 30px;
+}
+

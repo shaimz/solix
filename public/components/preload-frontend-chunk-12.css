@@ -1,0 +1,23 @@
+
+.cookies-policy[data-v-edd2fcc0] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 0 12px 20px;
+    background: #79c25a;
+    color: #fff;
+    z-index: 999999;
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cookies-policy button[data-v-edd2fcc0]{
+    color:#1f1f1f !important;
+    box-shadow: none !important;
+}
+.cookies-policy button[data-v-edd2fcc0]:hover{
+    background-color: white !important;
+}
+

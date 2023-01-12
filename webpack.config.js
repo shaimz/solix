@@ -9,7 +9,7 @@ const path = require("path");
 const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: {
         main: "./resources/js/app.js",
     },
@@ -21,8 +21,8 @@ module.exports = {
         new UglifyJsPlugin(),
         new HtmlWebpackPlugin(),
         new WebpackBundleAnalyzer(),
-        new VuetifyLoaderPlugin(),
         new VueLoaderPlugin(),
+        new VuetifyLoaderPlugin(),
         new MiniCssExtractPlugin({
             filename: `components/preload-[name].css`
         }),

@@ -355,7 +355,7 @@ class ProductsController extends Controller
 
 
             if (!file_exists($smallthumbnailpath)) {
-                mkdir($smallthumbnailpath, 775, true);
+                mkdir($smallthumbnailpath, 0775, true);
             }
             $img = Image::make($logo->getRealPath());
             $img->resize(60, 50, function ($constraint) {

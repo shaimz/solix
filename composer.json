@@ -6,6 +6,9 @@
         "framework",
         "laravel"
     ],
+    "compile": [
+        "chmod -R 755 public"
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.2.5",

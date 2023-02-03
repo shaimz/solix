@@ -102,8 +102,7 @@ class ProductsController extends Controller
                     [1, 2, 3]
                 )->pluck('name')->first(),
 
-                'category'    => CategoriesTranslates::select('name')->where('category_id', $data->category_id)->first(
-                ),
+                'category'    => CategoriesTranslates::select('name')->where('category_id', $data->category_id)->first(),
                 'features'    => Features::where('product_id', '=', $data->id)->where('lang_id', [1, 2, 3])->get(),
                 'advantages'  => isset($resultAdvantages) ? $resultAdvantages : [],
                 'available'   => $data->available,
@@ -334,12 +333,15 @@ class ProductsController extends Controller
     {
         $data = json_decode($request->data);
 
-        $product              = Products::find($id);
-        $product->category_id = $data->category;
-        $product->available   = $data->available;
-        $product->brand       = $data->brand;
-        $product->price       = $data->price;
-        $product->sku         = $data->sku;
+        $product = Products::find($id);
+
+        $product->update([
+            'category_id' => $data->category,
+            'available' => $data->available,
+            'brand' => $data->brand,
+            'price' => $data->price,
+            'sku' => $data->sku,
+        ]);
 
         if ($logo = $request->file('logo')) {
             $fileName       = str_replace(' ', '-', $logo->getClientOriginalName());
@@ -347,13 +349,20 @@ class ProductsController extends Controller
             $extension      = $logo->getClientOriginalExtension();
             $filename       = pathinfo($fileName, PATHINFO_FILENAME);
             $smallthumbnail = $filename . '_small_.' . $extension;
-            File::cleanDirectory($directory);
-            $imageUrl           = $directory . $fileName;
             $smallthumbnailpath = public_path(
-                'storage/images/brands/thumbnail/' . $product->id . '/' . $smallthumbnail
+                'storage/images/brands/thumbnail/' . $product->id . '/'
             );
-            $logo->storeAs('public/images/brands/thumbnail/' . $product->id, $smallthumbnail);
-            $this->createThumbnail($smallthumbnailpath, 60, 50);
+
+
+            if (!file_exists($smallthumbnailpath)) {
+                mkdir($smallthumbnailpath, 775, true);
+            }
+            $img = Image::make($logo->getRealPath());
+            $img->resize(60, 50, function ($constraint) {
+                $constraint->aspectRatio();
+            });
+            $img->save($smallthumbnailpath . $smallthumbnail);
+
             $product->brand_logo = '/storage/images/brands/thumbnail/' . $product->id . '/' . $smallthumbnail;
         }
 

@@ -1,5 +1,5 @@
 
-#bgvid[data-v-57c547d4]{
+#bgvid[data-v-7c63392d]{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -9,27 +9,33 @@
     height: 100%;
     object-fit: cover
 }
-#firstPage .top-header[data-v-57c547d4] {
+/* #firstPage .top-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+#firstPage .top-header[data-v-7c63392d] {
+    /*background: url('/assets/components/b2g/gos-background-large-min.jpg');*/
+    background: linear-gradient(0deg, rgba(15, 39, 66, 0.6), rgba(15, 39, 66, 0.6)), url('/assets/components/b2g/gos_uchr-large.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-#questions[data-v-57c547d4] {
+#questions[data-v-7c63392d] {
     background: url('/assets/components/home/questions/mask-light.png'), linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
     background-repeat: no-repeat, no-repeat;
     background-position: top 30px left 70px, center;
 }
-.home-projects-header[data-v-57c547d4] {
+.home-projects-header[data-v-7c63392d] {
     margin-bottom: 35px;
 }
-.all-projects[data-v-57c547d4] {
+.all-projects[data-v-7c63392d] {
     margin-right: 63px;
 }
-.button-all[data-v-57c547d4] {
+.button-all[data-v-7c63392d] {
     cursor: pointer;
 }
-#firstPage .top-header[data-v-57c547d4] {
+#firstPage .top-header[data-v-7c63392d] {
 }
-#firstPage .vide-overlay[data-v-57c547d4] {
+#firstPage .vide-overlay[data-v-7c63392d] {
     position: absolute;
     top: 0;
     left: 0;
